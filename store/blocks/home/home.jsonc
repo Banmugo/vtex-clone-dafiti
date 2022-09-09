@@ -1,7 +1,8 @@
 {
   "store.home": { 
     "blocks": [
-      "flex-layout.row#home__section--one"
+      "flex-layout.row#home__section--one",
+      "flex-layout.row#home__exercicies"
     ]
   },
   "rich-text": { 

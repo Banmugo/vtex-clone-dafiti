@@ -1,0 +1,51 @@
+{
+    "flex-layout.row#home__exercicies": {
+        "children": [
+            "rich-text#home__section--two",
+            "slider-layout#home__slider--children"
+        ]
+    },
+    "rich-text#home__section--two": {
+        "title": "Texto Seccion 2",
+        "props": {
+            "text": "My section two",
+            "blockClass": "section__two--title"
+        }
+    },
+    "slider-layout#home__slider--children": {
+        "title": "slider con hijos directos",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 2,
+                "tablet": 1,
+                "mobile": 1
+            },
+            "infinite": true,
+            "blockClass": "home__slider",
+            "autoplay": {
+                "timeout": 3000,
+                "stopOnHover": true
+            }
+        },
+        "children": [
+            "image#home__slider--one",
+            "image#home__slider--two",
+            "image#home__slider--three"
+        ]
+    },
+    "image#home__slider--one": {
+        "props": {
+            "src": "https://cdn.dynamicyield.com/api/8767770/images/2cc5df444cf77__agosto22-portadas-desktop-fem.jpg"
+        }
+    },
+    "image#home__slider--two": {
+        "props": {
+            "src": "https://cdn.dynamicyield.com/api/8767770/images/102962c31df23__agosto22-portadas-desktop-premium.jpg"
+        }
+    },
+    "image#home__slider--three": {
+        "props": {
+            "src": "https://cdn.dynamicyield.com/api/8767770/images/1c2ec3f325fdf__agosto22-portadas-desktop-snekaers.jpg"
+        }
+    }
+}
