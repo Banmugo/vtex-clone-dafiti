@@ -1,0 +1,27 @@
+{
+    "flex-layout.row#home__section--one": {
+        "children": [
+            "image#home__section--one", 
+            "search-bar",
+            "login",  
+            "minicart.v2",        
+            "rich-text#home__section--one"
+        ],
+        "props" : {
+            "blockClass": "home__section--one"
+        }
+    },
+    "image#home__section--one": {
+        "title" : "logo-dafiti",
+        "props": {
+            "src" : "assets/header/dafiti-logo.png"
+        }
+    },
+    "rich-text#home__section--one": {
+        "title": "Texto Seccion 1",
+        "props": {
+            "text": "My section one",
+            "blockClass": "section__one--title"
+        }
+    }
+}
