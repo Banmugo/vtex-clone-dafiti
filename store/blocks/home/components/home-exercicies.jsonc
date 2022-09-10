@@ -47,5 +47,114 @@
         "props": {
             "src": "https://cdn.dynamicyield.com/api/8767770/images/1c2ec3f325fdf__agosto22-portadas-desktop-snekaers.jpg"
         }
+    },
+    ///////// flex layou - organizar bloques e hijos
+    "flex-layout.row#home__exercicies--tow": {
+        "title": "Seccion 3",
+        "children": [
+            "flex-layout.col#section__three--image",
+            "flex-layout.col#section__three--text"
+        ],
+        "props": {
+            "blockClass": "home__section--three"
+        }
+    },
+    "flex-layout.col#section__three--image": {
+        "title": "imagen seccion 3",
+        "children": [
+            "image#home__slider--one"
+        ]
+    },
+    "flex-layout.col#section__three--text": {
+        "title": "texto seccion 3",
+        "children": [
+            "rich-text#section__three--title",
+            "rich-text#section__three--body"
+        ],
+        "props": {
+            "verticalAlign": "middle"
+        }
+    },
+    "rich-text#section__three--title": {
+        "title": "Titulo seccion 3",
+        "props": {
+            "text": "# Titulo seccion 3"
+        }
+    },
+    "rich-text#section__three--body": {
+        "title": "cuerpo seccion 3",
+        "props": {
+            "text": "Hola soy el cuerpo de la seccion 3, que mas ps?...      blablablablablabalablabal blablafbldabalblab blablbalbalbab labla"
+        }
+    },
+    /////// Flex layout mas complejo
+    "flex-layout.row#home__exercicies--three": {
+        "children": [
+            "flex-layout.col#section__three--item1",
+            "flex-layout.col#section__three--item2",
+            "flex-layout.col#section__three--item3"
+        ],
+        "props": {
+            // Una propiedad del componente flex-layout.row#home__exercicies--tres. Le está diciendo al
+            // componente que conserve el diseño en el móvil.
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "flex-layout.col#section__three--item1": {
+        "children": [
+            "image#home__slider--one"
+        ],
+        "props": {
+            "width": "40%"
+        }
+    },
+    "flex-layout.col#section__three--item2": {
+        "children": [
+            "rich-text#home__section--three"
+        ],
+        "props": {
+            "width": "20%"
+        }
+    },
+    "flex-layout.col#section__three--item3": {
+        "children": [
+            "image#home__slider--two",
+            "image#home__slider--three"
+        ],
+        "props": {
+            "width": "40%"
+        }
+    },
+    "rich-text#home__section--three": {
+        "props": {
+            "text": "esto es una pruba de flex layout mas complejo "
+        }
+    },
+    ///////// modal sencillo 
+    "flex-layout.row#home__modal": {
+        "children": [
+            "modal-trigger#example"
+        ]
+    },
+    "modal-trigger#example": {
+        "children": [
+            "rich-text#example",
+            "modal-layout#example"
+        ]
+    },
+    "rich-text#example": {
+        "props": {
+            "text": "Click me Modal"
+        }
+    },
+    "modal-layout#example": {
+        "children": [
+            "rich-text#modal-content"
+        ]
+    },
+    "rich-text#modal-content": {
+        "props": {
+            "text": "Holaaa! Soy el contenido del modal :)"
+        }
     }
 }
