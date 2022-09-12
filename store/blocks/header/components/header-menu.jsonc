@@ -1,0 +1,63 @@
+{
+  /// menu logo
+
+  "header-row#header__menu--logo": {
+    "children": [
+      "header-row#header__menu--one"
+    ]
+  },
+  "header-row#header__menu--one": {
+    "title": "Barra de busqueda",
+    "children": [
+      "logo",
+      "header-spacer",
+      "search-bar",
+      "header-spacer",
+      "login",
+      "rich-text#pruebaicono",
+      "minicart.v2"
+    ]
+  },
+  "logo": {
+    "props": {
+      "title": "Logo",     
+      "url": "assets/header/dafiti-logo.png"
+      
+    }
+  },
+  "rich-text#pruebaicono": {
+    "props": {
+      "text": "icono de corazon"
+    }
+  },
+
+
+  ///// menu nav
+
+  "header-row#header__menu--nav": {
+    "children": [
+      "header-row#header__menu--items"
+    ]
+  },
+  "header-row#header__menu--items":{
+    "children":[
+      "rich-text#itemsnav",
+      "rich-text#itemsnav",
+      "rich-text#itemsnav",
+      "rich-text#itemsnav",
+      "rich-text#itemsnav",
+      "rich-text#itemsnav",
+      "rich-text#itemsnav",
+      "rich-text#itemsnav",
+      "rich-text#itemsnav"
+    ],
+    "props":{
+      "blockClass": "items--nav"
+    }
+  },
+  "rich-text#itemsnav":{
+    "props":{
+      "text": "menu"
+    }
+  }
+}

@@ -156,5 +156,51 @@
         "props": {
             "text": "Holaaa! Soy el contenido del modal :)"
         }
+    },
+    ///// tipos de responsive
+    "responsive-layout.phone#home__info--phone": {
+        "title": "titulo de telefono",
+        "children": [
+            "rich-text#info__phone"
+        ]
+    },
+    "responsive-layout.mobile#home__info--mobile": {
+        "title": "titulo de movil",
+        "children": [
+            "rich-text#info__mobile"
+        ]
+    },
+    "responsive-layout.tablet#home__info--tablet": {
+        "title": "titulo de tableta",
+        "children": [
+            "rich-text#info__tablet"
+        ]
+    },
+    "responsive-layout.desktop#home__info--desktop": {
+        "title": "titulo de escritorio",
+        "children": [
+            "rich-text#info__desktop"
+        ]        
+    },
+    "rich-text#info__phone": {
+        "props": {
+            "text": "# Responsive de phone"
+        }
+    },
+    "rich-text#info__mobile": {
+        "props": {
+            "text": "# Responsive de mobile"
+        }
+    },
+    "rich-text#info__tablet": {        
+        "props": {
+            "text": "# Responsive de tablet"
+        }
+    },
+    "rich-text#info__desktop": 
+    {
+        "props": {
+            "text": "# Responsive de desktop"
+        }
     }
 }

@@ -1,0 +1,24 @@
+.headerRowContainer--header__links {
+    background-color: #ececec;
+    height: 28px;    
+}
+.headerRowContainer--header__links
+:global(.vtex-rich-text-0-x-paragraph){
+    /* background-color: #ececec; */
+    font-size: 11px;
+}
+
+.headerRowContainer--items--nav
+:global(.vtex-rich-text-0-x-wrapper){
+    /* margin: 10px; */
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* .headerRowContainer--header__links 
+:global(.vtex-store-header-2-x-headerStickyRow){
+    background-color: #ececec;
+    color: red;
+} */
+
+

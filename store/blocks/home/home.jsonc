@@ -5,7 +5,11 @@
       "flex-layout.row#home__exercicies",
       "flex-layout.row#home__exercicies--tow",
       "flex-layout.row#home__exercicies--three",
-      "flex-layout.row#home__modal"
+      "flex-layout.row#home__modal",
+      "responsive-layout.phone#home__info--phone",
+      "responsive-layout.mobile#home__info--mobile",
+      "responsive-layout.tablet#home__info--tablet",
+      "responsive-layout.desktop#home__info--desktop"      
     ]
   },
   "rich-text": { 
