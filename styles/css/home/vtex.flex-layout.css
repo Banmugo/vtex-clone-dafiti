@@ -1,0 +1,56 @@
+.flexCol--zone__woman{
+    width:100%;
+    margin:10px;
+    overflow:auto;
+    text-align:center;
+    height:640px;
+    background-size:cover;
+    background-image:url("assets/home/mujer.jpg");
+    font-family:Poppins;
+}
+.flexCol--zone__man{
+    width:100%;
+    margin:10px;
+    overflow:auto;
+    text-align:center;
+    height:640px;
+    background-size:cover;
+    background-image:url("assets/home/hombre.jpg");
+    font-family:Poppins;
+}
+.flexRowContent
+:global(.vtex-store-components-3-x-imageElement--home__img){
+    margin: 10px;
+}
+.flexCol--zone__sneakers{
+    /* width:100%; */
+    margin:10px;
+    /* overflow:auto;
+    text-align:center; */
+    height:660px;
+    background-size:cover;
+    background-image:url("assets/home/sneakers.jpg");
+    /* background-position:center; */
+    font-family:Roboto;
+}
+.flexCol--zone__kids{
+    /* width:100%; */
+    margin:10px;
+    /* overflow:auto;
+    text-align:center; */
+    height:660px;
+    background-size:cover;
+    background-image:url("assets/home/kids.jpg");
+    /* background-position:center; */
+    font-family:Roboto;
+}.flexCol--zone__premium{
+    /* width:100%; */
+    margin:10px;
+    /* overflow:auto;
+    text-align:center; */
+    height:660px;
+    background-size:cover;
+    background-image:url("assets/home/premium.jpg");
+    /* background-position:center; */
+    font-family:Roboto;
+}

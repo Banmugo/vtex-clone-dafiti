@@ -1,6 +1,11 @@
 {
   "store.home": { 
     "blocks": [
+      "flex-layout.row#home__commercial--img",
+      "flex-layout.row#home__zones",
+
+      // practica
+      "rich-text#exercicies",
       "flex-layout.row#home__section--one",
       "flex-layout.row#home__exercicies",
       "flex-layout.row#home__exercicies--tow",
@@ -12,12 +17,13 @@
       "responsive-layout.desktop#home__info--desktop"      
     ]
   },
-  "rich-text": { 
+  "rich-text#exercicies": { 
     "props": { 
-      "text": "VTEX Store Framework",
+      "text": "Zona de pruebas",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "font": "t-heading-1"
+      "font": "t-heading-1",
+      "blockClass": "zona--pruebas"
     }
   }
 }

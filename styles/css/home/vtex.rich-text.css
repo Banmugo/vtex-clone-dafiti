@@ -1,3 +1,10 @@
 .paragraph--section__one--title {
     color: blue;
 }
+.container--zona--pruebas{
+    height: 40px;
+    border: 4px solid black;
+    color: red;
+    font-size: 20px;
+    margin-top: 300px;
+}

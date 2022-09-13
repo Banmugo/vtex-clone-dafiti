@@ -1,0 +1,14 @@
+{
+  "flex-layout.row#home__commercial--img": {
+    "title": "Imagen Commercial",
+    "children":[
+      "image#home__commercial"
+    ]
+  },
+  "image#home__commercial":{
+    "props": {
+      "src": "assets/home/img-commercial.jpg",
+      "blockClass": "home__img"      
+    }
+  }
+}
