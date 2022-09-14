@@ -1,56 +1,195 @@
+.flexRowContent
+:global(.vtex-store-components-3-x-imageElement--home__img){
+    margin-bottom: 10px;
+    width:100%;
+}
+/* Zona Mujer */
 .flexCol--zone__woman{
     width:100%;
-    margin:10px;
-    overflow:auto;
+    margin-top: 10px;
+    margin-right:12px;
     text-align:center;
     height:640px;
     background-size:cover;
     background-image:url("assets/home/mujer.jpg");
-    font-family:Poppins;
 }
+.flexCol--text__items--woman{
+    padding: 50px;
+}
+.flexCol--text__items--woman
+:global(.vtex-rich-text-0-x-paragraph)  {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    color: #2a2b2b;
+    font-weight: bold;
+    margin: 0;
+}
+.flexCol--text__items--woman
+:global(.vtex-rich-text-0-x-paragraph):hover{
+    color: #ffffff;
+    cursor: pointer;
+}
+.flexCol--zones__woman--item2{
+    align-items: center;
+    justify-content: flex-end;
+}
+.flexColChild--zones__woman--item2
+:global(.vtex-rich-text-0-x-paragraph--boton__woman) {
+    background-color: white;
+    color: black;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin: 4px;
+}
+.flexColChild--zones__woman--item2
+:global(.vtex-rich-text-0-x-paragraph--boton__woman):hover{
+    background-color: rgb(12, 12, 12);
+    color: white;
+    cursor: pointer;
+}
+.flexColChild--zones__woman--item2
+:global(.vtex-rich-text-0-x-paragraph--letras__woman){
+    font-family: "Poppins", sans-serif;
+    font-size: 64px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    color: white;
+    margin-top: 12px;
+    margin-bottom: 0;
+}
+/* Zona Hombre */
 .flexCol--zone__man{
     width:100%;
-    margin:10px;
-    overflow:auto;
+    margin-top: 10px;
+    margin-left:12px;
     text-align:center;
     height:640px;
     background-size:cover;
     background-image:url("assets/home/hombre.jpg");
-    font-family:Poppins;
 }
-.flexRowContent
-:global(.vtex-store-components-3-x-imageElement--home__img){
-    margin: 10px;
+.flexCol--text__items--man{
+    padding: 50px;
+    align-items: flex-end;
 }
-.flexCol--zone__sneakers{
-    /* width:100%; */
-    margin:10px;
-    /* overflow:auto;
-    text-align:center; */
-    height:660px;
-    background-size:cover;
-    background-image:url("assets/home/sneakers.jpg");
-    /* background-position:center; */
-    font-family:Roboto;
+.flexCol--text__items--man
+:global(.vtex-rich-text-0-x-paragraph)  {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    color: #2a2b2b;
+    font-weight: bold;
+    margin: 0;
 }
-.flexCol--zone__kids{
-    /* width:100%; */
-    margin:10px;
-    /* overflow:auto;
-    text-align:center; */
-    height:660px;
+.flexCol--text__items--man
+:global(.vtex-rich-text-0-x-paragraph):hover{
+    color: #ffffff;
+    cursor: pointer;
+}
+.flexCol--zones__man--item2{
+    align-items: center;   
+    justify-content: flex-end; 
+}
+.flexColChild--zones__man--item2
+:global(.vtex-rich-text-0-x-paragraph--boton__man) {
+    background-color: white;
+    color: black;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin: 4px;
+}
+.flexColChild--zones__man--item2
+:global(.vtex-rich-text-0-x-paragraph--boton__man):hover{
+    background-color: rgb(12, 12, 12);
+    color: white;
+    cursor: pointer;
+}
+.flexColChild--zones__man--item2
+:global(.vtex-rich-text-0-x-paragraph--letras__man){
+    font-family: "Poppins", sans-serif;
+    font-size: 64px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    color: white;
+    margin-top: 12px;
+    margin-bottom: 0;
+}
+/* Zona 2 Snakears - Kids - Premium */
+.flexRowContent--zone__two{
+    height: 360px; 
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.flexColChild--zone__sneakers{
+    background-image:url("assets/home/sneakaers.jpg");
     background-size:cover;
-    background-image:url("assets/home/kids.jpg");
-    /* background-position:center; */
-    font-family:Roboto;
-}.flexCol--zone__premium{
-    /* width:100%; */
-    margin:10px;
-    /* overflow:auto;
-    text-align:center; */
-    height:660px;
+    margin-top: 15px;
+    margin-right: 15px;
+    padding-top: 10px;
+    padding-left: 40px;    
+    cursor: pointer;
+}
+.flexColChild--zone__sneakers
+:global(.vtex-rich-text-0-x-paragraph){
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+.flexColChild--zone__sneakers
+:global(.vtex-rich-text-0-x-paragraph):hover{
+    color: white;
+}
+.flexColChild--zone__kids {
+    background-image:url("assets/home/kids.jpg"); 
     background-size:cover;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;  
+    padding-top: 10px;
+    padding-left: 40px;    
+    cursor: pointer;  
+}
+.flexColChild--zone__kids
+:global(.vtex-rich-text-0-x-paragraph){
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+.flexColChild--zone__kids
+:global(.vtex-rich-text-0-x-paragraph):hover{
+    color: white;
+}
+.flexColChild--zone__premium{
     background-image:url("assets/home/premium.jpg");
-    /* background-position:center; */
-    font-family:Roboto;
+    background-size:cover;
+    margin-top: 15px;
+    margin-left: 15px;
+    padding-top: 10px;
+    padding-left: 40px;    
+    cursor: pointer;     
+}
+.flexColChild--zone__premium
+:global(.vtex-rich-text-0-x-paragraph){
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+.flexColChild--zone__premium
+:global(.vtex-rich-text-0-x-paragraph):hover{
+    color: white;
 }

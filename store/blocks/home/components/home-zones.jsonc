@@ -8,7 +8,10 @@
     "children":[      
       "flex-layout.row#home__zones--one",
       "flex-layout.row#home__zones--two"
-    ]
+    ],
+    "props":{
+     "blockClass" : "zone__main"
+    }
   },
   ///// Zona One
   "flex-layout.row#home__zones--one": {
@@ -40,7 +43,10 @@
       "rich-text#woman__item1--six",
       "rich-text#woman__item1--seven",
       "rich-text#woman__item1--eight"
-    ]
+    ],
+    "props":{
+      "blockClass": "text__items--woman"
+    }
   },
   "rich-text#woman__item1--one": {
     "props":{
@@ -86,16 +92,22 @@
     "children": [
       "rich-text#woman__item2--boton",
       "rich-text#woman__item2--letras"
-    ]
+    ],
+    "props": {
+        "verticalAlign": "middle",
+        "blockClass":"zones__woman--item2"
+    }
   },
   "rich-text#woman__item2--boton": {
     "props": {
-      "text": "Ver más"
+      "text": "Ver más",
+      "blockClass": "boton__woman"
     }
   },
   "rich-text#woman__item2--letras": {
     "props": {
-      "text": "## Mujer"
+      "text": "MUJER",
+      "blockClass": "letras__woman"
     }
   },
 
@@ -119,7 +131,10 @@
       "rich-text#man__item1--six",
       "rich-text#man__item1--seven",
       "rich-text#man__item1--eight"
-    ]
+    ],
+    "props":{
+      "blockClass": "text__items--man"
+    }
   },
   "rich-text#man__item1--one": {
     "props":{
@@ -165,16 +180,22 @@
     "children": [
       "rich-text#man__item2--boton",
       "rich-text#man__item2--letras"
-    ]
+    ],
+    "props": {
+        "verticalAlign": "middle",
+        "blockClass":"zones__man--item2"
+    }
   },
   "rich-text#man__item2--boton": {
     "props": {
-      "text": "Ver más"
+      "text": "Ver más",
+      "blockClass": "boton__man"
     }
   },
   "rich-text#man__item2--letras": {
     "props": {
-      "text": "## Hombre"
+      "text": "HOMBRE",
+      "blockClass": "letras__man"
     }
   },
 
@@ -185,7 +206,10 @@
       "flex-layout.col#home__zones--sneakers",
       "flex-layout.col#home__zones--kids",
       "flex-layout.col#home__zones--premium"
-    ]
+    ],
+    "props":{
+      "blockClass": "zone__two"
+    }
   },
   "flex-layout.col#home__zones--sneakers":{
     "children":[

@@ -10,7 +10,7 @@
 
 .headerRowContainer--items--nav
 :global(.vtex-rich-text-0-x-wrapper){
-    /* margin: 10px; */
+    margin: 10px;
     margin-left: 10px;
     margin-right: 10px;
 }

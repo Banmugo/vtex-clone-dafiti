@@ -3,7 +3,6 @@
     "title": "Header Links",
     "children": [
       "header-row#header__links--one",
-      "header-spacer",
       "header-row#header__links--two"
     ],
     "props": {
