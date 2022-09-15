@@ -2,15 +2,19 @@
   "flex-layout.row#home__zones": {
     "children": [
       "flex-layout.col#home__zones--main"
-    ]
+    ],
+    "props":{
+      "preserveLayoutOnMobile": true
+    }
   },
-  "flex-layout.col#home__zones--main":{
-    "children":[      
+  "flex-layout.col#home__zones--main": {
+    "children": [
       "flex-layout.row#home__zones--one",
       "flex-layout.row#home__zones--two"
     ],
-    "props":{
-     "blockClass" : "zone__main"
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "blockClass": "zone__main"
     }
   },
   ///// Zona One
@@ -19,7 +23,7 @@
       "flex-layout.col#home__zones--woman",
       "flex-layout.col#home__zones--man"
     ],
-    "props":{
+    "props": {
       "blockClass": "zone__one"
     }
   },
@@ -29,8 +33,8 @@
       "flex-layout.col#zones__woman--item1",
       "flex-layout.col#zones__woman--item2"
     ],
-    "props":{
-      "blockClass":"zone__woman"
+    "props": {
+      "blockClass": "zone__woman"
     }
   },
   "flex-layout.col#zones__woman--item1": {
@@ -44,47 +48,47 @@
       "rich-text#woman__item1--seven",
       "rich-text#woman__item1--eight"
     ],
-    "props":{
+    "props": {
       "blockClass": "text__items--woman"
     }
   },
   "rich-text#woman__item1--one": {
-    "props":{
+    "props": {
       "text": "Zapatos"
     }
-  },  
+  },
   "rich-text#woman__item1--two": {
-    "props":{
+    "props": {
       "text": "Blusas"
     }
-  }, 
+  },
   "rich-text#woman__item1--three": {
-    "props":{
+    "props": {
       "text": "Jeans"
     }
   },
   "rich-text#woman__item1--four": {
-    "props":{
+    "props": {
       "text": "Sneakers"
     }
   },
   "rich-text#woman__item1--five": {
-    "props":{
+    "props": {
       "text": "Pantalones"
     }
   },
   "rich-text#woman__item1--six": {
-    "props":{
+    "props": {
       "text": "Vestidos"
     }
   },
   "rich-text#woman__item1--seven": {
-    "props":{
+    "props": {
       "text": "Botas"
     }
   },
   "rich-text#woman__item1--eight": {
-    "props":{
+    "props": {
       "text": "Deportes"
     }
   },
@@ -94,8 +98,8 @@
       "rich-text#woman__item2--letras"
     ],
     "props": {
-        "verticalAlign": "middle",
-        "blockClass":"zones__woman--item2"
+      "verticalAlign": "middle",
+      "blockClass": "zones__woman--item2"
     }
   },
   "rich-text#woman__item2--boton": {
@@ -110,15 +114,14 @@
       "blockClass": "letras__woman"
     }
   },
-
   // Zona Hombre
   "flex-layout.col#home__zones--man": {
     "children": [
       "flex-layout.col#zones__man--item1",
       "flex-layout.col#zones__man--item2"
     ],
-    "props":{
-      "blockClass":"zone__man"
+    "props": {
+      "blockClass": "zone__man"
     }
   },
   "flex-layout.col#zones__man--item1": {
@@ -132,47 +135,47 @@
       "rich-text#man__item1--seven",
       "rich-text#man__item1--eight"
     ],
-    "props":{
+    "props": {
       "blockClass": "text__items--man"
     }
   },
   "rich-text#man__item1--one": {
-    "props":{
+    "props": {
       "text": "Tenis"
     }
-  },  
+  },
   "rich-text#man__item1--two": {
-    "props":{
+    "props": {
       "text": "Polos"
     }
-  }, 
+  },
   "rich-text#man__item1--three": {
-    "props":{
+    "props": {
       "text": "Sneakers"
     }
   },
   "rich-text#man__item1--four": {
-    "props":{
+    "props": {
       "text": "Jeans"
     }
   },
   "rich-text#man__item1--five": {
-    "props":{
+    "props": {
       "text": "Deportes"
     }
   },
   "rich-text#man__item1--six": {
-    "props":{
+    "props": {
       "text": "Camisas"
     }
   },
   "rich-text#man__item1--seven": {
-    "props":{
+    "props": {
       "text": "Pantalones"
     }
   },
   "rich-text#man__item1--eight": {
-    "props":{
+    "props": {
       "text": "Zapatos"
     }
   },
@@ -182,8 +185,8 @@
       "rich-text#man__item2--letras"
     ],
     "props": {
-        "verticalAlign": "middle",
-        "blockClass":"zones__man--item2"
+      "verticalAlign": "middle",
+      "blockClass": "zones__man--item2"
     }
   },
   "rich-text#man__item2--boton": {
@@ -198,56 +201,54 @@
       "blockClass": "letras__man"
     }
   },
-
   //// Zone two
-
-  "flex-layout.row#home__zones--two":{
-    "children":[
+  "flex-layout.row#home__zones--two": {
+    "children": [
       "flex-layout.col#home__zones--sneakers",
       "flex-layout.col#home__zones--kids",
       "flex-layout.col#home__zones--premium"
     ],
-    "props":{
+    "props": {
       "blockClass": "zone__two"
     }
   },
-  "flex-layout.col#home__zones--sneakers":{
-    "children":[
+  "flex-layout.col#home__zones--sneakers": {
+    "children": [
       "rich-text#zone__sneakers"
     ],
-    "props":{
+    "props": {
       "blockClass": "zone__sneakers"
     }
   },
-  "rich-text#zone__sneakers":{
-    "props":{
-      "text":"SNEAKERS"
+  "rich-text#zone__sneakers": {
+    "props": {
+      "text": "SNEAKERS"
     }
   },
-  "flex-layout.col#home__zones--kids":{
-    "children":[
+  "flex-layout.col#home__zones--kids": {
+    "children": [
       "rich-text#zone__kids"
     ],
-    "props":{
+    "props": {
       "blockClass": "zone__kids"
     }
   },
-  "rich-text#zone__kids":{
-    "props":{
-      "text":"KIDS"
+  "rich-text#zone__kids": {
+    "props": {
+      "text": "KIDS"
     }
   },
-  "flex-layout.col#home__zones--premium":{
-    "children":[
+  "flex-layout.col#home__zones--premium": {
+    "children": [
       "rich-text#zone__premium"
     ],
-    "props":{
+    "props": {
       "blockClass": "zone__premium"
     }
   },
-  "rich-text#zone__premium":{
-    "props":{
-      "text":"PREMIUM"
+  "rich-text#zone__premium": {
+    "props": {
+      "text": "PREMIUM"
     }
   }
 }

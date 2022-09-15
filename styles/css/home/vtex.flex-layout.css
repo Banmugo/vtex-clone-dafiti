@@ -1,7 +1,13 @@
+
 .flexRowContent
 :global(.vtex-store-components-3-x-imageElement--home__img){
     margin-bottom: 10px;
+    max-width: 1170px;
     width:100%;
+}
+.flexCol--zone__main{
+    max-width: 1170px;
+    width: 100%;
 }
 /* Zona Mujer */
 .flexCol--zone__woman{
@@ -146,11 +152,11 @@
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
     font-weight: bold;
-    color: black;
+    color: white;
 }
 .flexColChild--zone__sneakers
 :global(.vtex-rich-text-0-x-paragraph):hover{
-    color: white;
+    color: black;
 }
 .flexColChild--zone__kids {
     background-image:url("assets/home/kids.jpg"); 
@@ -167,11 +173,11 @@
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
     font-weight: bold;
-    color: black;
+    color: white;
 }
 .flexColChild--zone__kids
 :global(.vtex-rich-text-0-x-paragraph):hover{
-    color: white;
+    color: black;
 }
 .flexColChild--zone__premium{
     background-image:url("assets/home/premium.jpg");
@@ -187,9 +193,64 @@
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
     font-weight: bold;
-    color: black;
+    color: white;
 }
 .flexColChild--zone__premium
 :global(.vtex-rich-text-0-x-paragraph):hover{
-    color: white;
+    color: black;
 }
+
+/* Sliders brands */
+
+.flexCol--home__brands {
+   max-width: 1170px;
+   width: 100%;
+   margin-top: 110px;
+   margin-bottom: 130px;
+   height: auto;
+}
+
+
+/* changes */
+.flexRow--home__change{
+    max-width: 1170px;
+    width: 100%;
+    margin-top: 130px;
+}
+
+/* information */
+.flexCol--home__information{
+    max-width: 1170px;
+    width: 100%;
+}
+.flexColChild--home__information
+:global(.vtex-rich-text-0-x-wrapper--item1){
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+.flexColChild--home__information
+:global(.vtex-rich-text-0-x-wrapper--item2){
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    color: #404040;
+    text-align: center;
+    padding-left: 58px ;
+    padding-right: 58px;
+}
+.flexColChild--home__information
+:global(.vtex-rich-text-0-x-wrapper--item3){
+    font-family: Arial,Helvetica,sans-serif;
+    color: #404040;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* favorites */
+/* .flexCol--home__favorite {
+    max-width: 1170px;
+    width: 100%;
+    margin-top: 110px;
+    margin-bottom: 130px;
+    height: auto;
+ } */ 

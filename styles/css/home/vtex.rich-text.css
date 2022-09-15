@@ -1,3 +1,27 @@
+/* brands */
+.container--title__brands{
+    justify-content: center;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif; 
+    font-weight: bold;
+    color: #20281F;
+    font-weight: 600;  
+}
+/* information */
+.container--item1{
+    justify-content: center;
+    height: 130px;
+}
+.container--item2{
+    justify-content: center;
+}
+.container--item3{
+    justify-content: center;
+}
+
+
+/* pruebas */
+
 .paragraph--section__one--title {
     color: blue;
 }

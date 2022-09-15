@@ -3,7 +3,10 @@
     "title": "Imagen Commercial",
     "children":[
       "image#home__commercial"
-    ]
+    ],
+    "props":{
+      "preserveLayoutOnMobile": true
+    }
   },
   "image#home__commercial":{
     "props": {

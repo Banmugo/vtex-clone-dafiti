@@ -1,0 +1,25 @@
+{
+    "flex-layout.row#home__changes": {
+        "children": [
+            "image#home__change--one",
+            "image#home__change--two"
+        ],
+        "props":{
+            "blockClass":"home__changes",
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "image#home__change--one": {
+        "props": {
+            "src": "assets/home/change-one.png",
+            "blockClass":"home__changes--one"
+        }
+    },
+    "image#home__change--two": {
+        "props": {
+            "src": "assets/home/change-two.png",
+            "blockClass":"home__changes--two"
+
+        }
+    }
+}
