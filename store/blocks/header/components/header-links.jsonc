@@ -2,11 +2,19 @@
   "header-row#header__links": {
     "title": "Header Links",
     "children": [
+      "header-row#header__links--main"
+    ],
+    "props": {
+      "blockClass": "header__links"
+    }
+  },
+  "header-row#header__links--main":{
+    "children":[
       "header-row#header__links--one",
       "header-row#header__links--two"
     ],
     "props": {
-      "blockClass": "header__links"
+      "blockClass": "header__links--links"
     }
   },
   "header-row#header__links--one": {
@@ -16,7 +24,10 @@
       "flex-layout.row#links__one--item2",
       "flex-layout.row#links__one--item3",
       "flex-layout.row#links__one--item4"
-    ]
+    ],
+    "props": {
+      "blockClass":"links__one"
+    }
   },
   "flex-layout.row#links__one--item1": {
     "children": [
@@ -65,6 +76,7 @@
       "flex-layout.row#links__two--item2"
     ],
     "props":{
+      "blockClass": "links__two",
       "horizontalAlign": "right"
     }
   },

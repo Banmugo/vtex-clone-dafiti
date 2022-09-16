@@ -4,24 +4,29 @@
   "header-row#header__menu--logo": {
     "children": [
       "header-row#header__menu--one"
-    ]
+    ],
+    "props":{
+      "blockClass":"menu--logo"
+    }
   },
   "header-row#header__menu--one": {
-    "title": "Barra de busqueda",
+    "title": "Barra de logo y busqueda",
     "children": [
-      "logo",
-      "header-spacer",
-      "search-bar",
-      "header-spacer",
+      "logo",      
+      "search-bar", 
       "login",
       "rich-text#pruebaicono",
-      "minicart.v2"
-    ]
+      "minicart.v2"      
+    ],
+    "props":{
+      "blockClass": "items--logo"
+    }
   },
   "logo": {
     "props": {
       "title": "Logo",     
-      "url": "assets/header/dafiti-logo.png"
+      "url": "assets/header/dafiti-logo.png",
+      "blockClass":"header__menu--logo"
       
     }
   },
@@ -37,27 +42,86 @@
   "header-row#header__menu--nav": {
     "children": [
       "header-row#header__menu--items"
-    ]
+    ],
+    "props":{
+      "blockClass":"menu--nav"
+    }
   },
   "header-row#header__menu--items":{
     "children":[
-      "rich-text#itemsnav",
-      "rich-text#itemsnav",
-      "rich-text#itemsnav",
-      "rich-text#itemsnav",
-      "rich-text#itemsnav",
-      "rich-text#itemsnav",
-      "rich-text#itemsnav",
-      "rich-text#itemsnav",
-      "rich-text#itemsnav"
+      "rich-text#item__black",
+      "rich-text#item__eco",
+      "rich-text#item__mujer",
+      "rich-text#ite__hombre",
+      "rich-text#item__deporte",
+      "rich-text#item__niños",
+      "rich-text#item__belleza",
+      "rich-text#item__ofertas",
+      "rich-text#item__marcas",
+      "rich-text#item__hogar"
     ],
     "props":{
       "blockClass": "items--nav"
     }
   },
-  "rich-text#itemsnav":{
+  "rich-text#item__black":{
     "props":{
-      "text": "menu"
+      "text": "BLACK",
+      "blockClass":"button__black"
+    }
+  },
+  "rich-text#item__eco":{
+    "props":{
+      "text": "ECO ♻",
+      "blockClass":"button__normal"
+    }
+  }, 
+  "rich-text#item__mujer":{
+    "props":{
+      "text": "MUJER",
+      "blockClass":"button__normal"
+    }
+  }, 
+  "rich-text#ite__hombre":{
+    "props":{
+      "text": "HOMBRE",
+      "blockClass":"button__normal"
+    }
+  }, 
+  "rich-text#item__deporte":{
+    "props":{
+      "text": "DEPORTE",
+      "blockClass":"button__normal"
+    }
+  }, 
+  "rich-text#item__niños":{
+    "props":{
+      "text": "NIÑOS",
+      "blockClass":"button__normal"
+    }
+  }, 
+  "rich-text#item__belleza":{
+    "props":{
+      "text": "BELLEZA Y CUIDADO",
+      "blockClass":"button__normal"
+    }
+  }, 
+  "rich-text#item__ofertas":{
+    "props":{
+      "text": "OFERTAS",
+      "blockClass":"button__normal"
+    }
+  }, 
+  "rich-text#item__marcas":{
+    "props":{
+      "text": "MARCAS",
+      "blockClass":"button__normal"
+    }
+  }, 
+  "rich-text#item__hogar":{
+    "props":{
+      "text": "HOGAR",
+      "blockClass":"button__normal"
     }
   }
 }

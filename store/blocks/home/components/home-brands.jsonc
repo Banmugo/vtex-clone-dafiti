@@ -30,7 +30,8 @@
           "mobile": 6
       },
       "infinite": true,
-      "navigationStep": 1,      
+      "navigationStep": 1, 
+      "showPaginationDots": "never",     
       "blockClass": "slider__brands"
       
   },
