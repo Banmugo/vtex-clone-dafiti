@@ -2,3 +2,9 @@
     
 } */
 
+
+/* fondo del icnoco del searchbar */
+.searchBarInnerContainer
+:global(.vtex-input__suffix){
+    background-color: black;
+}

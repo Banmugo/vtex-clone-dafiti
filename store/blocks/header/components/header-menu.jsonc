@@ -15,24 +15,32 @@
       "logo",      
       "search-bar", 
       "login",
-      "rich-text#pruebaicono",
+      "icon#menu__one--heart",
       "minicart.v2"      
     ],
     "props":{
       "blockClass": "items--logo"
     }
   },
+  "login":{
+    "props": {
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password"
+    }
+  },
   "logo": {
     "props": {
       "title": "Logo",     
       "url": "assets/header/dafiti-logo.png",
-      "blockClass":"header__menu--logo"
-      
+      "blockClass":"header__menu--logo"      
     }
   },
-  "rich-text#pruebaicono": {
+  "icon#menu__one--heart": {
     "props": {
-      "text": "icono de corazon"
+      "id": "mpa-heart",
+      "size": 18
     }
   },
 
