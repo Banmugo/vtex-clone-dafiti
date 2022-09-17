@@ -40,7 +40,8 @@
   "icon#menu__one--heart": {
     "props": {
       "id": "mpa-heart",
-      "size": 18
+      "size": 18,
+      "blockClass": "icon__heart"
     }
   },
 

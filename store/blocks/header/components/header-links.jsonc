@@ -32,7 +32,7 @@
   "flex-layout.row#links__one--item1": {
     "children": [
       // "icon#truck",
-      "logo#truck",
+      // "logo#truck",
       "rich-text#item1"
     ]
   },

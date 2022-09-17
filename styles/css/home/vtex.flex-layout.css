@@ -235,7 +235,7 @@
     font-size: 16px;
     color: #404040;
     text-align: center;
-    padding-left: 58px ;
+    padding-left: 58px ; 
     padding-right: 58px;
 }
 .flexColChild--home__information
@@ -258,6 +258,13 @@
 /* newsletter */
 .flexCol--newsletter__main  {
     max-width: 1170px;
+    background-color: #f8f8f8;
+    margin-top: 80px;
+    height: 250px;
+}
+
+.flexCol--text__section--one{
+    padding-right: 80px;
 }
  .flexColChild--text__section--one
  :global(.vtex-rich-text-0-x-paragraph--suscribete){

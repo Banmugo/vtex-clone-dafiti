@@ -60,12 +60,15 @@
   },
   "rich-text#newsletter__section2--one":{
     "props":{
-      "text": "Términos y Condiciones |"
+      "text": "Términos y Condiciones |",
+      "blockClass":"section2__one"
+
     }
   },
   "rich-text#newsletter__section2--two":{
     "props":{
-      "text": "Política de Tratamiento de Datos"
+      "text": "Política de Tratamiento de Datos",
+      "blockClass":"section2__two"
     }
   }
 }
