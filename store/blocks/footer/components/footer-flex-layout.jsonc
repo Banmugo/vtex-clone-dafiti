@@ -1,0 +1,23 @@
+{
+  "flex-layout.row#footer": {
+    "title":"footer",
+    "children": [
+      "flex-layout.col#footer"
+    ]
+  },
+  "flex-layout.col#footer": {
+    "children": [
+      "flex-layout.row#footer__item1",
+      "flex-layout.row#footer__item2",
+      "flex-layout.row#footer__item3",
+      "flex-layout.row#footer__item4",
+      "flex-layout.row#footer__item5",
+      "flex-layout.row#footer__item6",
+      "flex-layout.row#footer__item7"
+    ],
+    "props":{
+      "blockClass":"items__main"
+    }
+  }
+  
+}

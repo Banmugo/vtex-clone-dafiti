@@ -1,0 +1,22 @@
+{
+  "flex-layout.row#footer__item7": {
+    "children": [
+      "flex-layout.col#footer__item7--main"
+    ]
+  },
+  "flex-layout.col#footer__item7--main": {
+    "children": [
+      "rich-text#item7__text--one"      
+    ],
+    "props": {      
+      "blockClass": "items7__main"
+    }
+  },
+  "rich-text#item7__text--one": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Cambiar a la versión mobile o tablet"
+    }
+  }
+}

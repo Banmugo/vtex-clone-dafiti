@@ -8,20 +8,20 @@
       "flex-layout.row#home__brands",
       // "flex-layout.row#home__favorites",
       "flex-layout.row#home__information",
-      "flex-layout.row#home__newsletter",
+      "flex-layout.row#home__newsletter"
 
       // practica
-      "rich-text#exercicies",
-      "flex-layout.row#home__section--one",
-      "flex-layout.row#home__exercicies",
-      "flex-layout.row#home__exercicies--tow",
-      "flex-layout.row#home__exercicies--three",
-      "flex-layout.row#home__modal",
-      "responsive-layout.phone#home__info--phone",
-      "responsive-layout.mobile#home__info--mobile",
-      "responsive-layout.tablet#home__info--tablet",
-      "responsive-layout.desktop#home__info--desktop",
-      "search-result-layout.customQuery#home__search"      
+      // "rich-text#exercicies",
+      // "flex-layout.row#home__section--one",
+      // "flex-layout.row#home__exercicies",
+      // "flex-layout.row#home__exercicies--tow",
+      // "flex-layout.row#home__exercicies--three",
+      // "flex-layout.row#home__modal",
+      // "responsive-layout.phone#home__info--phone",
+      // "responsive-layout.mobile#home__info--mobile",
+      // "responsive-layout.tablet#home__info--tablet",
+      // "responsive-layout.desktop#home__info--desktop",
+      // "search-result-layout.customQuery#home__search"      
     ],
     "props":{
       "blockClass": "store__home"

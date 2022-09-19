@@ -217,14 +217,13 @@
     },
     "search-result-layout.desktop#home__search--desktop": {
         "children": [
-            "rich-text#prueba",
-            "flex-layout.row#home__results"
-
+            "rich-text#prueba"
+            // "flex-layout.row#home__results"
         ]
     },
-    "rich-text#prueba":{
-        "props":{
-            "text":"esto es una prueba"
+    "rich-text#prueba": {
+        "props": {
+            "text": "esto es una prueba"
         }
     },
     "search-result-layout.mobile#home__search--mobile": {
@@ -232,24 +231,94 @@
             "flex-layout.row#home__results"
         ]
     },
-    "flex-layout.row#home__results":{
-        "children":[
+    "flex-layout.row#home__results": {
+        "children": [
             "flex-layout.col#home__results--search"
         ]
     },
-    "flex-layout.col#home__results--search":{
-        "children":[
+    "flex-layout.col#home__results--search": {
+        "children": [
             "search-content#home__results--search"
         ]
     },
-    "search-content#home__results--search":{
-        "blocks":[
+    "search-content#home__results--search": {
+        "blocks": [
             "gallery",
             "not-found"
         ]
     },
-    "gallery":{
-        "blocks":["product-summary.shelf"]
+    "gallery": {
+        "blocks": [
+            "product-summary.shelf"
+        ]
+    },
+    // Footer
+    // Disclosure layout
+    "disclosure-layout-group#footer__menu--group": {
+        "children": [
+            "disclosure-layout#policies"
+            // "disclosure-layout#about-us",
+            // "disclosure-layout#departments"
+        ]
+    },
+    "disclosure-layout#policies": {
+        "children": [
+            "disclosure-trigger#polices",
+            "disclosure-content#polices"
+        ]
+    },
+    "disclosure-trigger#polices": {
+        "children": [
+            "rich-text#policies"
+        ]
+    },
+    "rich-text#policies": {
+        "props": {
+            "text": "Politicas de la tienda"
+        }
+    },
+    "disclosure-content#polices": {
+        "children": [
+            "menu#polices"
+        ]
+    },
+    "menu#polices": {
+        "children": [
+            "menu-item#terms-and-conds",
+            "menu-item#privacy-polices"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#terms-and-conds": {
+        "props": {
+            "id": "menu-terms-and-conds",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "Términos y Condiciones",
+                "text": "Términos y Condiciones"
+            }
+        }
+    },
+    "menu-item#privacy-polices": {
+        "props": {
+            "id": "menu-privacy-policies",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "Politicas de Privacidad",
+                "text": "Politicas de Privacidad"
+            }
+        }
     }
-
+    // "disclosure-layout#about-us": {
+    //     "children": []
+    // },
+    // "disclosure-layout#departments": {
+    //     "children": []
+    // }
 }
