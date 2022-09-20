@@ -82,7 +82,7 @@
 .flexRowContent--items5__main
 :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
    width: 30px;    
-   height: 30px;    
+   height: 30px;   
 }
 .flexRowContent--items5__main
 :global(.vtex-store-components-3-x-imageElement--image--one){

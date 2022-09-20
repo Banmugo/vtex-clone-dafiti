@@ -31,27 +31,13 @@
   },
   "flex-layout.row#links__one--item1": {
     "children": [
-      // "icon#truck",
-      // "logo#truck",
       "rich-text#item1"
     ]
   },
-  // "icon#truck":{
-  //   "props":{
-  //     "id": "truck",
-  //     "size": 14
-  //   }
-  // },
-  "logo#truck": {
-    "props": {
-      "title": "Logo item1",     
-      "url": "assets/header/truck.png",
-      "blockClass":"logo--truck"      
-    }
-  },
   "rich-text#item1": {
     "props": {
-      "text": "Envíos gratis desde $179.900*"
+      "text": "Envíos gratis desde $179.900*",
+      "blockClass":"ejemploicon"
     }
   },
   "flex-layout.row#links__one--item2": {
@@ -61,7 +47,7 @@
   },
   "rich-text#item2": {
     "props": {
-      "text": "90 Días de cambios GRATIS"
+      "text": "90 Días de cambios GRATIS" 
     }
   },
   "flex-layout.row#links__one--item3": {

@@ -14,7 +14,8 @@
       "rich-text#item4__text--three"
     ],
     "props":{
-     "blockClass":"items5__main"
+     "blockClass":"items5__main",
+     "colSizing": "auto"
     }
   },
   "rich-text#item4__text--one":{

@@ -3,14 +3,14 @@
     "blocks": [
       "header-layout.desktop"
       // "header-layout.desktop",
-      // "header-layout.mobile"
+      // "header-layout.mobile"  
     ]
   },
   "header.full": {
     "blocks": [
       "header-layout.desktop"
       // "header-layout.desktop",
-      // "header-layout.mobile"
+      // "header-layout.mobile"  
     ]
   },
   "header-layout.desktop": {

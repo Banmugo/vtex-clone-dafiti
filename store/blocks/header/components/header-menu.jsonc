@@ -12,7 +12,7 @@
   "header-row#header__menu--one": {
     "title": "Barra de logo y busqueda",
     "children": [
-      "logo",      
+      "logo",  
       "search-bar", 
       "login",
       "icon#menu__one--heart",

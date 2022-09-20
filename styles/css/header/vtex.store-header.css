@@ -13,7 +13,6 @@
     height: 28px;  
     max-width: 1170px; 
 }
-
 .headerRowBackground--links__one{
     background-color: #ececec; 
     margin-right: 30px;   
@@ -23,8 +22,16 @@
     font-size: 11px;   
     color: #404040;
     margin-right: 15px; 
-    margin-left: 15px;   
+    margin-left: 15px; 
 }
+.headerRowBackground--links__one
+:global(.vtex-rich-text-0-x-paragraph--ejemploicon)::before{
+     content: "\e558"; 
+     color: #000;
+     font-family: 'Material Icons';
+     margin-right: 3px;
+}
+
 .headerRowBackground--links__one
 :global(.vtex-rich-text-0-x-paragraph):hover{
     cursor: pointer;
