@@ -5,8 +5,7 @@
       "flex-layout.row#home__zones",
       "flex-layout.row#home__brands",
       "flex-layout.row#home__changes",
-      "flex-layout.row#home__brands",
-      // "flex-layout.row#home__favorites",
+      "flex-layout.row#home__favorites",
       "flex-layout.row#home__information",
       "flex-layout.row#home__newsletter"
 

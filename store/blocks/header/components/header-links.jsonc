@@ -5,7 +5,8 @@
       "header-row#header__links--main"
     ],
     "props": {
-      "blockClass": "header__links"
+      "blockClass": "header__links",
+      "colSizing": "auto"
     }
   },
   "header-row#header__links--main":{
@@ -14,7 +15,8 @@
       "header-row#header__links--two"
     ],
     "props": {
-      "blockClass": "header__links--links"
+      "blockClass": "header__links--links",
+      "colSizing": "auto"
     }
   },
   "header-row#header__links--one": {
@@ -26,7 +28,9 @@
       "flex-layout.row#links__one--item4"
     ],
     "props": {
-      "blockClass":"links__one"
+      "blockClass":"links__one",
+      "colSizing": "auto",
+      "colJustify": "between"
     }
   },
   "flex-layout.row#links__one--item1": {
@@ -37,7 +41,7 @@
   "rich-text#item1": {
     "props": {
       "text": "Envíos gratis desde $179.900*",
-      "blockClass":"ejemploicon"
+      "blockClass":"item__iconcar"
     }
   },
   "flex-layout.row#links__one--item2": {
@@ -47,7 +51,8 @@
   },
   "rich-text#item2": {
     "props": {
-      "text": "90 Días de cambios GRATIS" 
+      "text": "90 Días de cambios GRATIS",
+      "blockClass":"item__iconrecharge"
     }
   },
   "flex-layout.row#links__one--item3": {
@@ -57,7 +62,8 @@
   },
   "rich-text#item3": {
     "props": {
-      "text": "Sigue tu pedido"
+      "text": "Sigue tu pedido",
+      "blockClass":"item__iconcar"
     }
   },
   "flex-layout.row#links__one--item4": {
@@ -74,11 +80,13 @@
     "title": "Seccion dos de Links",
     "children": [
       "flex-layout.row#links__two--item1",
+      "rich-text#item__two--icon",
       "flex-layout.row#links__two--item2"
     ],
     "props":{
       "blockClass": "links__two",
-      "horizontalAlign": "right"
+      "colSizing": "auto",
+      "colJustify": "between"
     }
   },
   "flex-layout.row#links__two--item1": {
@@ -89,6 +97,12 @@
   "rich-text#item__two--one": {
     "props": {
       "text": "Conócenos"      
+    }
+  },
+  "rich-text#item__two--icon": {
+    "props": {
+      "text": "",
+      "blockClass":"item__iconphone"      
     }
   },
   "flex-layout.row#links__two--item2": {

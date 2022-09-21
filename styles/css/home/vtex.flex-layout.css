@@ -210,7 +210,6 @@
    height: auto;
 }
 
-
 /* changes */
 .flexRow--home__change{
     max-width: 1170px;
@@ -247,13 +246,14 @@
 }
 
 /* favorites */
-/* .flexCol--home__favorite {
+.flexCol--home__favorite {
     max-width: 1170px;
     width: 100%;
     margin-top: 110px;
     margin-bottom: 130px;
     height: auto;
- } */ 
+ } 
+ 
 
 /* newsletter */
 .flexCol--newsletter__main  {

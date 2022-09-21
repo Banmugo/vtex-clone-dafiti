@@ -44,7 +44,7 @@
     "props": {
       "text": "Hola, el carrito esta vacio...",
       "textAlignment": "CENTER ",
-      "textPosition": "CENTER"
+      "textPosition": "CENTER" 
     }
   }
 }

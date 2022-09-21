@@ -19,19 +19,26 @@
 }
 .headerRowBackground--links__one
 :global(.vtex-rich-text-0-x-paragraph){
-    font-size: 11px;   
-    color: #404040;
-    margin-right: 15px; 
-    margin-left: 15px; 
+    font-size: 10px;   
+    font-family: Roboto,arial,sans-serif;
+    color: #404040;   
 }
 .headerRowBackground--links__one
-:global(.vtex-rich-text-0-x-paragraph--ejemploicon)::before{
+:global(.vtex-rich-text-0-x-paragraph--item__iconcar)::before{
      content: "\e558"; 
-     color: #000;
+     color: #404040;
      font-family: 'Material Icons';
-     margin-right: 3px;
+     margin-right: 5px;
+     font-size: 10px;
 }
-
+.headerRowBackground--links__one
+:global(.vtex-rich-text-0-x-paragraph--item__iconrecharge)::before{
+     content: "\e863"; 
+     color: #404040;
+     font-family: 'Material Icons';
+     margin-right: 5px;
+     font-size: 10px;
+}
 .headerRowBackground--links__one
 :global(.vtex-rich-text-0-x-paragraph):hover{
     cursor: pointer;
@@ -49,6 +56,27 @@
 :global(.vtex-rich-text-0-x-paragraph):hover{
     cursor: pointer;
     text-decoration: underline;
+}
+.headerRowBackground--links__two
+:global(.vtex-store-components-3-x-container)::before{
+     padding-right: 0px;
+     padding-left: 0px;
+
+}
+:global(.vtex-rich-text-0-x-wrapper--item__iconphone)::before{
+     content: "\e0b0"; 
+     color: #858585;
+     font-family: 'Material Icons';
+     margin-right: 5px;
+     font-size: 11px;
+}
+.headerRowBackground--links__two
+:global(.vtex-rich-text-0-x-wrapper--item__iconphone)::before{
+     content: "\e0b0"; 
+     color: #404040;
+     font-family: 'Material Icons';
+     margin-right: 5px;
+     font-size: 11px;
 }
 
 /* menu header */
