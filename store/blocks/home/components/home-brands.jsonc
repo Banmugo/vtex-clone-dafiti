@@ -1,0 +1,167 @@
+{
+  "flex-layout.row#home__brands": {
+    "children": [
+      "flex-layout.col#home__brands"
+    ]
+  },
+  "flex-layout.col#home__brands":{
+    "children":[
+      "rich-text#home__brands--text",
+      "slider-layout#home__brands"
+    ],
+    "props":{
+      "blockClass":"home__brands",
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "rich-text#home__brands--text": {
+    "title": "Titulo de marcas",
+    "props": {
+      "text": "Tus marcas favoritas",
+      "blockClass":"title__brands"
+    }
+  },
+  "slider-layout#home__brands": {
+    "title": "Carrusel de marcas",
+    "props": {
+      "itemsPerPage": {
+          "desktop": 6,
+          "tablet": 6,
+          "mobile": 6
+      },
+      "infinite": true,
+      "navigationStep": 1, 
+      "showPaginationDots": "never",     
+      "blockClass": "slider__brands"
+      
+  },
+  "children": [
+      "image#home__slider--adidas",
+      "image#home__slider--quicksilver",
+      "image#home__slider--levis",
+      "image#home__slider--calvinklein",
+      "image#home__slider--asics",
+      "image#home__slider--paris",
+      "image#home__slider--arturo-calle",
+      "image#home__slider--beverly-hills",
+      "image#home__slider--desigual",
+      "image#home__slider--fila",
+      "image#home__slider--guess",
+      "image#home__slider--mng",
+      "image#home__slider--nautica",
+      "image#home__slider--new-balance",
+      "image#home__slider--nike",
+      "image#home__slider--reebok",
+      "image#home__slider--royalcounty",
+      "image#home__slider--skechers",
+      "image#home__slider--tommy-hilfiger",
+      "image#home__slider--under-armour",
+      "image#home__slider--us-polo"
+  ]
+  },
+  "image#home__slider--adidas":{
+    "props": {
+      "src": "assets/home/sliders-brands/adidas.png"
+  }
+  },
+  "image#home__slider--arturo-calle":{
+    "props": {
+      "src": "assets/home/sliders-brands/arturo-calle.png"
+  }
+  },
+  "image#home__slider--asics":{
+    "props": {
+      "src": "assets/home/sliders-brands/asics.png"
+  }
+  },
+  "image#home__slider--beverly-hills":{
+    "props": {
+      "src": "assets/home/sliders-brands/beverly-hills.png"
+  }
+  },
+  "image#home__slider--calvinklein":{
+    "props": {
+      "src": "assets/home/sliders-brands/calvinklein.png"
+  }
+  },
+  "image#home__slider--desigual":{
+    "props": {
+      "src": "assets/home/sliders-brands/desigual.png"
+  }
+  },
+  "image#home__slider--fila":{
+    "props": {
+      "src": "assets/home/sliders-brands/fila.png"
+  }
+  },
+  "image#home__slider--guess":{
+    "props": {
+      "src": "assets/home/sliders-brands/guess.png"
+  }
+  },
+  "image#home__slider--levis":{
+    "props": {
+      "src": "assets/home/sliders-brands/levis.png"
+  }
+  },
+  "image#home__slider--mng":{
+    "props": {
+      "src": "assets/home/sliders-brands/mng.png"
+  }
+  },
+  "image#home__slider--nautica":{
+    "props": {
+      "src": "assets/home/sliders-brands/nautica.png"
+  }
+  },
+  "image#home__slider--new-balance":{
+    "props": {
+      "src": "assets/home/sliders-brands/new-balance.png"
+  }
+  },
+  "image#home__slider--nike":{
+    "props": {
+      "src": "assets/home/sliders-brands/nike.png"
+  }
+  },
+  "image#home__slider--paris":{
+    "props": {
+      "src": "assets/home/sliders-brands/paris.png"
+  }
+  },
+  "image#home__slider--quicksilver":{
+    "props": {
+      "src": "assets/home/sliders-brands/quicksilver.png"
+  }
+  },
+  "image#home__slider--reebok":{
+    "props": {
+      "src": "assets/home/sliders-brands/reebok.png"
+  }
+  },
+  "image#home__slider--royalcounty":{
+    "props": {
+      "src": "assets/home/sliders-brands/royalcounty.png"
+  }
+  },
+  "image#home__slider--skechers":{
+    "props": {
+      "src": "assets/home/sliders-brands/skechers.png"
+  }
+  },
+  "image#home__slider--tommy-hilfiger":{
+    "props": {
+      "src": "assets/home/sliders-brands/tommy-hilfiger.png"
+  }
+  },
+  "image#home__slider--under-armour":{
+    "props": {
+      "src": "assets/home/sliders-brands/under-armour.png"
+  }
+  },
+  "image#home__slider--us-polo":{
+    "props": {
+      "src": "assets/home/sliders-brands/us-polo.png"
+  }
+  }
+}

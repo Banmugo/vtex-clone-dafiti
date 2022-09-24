@@ -1,0 +1,36 @@
+{
+    "flex-layout.row#home__information":{
+        "title": "Zona de información",
+        "children":[
+            "flex-layout.col#home__information--col"
+        ]
+    },
+    "flex-layout.col#home__information--col":{
+        "children":[
+            "rich-text#information__item--one",
+            "rich-text#information__item--two",
+            "rich-text#information__item--three"
+        ],
+        "props":{
+            "blockClass": "home__information"
+        }
+    },
+    "rich-text#information__item--one":{
+        "props":{
+            "text": "la moda como tú quieres que sea.",
+            "blockClass": "item1"
+        }
+    },
+    "rich-text#information__item--two":{
+        "props":{
+            "text": "Estamos revolucionando el mundo de la moda con inteligencia. Pide todo lo que quieras y necesitas para tu look perfecto, encuéntralo en pocos clics y las 24 horas del día, con servicio de entrega nacional. Dafiti #SmartFashion es el mayor e-commerce de moda y estilo de vida en Latinoamérica, contamos con mas de 100 mil productos divididos en 5 categorías: ropa, zapatos, accesorios, deportes y belleza.",
+            "blockClass": "item2"
+        }
+    },
+    "rich-text#information__item--three":{
+        "props":{
+            "text": "¡Ahora es el momento de refrescar tu look! Regístrate y descubre el mundo de la moda con Dafiti.",
+            "blockClass": "item3"
+        }
+    }
+}

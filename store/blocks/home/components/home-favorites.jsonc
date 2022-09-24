@@ -1,0 +1,68 @@
+{
+  "flex-layout.row#home__favorites": {
+    "children": [
+      "flex-layout.col#home__favorites"
+    ]
+  },
+  "flex-layout.col#home__favorites": {
+    "children": [
+      "rich-text#home__favorite--text",
+      "list-context.product-list#favorites"
+      // "product-summary.shelf#favorites"
+      // "slider-layout#home__favorites"
+      // "search-result-layout.customQuery#home__search"
+    ],
+    "props": {
+      "blockClass": "home__favorite"
+    }
+  },
+  "rich-text#home__favorite--text": {
+    "title": "Titulo de Favoritos",
+    "props": {
+      "text": "Los favoritos de la semana",
+      "blockClass": "title__favorites"
+    }
+  },
+  "list-context.product-list#favorites": {
+    "blocks": [
+      "product-summary.shelf#favorites"
+    ],
+    "children": [
+      "slider-layout#home__favorites"
+    ]
+  },
+  "product-summary.shelf#favorites": {
+    "children": [
+      "product-summary-image#favorites",
+      "product-summary-name",
+      // "product-rating-inline",
+      "product-summary-space",
+      "product-summary-price"
+      // "product-summary-buy-button"
+    ]
+  },
+  "product-summary-image#favorites":{
+    "props": {
+      "showBadge": true,
+      "height":200,
+      "width": 150
+    }
+  },
+  "slider-layout#home__favorites": {
+    "title": "Carrusel de Favoritos",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 3,
+        "mobile": 2
+      },
+      "infinite": true,
+      "showPaginationDots": "never",
+      "autoplay": {
+        "timeout": 4000,
+        "stopOnHover": true
+    },
+      "blockClass": "slider__favorites"
+    }
+  } 
+}

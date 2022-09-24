@@ -1,0 +1,55 @@
+{
+  "flex-layout.row#footer__item5":{
+    "children": [
+      "flex-layout.row#footer__item5--main"
+    ]
+  },
+  "flex-layout.row#footer__item5--main": {
+    "children": [
+      "rich-text#item4__text--one",      
+      "image#footer__item5--one",
+      "image#footer__item5--two",
+      "rich-text#item4__text--two",
+      "image#footer__item5--three",
+      "rich-text#item4__text--three"
+    ],
+    "props":{
+     "blockClass":"items5__main",
+     "colSizing": "auto"
+    }
+  },
+  "rich-text#item4__text--one":{
+    "props":{
+      "text":"Compra Segura",
+      "blockClass":"text__one"
+    }
+  },
+  "image#footer__item5--one":{
+    "props":{
+      "src":"assets/footer/item5--1.png",
+      "blockClass":"image--one"
+    }
+  },
+  "image#footer__item5--two":{
+    "props":{
+      "src":"assets/footer/item5--2.png"
+    }
+  },
+  "rich-text#item4__text--two":{
+    "props":{
+      "text":"Sitio seguro con criptografia (SSL) · Homologado por la USERTrust Network",
+      "blockClass":"text__two"
+    }
+  },
+  "image#footer__item5--three":{
+    "props":{
+      "src":"assets/footer/item5--3.png"
+    }
+  },
+  "rich-text#item4__text--three":{
+    "props":{
+      "text":"Blindado contra robo de información y clonación de tarjetas",
+      "blockClass":"text__two"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "flex-layout.row#footer__item1": {
+    "children": [
+      "rich-text#item1__text",
+      "newsletter#footer"
+    ],
+    "props":{
+      "blockClass":"footer__item1"
+    }
+  },
+  "rich-text#item1__text": {
+    "props": {
+      "text": "¡Suscríbete al Newsletter! y gana 15% EXTRA OFF en tu primera compra*",
+      "blockClass": "text__one"
+    }
+  },
+  "newsletter#footer":{
+    "props":{
+      "placeholder": "Tu correo electrónico",
+      "hideLabel": true,
+      "blockClass":"newsletter__footer"
+    }
+  }
+}

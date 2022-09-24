@@ -1,4 +1,295 @@
-.flexRowContent--home__section--one {
-    background-color: goldenrod;
-    border: 10px;
+
+.flexRowContent
+:global(.vtex-store-components-3-x-imageElement--home__img){
+    margin-bottom: 10px;
+    max-width: 1170px;
+    width:100%;
 }
+.flexCol--zone__main{
+    max-width: 1170px;
+    width: 100%;
+}
+/* Zona Mujer */
+.flexCol--zone__woman{
+    width:100%;
+    margin-top: 10px;
+    margin-right:12px;
+    text-align:center;
+    height:640px;
+    background-size:cover;
+    background-image:url("assets/home/mujer.jpg");
+}
+.flexCol--text__items--woman{
+    padding: 50px;
+}
+.flexCol--text__items--woman
+:global(.vtex-rich-text-0-x-paragraph)  {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    color: #2a2b2b;
+    font-weight: bold;
+    margin: 0;
+}
+.flexCol--text__items--woman
+:global(.vtex-rich-text-0-x-paragraph):hover{
+    color: #ffffff;
+    cursor: pointer;
+}
+.flexCol--zones__woman--item2{
+    align-items: center;
+    justify-content: flex-end;
+}
+.flexColChild--zones__woman--item2
+:global(.vtex-rich-text-0-x-paragraph--boton__woman) {
+    background-color: white;
+    color: black;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin: 4px;
+}
+.flexColChild--zones__woman--item2
+:global(.vtex-rich-text-0-x-paragraph--boton__woman):hover{
+    background-color: rgb(12, 12, 12);
+    color: white;
+    cursor: pointer;
+}
+.flexColChild--zones__woman--item2
+:global(.vtex-rich-text-0-x-paragraph--letras__woman){
+    font-family: "Poppins", sans-serif;
+    font-size: 64px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    color: white;
+    margin-top: 12px;
+    margin-bottom: 0;
+}
+/* Zona Hombre */
+.flexCol--zone__man{
+    width:100%;
+    margin-top: 10px;
+    margin-left:12px;
+    text-align:center;
+    height:640px;
+    background-size:cover;
+    background-image:url("assets/home/hombre.jpg");
+}
+.flexCol--text__items--man{
+    padding: 50px;
+    align-items: flex-end;
+}
+.flexCol--text__items--man
+:global(.vtex-rich-text-0-x-paragraph)  {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    color: #2a2b2b;
+    font-weight: bold;
+    margin: 0;
+}
+.flexCol--text__items--man
+:global(.vtex-rich-text-0-x-paragraph):hover{
+    color: #ffffff;
+    cursor: pointer;
+}
+.flexCol--zones__man--item2{
+    align-items: center;   
+    justify-content: flex-end; 
+}
+.flexColChild--zones__man--item2
+:global(.vtex-rich-text-0-x-paragraph--boton__man) {
+    background-color: white;
+    color: black;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin: 4px;
+}
+.flexColChild--zones__man--item2
+:global(.vtex-rich-text-0-x-paragraph--boton__man):hover{
+    background-color: rgb(12, 12, 12);
+    color: white;
+    cursor: pointer;
+}
+.flexColChild--zones__man--item2
+:global(.vtex-rich-text-0-x-paragraph--letras__man){
+    font-family: "Poppins", sans-serif;
+    font-size: 64px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    color: white;
+    margin-top: 12px;
+    margin-bottom: 0;
+}
+/* Zona 2 Snakears - Kids - Premium */
+.flexRowContent--zone__two{
+    height: 360px; 
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.flexColChild--zone__sneakers{
+    background-image:url("assets/home/sneakaers.jpg");
+    background-size:cover;
+    margin-top: 15px;
+    margin-right: 15px;
+    padding-top: 10px;
+    padding-left: 40px;    
+    cursor: pointer;
+}
+.flexColChild--zone__sneakers
+:global(.vtex-rich-text-0-x-paragraph){
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.flexColChild--zone__sneakers
+:global(.vtex-rich-text-0-x-paragraph):hover{
+    color: black;
+}
+.flexColChild--zone__kids {
+    background-image:url("assets/home/kids.jpg"); 
+    background-size:cover;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;  
+    padding-top: 10px;
+    padding-left: 40px;    
+    cursor: pointer;  
+}
+.flexColChild--zone__kids
+:global(.vtex-rich-text-0-x-paragraph){
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.flexColChild--zone__kids
+:global(.vtex-rich-text-0-x-paragraph):hover{
+    color: black;
+}
+.flexColChild--zone__premium{
+    background-image:url("assets/home/premium.jpg");
+    background-size:cover;
+    margin-top: 15px;
+    margin-left: 15px;
+    padding-top: 10px;
+    padding-left: 40px;    
+    cursor: pointer;     
+}
+.flexColChild--zone__premium
+:global(.vtex-rich-text-0-x-paragraph){
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.flexColChild--zone__premium
+:global(.vtex-rich-text-0-x-paragraph):hover{
+    color: black;
+}
+
+/* Sliders brands */
+
+.flexCol--home__brands {
+   max-width: 1170px;
+   width: 100%;
+   margin-top: 110px;
+   margin-bottom: 130px;
+   height: auto;
+}
+
+/* changes */
+.flexRow--home__change{
+    max-width: 1170px;
+    width: 100%;
+    margin-top: 130px;
+}
+
+/* information */
+.flexCol--home__information{
+    max-width: 1170px;
+    width: 100%;
+}
+.flexColChild--home__information
+:global(.vtex-rich-text-0-x-wrapper--item1){
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+.flexColChild--home__information
+:global(.vtex-rich-text-0-x-wrapper--item2){
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    color: #404040;
+    text-align: center;
+    padding-left: 58px ; 
+    padding-right: 58px;
+}
+.flexColChild--home__information
+:global(.vtex-rich-text-0-x-wrapper--item3){
+    font-family: Arial,Helvetica,sans-serif;
+    color: #404040;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* favorites */
+.flexCol--home__favorite {
+    max-width: 1170px;
+    width: 100%;
+    margin-top: 110px;
+    margin-bottom: 130px;
+    height: auto;
+ } 
+ 
+
+/* newsletter */
+.flexCol--newsletter__main  {
+    max-width: 1170px;
+    background-color: #f8f8f8;
+    margin-top: 80px;
+    height: 250px;
+}
+
+.flexCol--text__section--one{
+    padding-right: 80px;
+}
+ .flexColChild--text__section--one
+ :global(.vtex-rich-text-0-x-paragraph--suscribete){
+    font-size: 21px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-bottom: 5px;
+ }
+ .flexColChild--text__section--one
+ :global(.vtex-rich-text-0-x-paragraph--text__description){
+    margin-top: 3px;
+    font-size: 11px;
+    font-family: Arial,Helvetica,sans-serif;
+    color: #404040;
+ }
+
+ .flexRowContent--text__section--two
+ :global(.vtex-rich-text-0-x-paragraph){
+    font-size: 11px;
+    font-family: Arial,Helvetica,sans-serif;
+    margin-right: 0;
+    justify-content: center; 
+ }
+ .flexRowContent--text__section--two
+ :global(.vtex-rich-text-0-x-paragraph):hover{
+   cursor: pointer;
+   text-decoration: underline; 
+ }
