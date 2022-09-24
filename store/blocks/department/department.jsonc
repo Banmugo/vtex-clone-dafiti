@@ -1,34 +1,78 @@
 {
   "store.search#department": {
     "blocks": [
-      // "search-result-layout#department"
+      "search-result-layout#department"
+    ],
+    "props":{
+      "context":{
+        "skusFilter":"FIRST_AVAILABLE",
+        "simulationBehavior":"default"
+      }
+    }
+  },
+  "search-result-layout#department": {
+    "blocks": [
+      "search-result-layout.desktop#department",
+      "search-result-layout.mobile#department",
+      "search-not-found-layout"
     ]
+  },
+  "search-result-layout.desktop#department": {
+    "children": [
+      "flex-layout.row#department__breadcrumb",
+      "flex-layout.row#department__results"
+    ]
+  },
+  "flex-layout.row#department__breadcrumb":{
+    "children":[
+      "flex-layout.col#department__breadcrumb"
+    ]
+  },
+  "flex-layout.col#department__breadcrumb":{
+    "children":[
+      "breadcrumb.search"
+    ]
+  },
+  "flex-layout.row#department__results":{
+    "title": "Department Results",
+    "children":[
+        "gallery-layout-switcher",
+        "search-content"
+    ]
+  },
+  "gallery-layout-switcher":{
+    "children":[
+      "gallery-layout-option#grid__two-columns",
+      "gallery-layout-option#grid__one-columns"
+
+    ]
+  },
+  "gallery-layout-option#grid__two-columns":{
+    "props":{
+      "name":"grid-two-columns",
+      "blockClass":"grid__selector--two-columns"
+    }
+  },
+  "gallery-layout-option#grid__one-columns":{
+    "props":{
+      "name":"grid-one-columns",
+      "blockClass":"grid__selector--one-columns"
+    }
+  },
+  "search-result-layout.mobile#department": {
+    "children": [
+      "flex-layout.col#department__breadcrumb",
+      "rich-text#mobile-responsivedepartment"
+    ]
+  },
+  "rich-text#desktop-responsivedepartment":{
+  "props":{
+    "text": "## Desktopdepartment"
   }
-  // "search-result-layout#department": {
-  //   "blocks": [
-  //     "search-result-layout.desktop#department",
-  //     "search-result-layout.mobile#department",
-  //     "search-not-found-layout"
-  //   ]
-  // },
-  // "search-result-layout.desktop#department": {
-  //   "children": [
-  //     "rich-text#desktop-responsivedepartment"
-  //   ]
-  // },
-  // "search-result-layout.mobile#department": {
-  //   "children": [
-  //     "rich-text#mobile-responsivedepartment"
-  //   ]
-  // },
-  // "rich-text#desktop-responsive":{
-  // "props":{
-  //   "text": "## Desktopdepartment"
-  // }
-  // },
-  // "rich-text#mobile-responsive":{
-  // "props":{
-  //   "text": "## Mobiledepartment"
-  // }
-  // }
+  },
+  "rich-text#mobile-responsivedepartment":{
+  "props":{
+    "text": "## Mobiledepartment"
+  }
+  }
 }

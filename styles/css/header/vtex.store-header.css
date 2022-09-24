@@ -132,17 +132,26 @@
     cursor: pointer;
 }
 .headerRowContainer--items--nav
-:global(.vtex-rich-text-0-x-paragraph--button__black){
-    background-color: black;
-    color: white;
+:global(.vtex-rich-text-0-x-paragraph--button__construction){
     padding: 10px;
-    margin-right: 35px;
+    margin-right: 35px; 
     margin-top: 0;
     margin-bottom: 0;
     font-size: 11px;
+    text-decoration: none;
 }
 .headerRowContainer--items--nav
-:global(.vtex-rich-text-0-x-paragraph--button__black):hover{
+:global(.vtex-rich-text-0-x-paragraph--button__construction):hover{
+    background-color: #858585;
+    color: white;
     cursor: pointer;
+}
+.headerRowContainer--items--nav
+:global(.vtex-rich-text-0-x-paragraph--button__construction)::after{
+    content: "\e88a";
+    font-family: 'Material Icons';
+    margin-left: 4px;
+    font-size: 11px;
+
 }
 

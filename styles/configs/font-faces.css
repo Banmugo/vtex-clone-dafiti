@@ -6,3 +6,8 @@
     font-weight : 700;
     font-stretch: normal;
   }
+
+  @font-face {
+    font-family: 'Poppins';
+    src: url(assets/fonts/Poppins-Regular.ttf);    
+  }

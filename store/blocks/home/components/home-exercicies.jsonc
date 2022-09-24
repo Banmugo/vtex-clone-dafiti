@@ -206,8 +206,8 @@
     // "search-result-layout.customQuery#home__search": {
     //     "props": {
     //         "querySchema": {
-    //             "skusFilter": "ALL",
-    //             "simulationBehavior": "skip"
+    //             "skusFilter": "FIRST_AVAILABLE",
+    //             "simulationBehavior": "default"
     //         }
     //     },
     //     "blocks": [
@@ -243,16 +243,16 @@
     // },
     // "search-content#home__results--search": {
     //     "blocks": [
-    //         "gallery",
+    //         // "gallery",
     //         "not-found"
     //     ]
     // },
     // "gallery": {
     //     "blocks": [
-    //         "product-summary.shelf"
+    //         // "product-summary.shelf"
     //     ]
     // },
-    // Footer
+    // // Footer
     // Disclosure layout
     "disclosure-layout-group#footer__menu--group": {
         "children": [

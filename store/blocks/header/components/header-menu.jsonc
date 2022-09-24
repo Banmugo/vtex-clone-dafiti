@@ -13,13 +13,18 @@
     "title": "Barra de logo y busqueda",
     "children": [
       "logo",  
-      "search-bar", 
+      "search-bar#header", 
       "login",
       "icon#menu__one--heart",
       "minicart.v2"      
     ],
     "props":{
       "blockClass": "items--logo"
+    }
+  },
+  "search-bar#header":{
+    "props":{
+      "placeholder": "Busca por producto, marca, categoría..."
     }
   },
   "login":{
@@ -59,7 +64,7 @@
   },
   "header-row#header__menu--items":{
     "children":[
-      "rich-text#item__black",
+      "rich-text#item__construction",
       "rich-text#item__eco",
       "rich-text#item__mujer",
       "rich-text#ite__hombre",
@@ -74,10 +79,11 @@
       "blockClass": "items--nav"
     }
   },
-  "rich-text#item__black":{
+  "rich-text#item__construction":{
     "props":{
-      "text": "BLACK",
-      "blockClass":"button__black"
+      "text": " [CONSTRUCCION](https://bayrondev--itgloberspartnercl.myvtex.com/construccion)",
+      // "href" : "https://bayrondev--itgloberspartnercl.myvtex.com/construccion",
+      "blockClass":"button__construction"
     }
   },
   "rich-text#item__eco":{
