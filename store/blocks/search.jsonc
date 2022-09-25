@@ -193,6 +193,7 @@
   },
   "product-summary.shelf#search_global": {
     "children": [
+      "add-to-list-btn",
       "product-summary-image#search__global",
       "product-summary-name",
       "product-rating-inline",

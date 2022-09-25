@@ -1,0 +1,66 @@
+{
+  "flex-layout.row#product__more-information":{
+    "title": "Mas Información de producto",
+    "children": [
+      "flex-layout.col#product__details",
+      "flex-layout.col#product__slider--info"
+    ]
+  },
+  "flex-layout.col#product__details":{
+    "children":[
+      "product-description"
+    ]
+  },
+  "flex-layout.col#product__slider--info":{
+    "children":[
+      "rich-text#product__interest",
+      "list-context.product-list#product__interest"
+    ]
+  },
+  "rich-text#product__interest":{
+    "props": {
+      "text": "TE PUEDE INTERESAR"
+    }
+  },
+  "list-context.product-list#product__interest":{
+    "blocks": [
+      "product-summary.shelf#product__interest"
+    ],
+    "children": [
+      "slider-layout#product__interest"
+    ]
+  },
+  "product-summary.shelf#product__interest":{
+    "children":[
+      "product-summary-image#product__interest",
+      "product-summary-name",
+      "product-summary-space",
+      "product-summary-price"
+    ]
+  },
+  "product-summary-image#product__interest":{
+    "props": {
+      "showBadge": true,
+      "height":100,
+      "width": 80
+    }
+  },
+  "slider-layout#product__interest": {
+    "title": "Carrusel de Favoritos",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 3,
+        "mobile": 2
+      },
+      "infinite": true,
+      "showPaginationDots": "never",
+      "autoplay": {
+        "timeout": 4000,
+        "stopOnHover": true
+    },
+      "blockClass": "slider__products--interest"
+    }
+  } 
+
+}

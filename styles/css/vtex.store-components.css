@@ -8,10 +8,3 @@
 :global(.vtex-input__suffix){
     background-color: black;
 }
-
-/* :global(.vtex-text__one)::before{
-    content: "\e558";
-    color: blue;
-    font-size: 14px;
-    font-family: 'Material Icons';
-} */
