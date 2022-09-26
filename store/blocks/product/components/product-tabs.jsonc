@@ -18,18 +18,18 @@
       "tab-list.item#tabs__list--questions"
     ]
   },
-  "tab-list.item#tabs__list--reviews-and-ratings": {
-    "props": {
-      "tabId": "reviews-and-ratings",
-      "label": "Revisiones y calificaciones",
-      "defaultActiveTab": true
-    }
-  },
   "tab-list.item#tabs__list--product-specification": {
     "props": {
       "tabId": "product-specification",
       "label": "Especificaciones de producto",
       "defaultActiveTab": false
+    }
+  },
+  "tab-list.item#tabs__list--reviews-and-ratings": {
+    "props": {
+      "tabId": "reviews-and-ratings",
+      "label": "Revisiones y calificaciones",
+      "defaultActiveTab": true
     }
   },
   "tab-list.item#tabs__list--questions": {

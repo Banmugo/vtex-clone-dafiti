@@ -2,3 +2,27 @@
     background-color: aquamarine; 
     max-width: 960px;
 } */
+
+
+/* more--information */
+.flexRowContent--more__info--main{
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.flexCol--more__info--details{
+    padding: 30px;
+    border-top: 1px solid #858588;
+    border-bottom: 1px solid #858588;
+    border-right: 1px solid #858588;
+}
+.flexCol--more__info--slider{
+    padding: 30px;
+    border-top: 1px solid #858588;
+    border-bottom: 1px solid #858588;
+}
+.flexCol--more__info--slider
+:global(.vtex-rich-text-0-x-paragraph){
+    font-weight: bold;
+    font-size: 12px; 
+    font-family: Arial,Helvetica,sans-serif;
+}

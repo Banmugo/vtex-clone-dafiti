@@ -4,18 +4,28 @@
     "children": [
       "flex-layout.col#product__details",
       "flex-layout.col#product__slider--info"
-    ]
+    ],
+    "props":{
+      "blockClass": "more__info--main"
+    }
   },
   "flex-layout.col#product__details":{
     "children":[
       "product-description"
-    ]
+    ],
+    "props":{
+      "blockClass": "more__info--details"
+    }
+    
   },
   "flex-layout.col#product__slider--info":{
     "children":[
       "rich-text#product__interest",
       "list-context.product-list#product__interest"
-    ]
+    ],
+    "props":{
+      "blockClass": "more__info--slider"
+    }
   },
   "rich-text#product__interest":{
     "props": {
@@ -55,11 +65,8 @@
       },
       "infinite": true,
       "showPaginationDots": "never",
-      "autoplay": {
-        "timeout": 4000,
-        "stopOnHover": true
-    },
-      "blockClass": "slider__products--interest"
+      "fullWidth": false,
+      "blockClass": "slider__products--interest" 
     }
   } 
 
