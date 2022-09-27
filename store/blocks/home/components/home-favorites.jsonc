@@ -8,9 +8,6 @@
     "children": [
       "rich-text#home__favorite--text",
       "list-context.product-list#favorites"
-      // "product-summary.shelf#favorites"
-      // "slider-layout#home__favorites"
-      // "search-result-layout.customQuery#home__search"
     ],
     "props": {
       "blockClass": "home__favorite"

@@ -63,14 +63,7 @@
      padding-left: 0px;
 
 }
-:global(.vtex-rich-text-0-x-wrapper--item__iconphone)::before{
-     content: "\e0b0"; 
-     color: #858585;
-     font-family: 'Material Icons';
-     margin-right: 5px;
-     font-size: 11px;
-}
-.headerRowBackground--links__two
+
 :global(.vtex-rich-text-0-x-wrapper--item__iconphone)::before{
      content: "\e0b0"; 
      color: #404040;
@@ -96,6 +89,7 @@
     margin-right: 70px;
     width: 500px;
 }
+
 /* ajustar tamaño de la imagen  */
 /* .headerRowContainer
 :global(.vtex-store-components-3-x-logoImage--header__menu--logo){
