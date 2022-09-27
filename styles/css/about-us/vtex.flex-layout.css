@@ -1,0 +1,91 @@
+/* .flexRow--about__main{
+    background-color: aquamarine;
+    max-width: 960px;
+} */
+/* .flexRowContent--about__main{
+    background-color: aquamarine;
+    max-width: 960px;
+} */
+
+
+/* about menu */
+/* .flexCol--about__menu--main{
+    margin-right: 40px;
+} */
+:global(.vtex-rich-text-0-x-paragraph--item__nosotros){
+    font-weight: bold;
+    font-size: 15px;
+    padding: 15px 10px;
+    margin-top: 0;
+    margin-bottom: 0; 
+    width: 230px;  
+}
+:global(.vtex-rich-text-0-x-link--item__nosotros){
+    text-decoration: none;
+    color: #04c8c9;
+}
+:global(.vtex-rich-text-0-x-paragraph--item__nosotros):hover{
+    font-weight: bold;
+    color: #fff;
+    background-color: #04c8c9;
+    cursor: pointer;
+    transition: ease-in 0.5s; 
+}
+:global(.vtex-rich-text-0-x-link--item__nosotros):hover{
+    color: #fff;
+}
+:global(.vtex-rich-text-0-x-wrapper--item__nosotros){
+    border-bottom: 1px solid #858585;
+    width: 270px;
+}
+:global(.vtex-rich-text-0-x-paragraph--item__centros){
+    font-weight: bold;
+    width: 230px; 
+    font-size: 15px;
+    padding: 15px 10px;
+    margin-top: 0;
+    margin-bottom: 0; 
+}
+:global(.vtex-rich-text-0-x-paragraph--item__centros):hover{
+    font-weight: bold;
+    color: #fff;
+    background-color: #04c8c9;
+    cursor: pointer;
+    transition: ease-in 0.5s;
+}
+:global(.vtex-rich-text-0-x-wrapper--item__centros){
+    border-bottom: 1px solid #858585;
+    width: 270px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--all__items-abuot){
+    width: 230px; 
+    font-size: 15px;
+    padding: 15px 10px;
+    margin-top: 0;
+    margin-bottom: 0; 
+}
+:global(.vtex-rich-text-0-x-paragraph--all__items-abuot):hover{
+    color: #fff;
+    background-color: #04c8c9;
+    cursor: pointer;
+    transition: ease-in 0.5s;
+}
+:global(.vtex-rich-text-0-x-wrapper--all__items-abuot){
+    border-bottom: 1px solid #858585;
+    width: 270px;
+}
+
+/* about text */
+
+/* :global(.vtex-rich-text-0-x-headingLevel2--item__we){
+    font-size: 40px;
+} */
+.flexCol--about__text-main{
+    margin-left: 20px;
+}
+:global(.vtex-rich-text-0-x-paragraph--item__subtitles){
+    font-size: 18px;
+    font-weight: bold;
+    color: #04c8c9;
+}
