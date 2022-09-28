@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Material Icons';
+    src         : url('assets/fonts/MaterialIcons-Regular.woff2') format('woff2');    
+    font-display: auto;
+    font-style  : normal;
+    font-weight : 700;
+    font-stretch: normal;
+  }
+
+  @font-face {
+    font-family: 'Poppins';
+    src: url(assets/fonts/Poppins-Regular.ttf);    
+  }

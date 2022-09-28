@@ -1,0 +1,151 @@
+/* LInks one */
+.headerRowBackground--header__links{
+    background-color: #ececec;
+}
+.headerRowBackground--header__links--links{
+    background-color: #ececec;
+}
+.headerRowContainer--header__links{
+    justify-content: center;
+}
+.headerRowContentContainer--header__links{
+    background-color: #ececec;
+    height: 28px;  
+    max-width: 1170px; 
+}
+.headerRowBackground--links__one{
+    background-color: #ececec; 
+    margin-right: 30px;   
+}
+.headerRowBackground--links__one
+:global(.vtex-rich-text-0-x-paragraph){
+    font-size: 10px;   
+    font-family: Roboto,arial,sans-serif;
+    color: #404040;   
+}
+.headerRowBackground--links__one
+:global(.vtex-rich-text-0-x-paragraph--item__iconcar)::before{
+     content: "\e558"; 
+     color: #404040;
+     font-family: 'Material Icons';
+     margin-right: 5px;
+     font-size: 10px;
+}
+.headerRowBackground--links__one
+:global(.vtex-rich-text-0-x-paragraph--item__iconrecharge)::before{
+     content: "\e863"; 
+     color: #404040;
+     font-family: 'Material Icons';
+     margin-right: 5px;
+     font-size: 10px;
+}
+.headerRowBackground--links__one
+:global(.vtex-rich-text-0-x-paragraph):hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.headerRowBackground--links__two{
+    background-color: #ececec;      
+}
+.headerRowBackground--links__two
+:global(.vtex-rich-text-0-x-paragraph){
+    font-size: 11px;  
+    color: #858585  
+}
+.headerRowBackground--links__two
+:global(.vtex-rich-text-0-x-paragraph):hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.headerRowBackground--links__two
+:global(.vtex-store-components-3-x-container)::before{
+     padding-right: 0px;
+     padding-left: 0px;
+
+}
+
+:global(.vtex-rich-text-0-x-wrapper--item__iconphone)::before{
+     content: "\e0b0"; 
+     color: #404040;
+     font-family: 'Material Icons';
+     margin-right: 5px;
+     font-size: 11px;
+}
+
+/* menu header */
+/* menu logo y barra de busqueda */
+.headerRowContainer--menu--logo{
+    justify-content: center;    
+}
+.headerRowContentContainer--menu--logo{
+    max-width: 1170px;    
+}
+.headerRowContainer
+:global(.vtex-store-components-3-x-logoContainer--header__menu--logo){
+    margin-right: 30px;
+}
+.headerRowBackground--items--logo
+:global(.vtex-store-components-3-x-searchBarContainer){
+    margin-right: 70px;
+    width: 500px;
+}
+
+/* ajustar tamaño de la imagen  */
+/* .headerRowContainer
+:global(.vtex-store-components-3-x-logoImage--header__menu--logo){
+    width: 185px;
+    height: 80px;
+} */
+
+/* menu nav (megamenu) */
+.headerRowBackground--menu--nav{
+    border-top: 1px solid #858585;
+    border-bottom: 1px solid #858585; 
+    margin-bottom: 30px;
+
+}
+.headerRowContentContainer--menu--nav{
+    max-width: 1170px;
+}
+.headerRowContainer--menu--nav{
+    justify-content: center;    
+}
+
+.headerRowContainer--items--nav
+:global(.vtex-rich-text-0-x-paragraph--button__normal){
+    padding: 10px;
+    margin-right: 35px; 
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 11px;
+}
+.headerRowContainer--items--nav
+:global(.vtex-rich-text-0-x-paragraph--button__normal):hover{
+    background-color: #858585;
+    color: white;
+    cursor: pointer;
+}
+.headerRowContainer--items--nav
+:global(.vtex-rich-text-0-x-paragraph--button__construction){
+    padding: 10px;
+    margin-right: 35px; 
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 11px;
+    text-decoration: none;
+}
+.headerRowContainer--items--nav
+:global(.vtex-rich-text-0-x-paragraph--button__construction):hover{
+    background-color: #858585;
+    color: white;
+    cursor: pointer;
+}
+.headerRowContainer--items--nav
+:global(.vtex-rich-text-0-x-paragraph--button__construction)::after{
+    content: "\e88a";
+    font-family: 'Material Icons';
+    margin-left: 4px;
+    font-size: 11px;
+
+}
+

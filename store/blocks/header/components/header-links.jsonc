@@ -1,0 +1,118 @@
+{
+  "header-row#header__links": {
+    "title": "Header Links",
+    "children": [
+      "header-row#header__links--main"
+    ],
+    "props": {
+      "blockClass": "header__links",
+      "colSizing": "auto"
+    }
+  },
+  "header-row#header__links--main":{
+    "children":[
+      "header-row#header__links--one",
+      "header-row#header__links--two"
+    ],
+    "props": {
+      "blockClass": "header__links--links",
+      "colSizing": "auto"
+    }
+  },
+  "header-row#header__links--one": {
+    "title": "Seccion uno de Links",
+    "children": [
+      "flex-layout.row#links__one--item1",
+      "flex-layout.row#links__one--item2",
+      "flex-layout.row#links__one--item3",
+      "flex-layout.row#links__one--item4"
+    ],
+    "props": {
+      "blockClass":"links__one",
+      "colSizing": "auto",
+      "colJustify": "between"
+    }
+  },
+  "flex-layout.row#links__one--item1": {
+    "children": [
+      "rich-text#item1"
+    ]
+  },
+  "rich-text#item1": {
+    "props": {
+      "text": "Envíos gratis desde $179.900*",
+      "blockClass":"item__iconcar"
+    }
+  },
+  "flex-layout.row#links__one--item2": {
+    "children": [
+      "rich-text#item2"
+    ]
+  },
+  "rich-text#item2": {
+    "props": {
+      "text": "90 Días de cambios GRATIS",
+      "blockClass":"item__iconrecharge"
+    }
+  },
+  "flex-layout.row#links__one--item3": {
+    "children": [
+      "rich-text#item3"
+    ]
+  },
+  "rich-text#item3": {
+    "props": {
+      "text": "Sigue tu pedido",
+      "blockClass":"item__iconcar"
+    }
+  },
+  "flex-layout.row#links__one--item4": {
+    "children": [
+      "rich-text#item4"
+    ]
+  },
+  "rich-text#item4": {
+    "props": {
+      "text": "¡NUEVO! Centros de Experiencia"
+    }
+  },
+  "header-row#header__links--two": {
+    "title": "Seccion dos de Links",
+    "children": [
+      "flex-layout.row#links__two--item1",
+      "rich-text#item__two--icon",
+      "flex-layout.row#links__two--item2"
+    ],
+    "props":{
+      "blockClass": "links__two",
+      "colSizing": "auto",
+      "colJustify": "between"
+    }
+  },
+  "flex-layout.row#links__two--item1": {
+    "children": [
+      "rich-text#item__two--one"
+    ]
+  },
+  "rich-text#item__two--one": {
+    "props": {
+      "text": "Conócenos"      
+    }
+  },
+  "rich-text#item__two--icon": {
+    "props": {
+      "text": "",
+      "blockClass":"item__iconphone"      
+    }
+  },
+  "flex-layout.row#links__two--item2": {
+    "children": [
+      "rich-text#item__two--two"
+    ]
+  },
+  "rich-text#item__two--two": {
+    "props": {
+      "text": "Servicio al Cliente"
+    }
+  }
+}
