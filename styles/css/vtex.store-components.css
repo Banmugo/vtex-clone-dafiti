@@ -8,3 +8,8 @@
 :global(.vtex-input__suffix){
     background-color: black;
 }
+
+/* .clearLink:nth-child(8n)
+:global(.vtex-button){
+    background-color: red;
+} */

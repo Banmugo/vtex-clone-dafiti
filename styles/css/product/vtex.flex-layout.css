@@ -15,6 +15,14 @@
     border-bottom: 1px solid #858588;
     border-right: 1px solid #858588;
 }
+.flexRowContent--links__buscar-mas{
+    justify-content: flex-start;
+}
+.lexRowContent--links__buscar-mas
+:global(.vtex-store-link-0-x-link){
+    margin: 5px;
+    border: 1px solid red;
+}
 .flexCol--more__info--slider{
     padding: 30px;
     border-top: 1px solid #858588;

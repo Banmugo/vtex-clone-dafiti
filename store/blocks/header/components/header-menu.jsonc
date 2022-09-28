@@ -82,7 +82,6 @@
   "rich-text#item__construction":{
     "props":{
       "text": " [CONSTRUCCION](https://bayrondev--itgloberspartnercl.myvtex.com/construccion)",
-      // "href" : "https://bayrondev--itgloberspartnercl.myvtex.com/construccion",
       "blockClass":"button__construction"
     }
   },

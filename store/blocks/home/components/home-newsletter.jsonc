@@ -23,7 +23,8 @@
     "props": {
       "placeholder": "Escribe tu email aquí",
       "hideLabel": true,
-      "width": "60%"
+      "width": "60%",
+      "blockClass": "newsletter__home--btn"
     }
   },
   "flex-layout.col#section__one--text":{

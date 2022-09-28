@@ -87,7 +87,8 @@
   },
   "rich-text#item3__two--nosotros": {
     "props": {
-      "text": "[Nosotros](https://bayrondev--itgloberspartnercl.myvtex.com/sobre-nosotros)"
+      "text": "[Nosotros](https://bayrondev--itgloberspartnercl.myvtex.com/sobre-nosotros)",
+      "blockClass": "rich-text__nosotros"
     }
   },
   "rich-text#item3__two--términos": {

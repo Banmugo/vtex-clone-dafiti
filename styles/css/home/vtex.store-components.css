@@ -1,0 +1,11 @@
+.buttonContainer--newsletter__home--btn
+:global(.vtex-button){
+    background-color: #e6ebf1;
+    color: #9aa9b9;
+    border: #e6ebf1;
+}
+.buttonContainer--newsletter__home--btn
+:global(.vtex-button):hover{
+    color: #454545;
+    
+}

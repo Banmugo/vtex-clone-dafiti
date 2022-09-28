@@ -1,0 +1,9 @@
+/* .flexRowContent--department__btn
+:global(.vtex-button){
+    background-color: #3cbdaf;
+    border: 0;
+}
+.flexRowContent--department__btn
+:global(.vtex-button):hover{
+    background-color: #34a89b;
+} */
