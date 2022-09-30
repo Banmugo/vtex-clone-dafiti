@@ -1,5 +1,5 @@
 /* .flexRow--about__main{
-    background-color: aquamarine;
+    background-color: aquamarine !important;
     max-width: 960px;
 } */
 /* .flexRowContent--about__main{
@@ -7,10 +7,17 @@
     max-width: 960px;
 } */
 
-
+.flexRow--about__main11{
+    background-color: aquamarine;
+    max-width: 960px;
+}
 /* about menu */
 /* .flexCol--about__menu--main{
     margin-right: 40px;
+} */
+/* .flexCol--about__main2{
+    max-width: 960px;
+    background-color: beige;
 } */
 :global(.vtex-rich-text-0-x-paragraph--item__nosotros){
     font-weight: bold;

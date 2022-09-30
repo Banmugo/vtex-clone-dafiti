@@ -1,6 +1,7 @@
 {
   "store.home": { 
     "blocks": [
+      "whatsapp-button",
       "flex-layout.row#home__commercial--img",
       "flex-layout.row#home__zones",
       "flex-layout.row#home__brands",
@@ -25,6 +26,13 @@
     ],
     "props":{
       "blockClass": "store__home"
+    }
+  },
+  "whatsapp-button":{
+    "props":{
+      "logo": "assets/whatsapp-logo.png",
+      "phone": "77777777",
+      "message": "Clone-Dafiti"
     }
   },
   "rich-text#exercicies": { 

@@ -1,0 +1,23 @@
+/* .listItem
+:global(.vtex-button):hover{
+    background-color: #d3d3d3;
+} */
+/* .listItemActive
+:global(.vtex-button){
+    background-color: #000;
+    border: 1px solid #000;
+    color: #fff;
+} */
+/* .listItemActive
+:global(.vtex-button){
+    background-color: #000;
+    border: 1px solid #000;
+} */ 
+/* .listItem 
+:global(.vtex-button__label){
+    color: #000;
+} */
+/* .listItemActive 
+:global(.vtex-button__label){
+    color: #fff;
+}   */
