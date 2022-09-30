@@ -203,7 +203,10 @@
       "product-identifier.summary",
       "add-to-cart-button",
       "modal-trigger#search__global"
-    ]
+    ],
+    "props":{
+      "blockClass": "product__search--global"
+    }
   },
   // "product-summary-name":{
     // "props":{
@@ -235,10 +238,15 @@
     ]
   },
   "flex-layout.row#quick-view__modal":{
-    "children":[
+    "children":[      
       "flex-layout.col#quick-view__modal--image",
       "flex-layout.col#quick-view__modal--info"
     ]
+  },
+  "modal-header#quick-view__modal--btn-closed":{
+    "props":{
+      "showCloseButton": true
+    }
   },
   "flex-layout.col#quick-view__modal--image":{
     "children":[
@@ -247,6 +255,7 @@
   },
   "flex-layout.col#quick-view__modal--info":{
     "children":[
+      "modal-header#quick-view__modal--btn-closed",
       "product-summary-name",
       "product-summary-brand",
       "product-price",

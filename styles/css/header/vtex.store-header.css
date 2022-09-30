@@ -89,7 +89,12 @@
     margin-right: 70px;
     width: 500px;
 }
-
+/* .headerRowContentContainer--items--logo
+:global(.vtex-store-link-0-x-link--header__icon--heart){
+    background-color: aqua;
+    padding: 7px;
+    margin: 5px
+} */
 /* ajustar tamaño de la imagen  */
 /* .headerRowContainer
 :global(.vtex-store-components-3-x-logoImage--header__menu--logo){
