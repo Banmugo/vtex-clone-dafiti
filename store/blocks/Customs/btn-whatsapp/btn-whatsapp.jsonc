@@ -1,0 +1,9 @@
+{
+  "whatsapp-button":{
+    "props":{
+      "logo": "assets/whatsapp-logo.png",
+      "phone": "+573168539090",
+      "message": "Hola, necesito asesoria con un producto de la tienda. (Clone-Dafiti)"
+    }
+  }
+}
