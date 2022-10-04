@@ -16,12 +16,15 @@
       "tab-list.item#tabs__list--product-specification",
       "tab-list.item#tabs__list--reviews-and-ratings",
       "tab-list.item#tabs__list--questions"
-    ]
+    ],
+    "props":{
+    }
   },
   "tab-list.item#tabs__list--product-specification": {
     "props": {
       "tabId": "product-specification",
       "label": "Especificaciones de producto",
+      "blockCLass": "tabs__list",
       "defaultActiveTab": false
     }
   },

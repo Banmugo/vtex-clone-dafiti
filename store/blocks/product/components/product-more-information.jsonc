@@ -20,6 +20,8 @@
   },
   "flex-layout.col#product__slider--info":{
     "children":[
+      "rich-text#produt__buscar-más",
+      "flex-layout.row#liks__buscar-más",
       "rich-text#product__interest",
       "list-context.product-list#product__interest"
     ],
@@ -27,9 +29,46 @@
       "blockClass": "more__info--slider"
     }
   },
+  "rich-text#produt__buscar-más":{
+    "props": {
+      "text": "BUSCAR MÁS"
+    }
+  },
+  "flex-layout.row#liks__buscar-más":{
+    "children":[
+      "link#product__link-one",
+      "link#product__link-two",
+      "link#product__link-three"
+    ],
+    "props":{
+      "colSizing": "auto",
+      "blockClass":"links__buscar-mas"
+    }
+  },
   "rich-text#product__interest":{
     "props": {
       "text": "TE PUEDE INTERESAR"
+    }
+  },
+  "link#product__link-one":{
+     "props": {
+      "href": "https://bayrondev--itgloberspartnercl.myvtex.com/madera",
+      "label": "Madera",
+      "blockClass": "links_btn-buscar-más"    
+    }
+  },
+  "link#product__link-two":{
+     "props": {
+      "href": "https://bayrondev--itgloberspartnercl.myvtex.com/construccion",
+      "label": "Construccón",
+      "blockClass": "links_btn-buscar-más"
+    }
+  },
+  "link#product__link-three":{
+     "props": {
+      "href": "https://bayrondev--itgloberspartnercl.myvtex.com/mujer",
+      "label": "Mujer",
+      "blockClass": "links_btn-buscar-más"
     }
   },
   "list-context.product-list#product__interest":{

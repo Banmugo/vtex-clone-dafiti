@@ -89,7 +89,12 @@
     margin-right: 70px;
     width: 500px;
 }
-
+/* .headerRowContentContainer--items--logo
+:global(.vtex-store-link-0-x-link--header__icon--heart){
+    background-color: aqua;
+    padding: 7px;
+    margin: 5px
+} */
 /* ajustar tamaño de la imagen  */
 /* .headerRowContainer
 :global(.vtex-store-components-3-x-logoImage--header__menu--logo){
@@ -132,7 +137,7 @@
     margin-top: 0;
     margin-bottom: 0;
     font-size: 11px;
-    text-decoration: none;
+    
 }
 .headerRowContainer--items--nav
 :global(.vtex-rich-text-0-x-paragraph--button__construction):hover{
@@ -145,7 +150,12 @@
     content: "\e88a";
     font-family: 'Material Icons';
     margin-left: 4px;
-    font-size: 11px;
-
+    font-size: 13px;
 }
-
+:global(.vtex-rich-text-0-x-link--button__construction){
+    text-decoration: none;
+    color: #404040;
+}
+:global(.vtex-rich-text-0-x-link--button__construction):hover{
+    color: white;
+}

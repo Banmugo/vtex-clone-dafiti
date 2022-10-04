@@ -12,10 +12,11 @@
   "header-row#header__menu--one": {
     "title": "Barra de logo y busqueda",
     "children": [
-      "logo",  
+      "logo#header",  
       "search-bar#header", 
       "login",
-      "icon#menu__one--heart",
+      "link#favorite",
+      // "icon#menu__one--heart",
       "minicart.v2"      
     ],
     "props":{
@@ -35,12 +36,21 @@
       "passwordPlaceholder": "password"
     }
   },
-  "logo": {
+  "logo#header": {
     "props": {
       "title": "Logo",     
       "url": "assets/header/dafiti-logo.png",
       "blockClass":"header__menu--logo", 
       "href": "https://bayrondev--itgloberspartnercl.myvtex.com/"     
+    }
+  },
+  "link#favorite":{
+    "children":[
+      "icon#menu__one--heart"
+    ],
+     "props": {
+      "blockClass":"header__icon--heart",
+      "href": "https://bayrondev--itgloberspartnercl.myvtex.com/account/#/wishlist"
     }
   },
   "icon#menu__one--heart": {
@@ -82,7 +92,6 @@
   "rich-text#item__construction":{
     "props":{
       "text": " [CONSTRUCCION](https://bayrondev--itgloberspartnercl.myvtex.com/construccion)",
-      // "href" : "https://bayrondev--itgloberspartnercl.myvtex.com/construccion",
       "blockClass":"button__construction"
     }
   },

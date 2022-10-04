@@ -1,0 +1,10 @@
+/* boton newsletteer footer */
+.buttonContainer--newsletter__footer
+:global(.vtex-button){
+    border: 0 transparent;
+    background-color: #4A4A4A; 
+}
+.buttonContainer--newsletter__footer
+:global(.vtex-button):hover{
+    background-color: #000; 
+}

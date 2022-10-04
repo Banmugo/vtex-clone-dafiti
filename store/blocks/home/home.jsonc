@@ -1,12 +1,14 @@
 {
   "store.home": { 
     "blocks": [
+      "whatsapp-button",
       "flex-layout.row#home__commercial--img",
       "flex-layout.row#home__zones",
+      "list-context.bullet-group",
       "flex-layout.row#home__brands",
       "flex-layout.row#home__changes",
       "flex-layout.row#home__favorites",
-      "flex-layout.row#home__information",
+      "flex-layout.row#home__information", 
       "flex-layout.row#home__newsletter"
       
 
@@ -25,6 +27,17 @@
     ],
     "props":{
       "blockClass": "store__home"
+    }
+  },
+  "list-context.bullet-group":{
+    "props":{
+      "bullets":{
+        "image": "miimagen.png",
+        "titleBullet": "Computadores",
+        "link": {
+          "url": "/"
+        }
+      }
     }
   },
   "rich-text#exercicies": { 
