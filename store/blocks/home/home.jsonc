@@ -4,10 +4,11 @@
       "whatsapp-button",
       "flex-layout.row#home__commercial--img",
       "flex-layout.row#home__zones",
+      "list-context.bullet-group",
       "flex-layout.row#home__brands",
       "flex-layout.row#home__changes",
       "flex-layout.row#home__favorites",
-      "flex-layout.row#home__information",
+      "flex-layout.row#home__information", 
       "flex-layout.row#home__newsletter"
       
 
@@ -28,11 +29,15 @@
       "blockClass": "store__home"
     }
   },
-  "whatsapp-button":{
+  "list-context.bullet-group":{
     "props":{
-      "logo": "assets/whatsapp-logo.png",
-      "phone": "77777777",
-      "message": "Clone-Dafiti"
+      "bullets":{
+        "image": "miimagen.png",
+        "titleBullet": "Computadores",
+        "link": {
+          "url": "/"
+        }
+      }
     }
   },
   "rich-text#exercicies": { 
