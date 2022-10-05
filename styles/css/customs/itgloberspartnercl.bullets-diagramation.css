@@ -1,0 +1,54 @@
+.bullet__item
+.bullet__item--image{
+  width: 70px;
+}
+
+.bullet__item{
+  margin-right: 15px;
+}
+
+.bullet__item--link{
+  text-decoration: none;
+}
+
+.bullet__item--price{
+  font-weight: bold;
+  color: #454545;
+  text-align: center;
+}
+
+.bullet__item--title{  
+  color: #454545;
+  text-align: center;
+}
+
+:global(.vtex-slider-layout-0-x-bullet__item){
+    width: 120px;
+    margin-right: 10px;
+}
+
+:global(.vtex-slider-layout-0-x-bullet__item--image){
+    width: 120px;
+}
+
+:global(.vtex-slider-layout-0-x-bullet__item--link){
+    text-decoration: none;
+}
+
+:global(.vtex-slider-layout-0-x-bullet__item--price){
+    font-weight: bold;
+    color: #454545;
+    text-align: center;
+}
+
+:global(.vtex-slider-layout-0-x-bullet__item--title){
+    color: #454545;
+    font-size: 12px;
+    text-align: center;
+}
+/* @media screen and (min-width: 760px) {
+  .bullet__item,
+  .bullet__item--image{
+    width: 100px;
+  }
+} */

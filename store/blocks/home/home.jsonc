@@ -1,17 +1,15 @@
 {
-  "store.home": { 
+  "store.home": {
     "blocks": [
       "whatsapp-button",
       "flex-layout.row#home__commercial--img",
       "flex-layout.row#home__zones",
-      "list-context.bullet-group",
       "flex-layout.row#home__brands",
       "flex-layout.row#home__changes",
       "flex-layout.row#home__favorites",
-      "flex-layout.row#home__information", 
+      // "list-context.bullet-group",
+      "flex-layout.row#home__information",
       "flex-layout.row#home__newsletter"
-      
-
       // practica
       // "rich-text#exercicies",
       // "flex-layout.row#home__section--one",
@@ -25,23 +23,12 @@
       // "responsive-layout.desktop#home__info--desktop",
       // "search-result-layout.customQuery#home__search"      
     ],
-    "props":{
+    "props": {
       "blockClass": "store__home"
     }
   },
-  "list-context.bullet-group":{
-    "props":{
-      "bullets":{
-        "image": "miimagen.png",
-        "titleBullet": "Computadores",
-        "link": {
-          "url": "/"
-        }
-      }
-    }
-  },
-  "rich-text#exercicies": { 
-    "props": { 
+  "rich-text#exercicies": {
+    "props": {
       "text": "Zona de pruebas",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",

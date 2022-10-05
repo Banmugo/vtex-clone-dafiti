@@ -1,0 +1,76 @@
+{
+  "list-context.bullet-group": {
+    "title": "Mi contexto de lista de bullets",
+    "children": [
+      "slider-layout#bullet-group"
+    ],
+    "props": {
+      "bullets": [
+        {
+          "image": "assets/bullets-home/bullet1.webp",
+          "price": "$260000",
+          "titleBullet": "Zapato tipo Bota MD",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/bullets-home/bullet2.webp",
+          "price": "$199000",
+          "titleBullet": "Tenis Running Negro-Blanco Adidas",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/bullets-home/bullet3.webp",
+          "price": "$46900",
+          "titleBullet": "Vestido Corto para Mujer Multicolor",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/bullets-home/bullet4.webp",
+          "price": "$44900",
+          "titleBullet": "Vestido Rojo para Mujer MP",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/bullets-home/bullet5.webp",
+          "price": "$178900",
+          "titleBullet": "Tenis para Mujer Adidas",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/bullets-home/bullet6.webp",
+          "price": "$47450",
+          "titleBullet": "Koaj-Jean Push UP-8",
+          "link": {
+            "url": "/"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#bullet-group": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 4,
+        "mobile": 3
+      },
+      "infinite": true,
+      "showPaginationDots": "never",
+      "fullWidth": false
+      // "autoplay": {
+      //   "timeout": 4000,
+      //   "stopOnHover": true
+      // }
+    }
+  }
+}
