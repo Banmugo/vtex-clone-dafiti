@@ -1,0 +1,4 @@
+/* utilización de variables en css, aqui se declara ye en el archivo de bullets-diagramation.css se llama */
+.flexRow{
+    --main-text-color: #454545
+}

@@ -1,4 +1,9 @@
 {
+  "flex-layout.row#bullet-group":{
+    "children":[
+      "list-context.bullet-group"
+    ]
+  },
   "list-context.bullet-group": {
     "title": "Mi contexto de lista de bullets",
     "children": [
@@ -53,6 +58,22 @@
           "link": {
             "url": "/"
           }
+        },
+        {
+          "image": "assets/bullets-home/bullet7.webp",
+          "price": "$79900",
+          "titleBullet": "Tenis Blanco Royal Country",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/bullets-home/bullet8.webp",
+          "price": "$29990",
+          "titleBullet": "Camiseta Tipo Polo Vinotinto",
+          "link": {
+            "url": "/"
+          }
         }
       ]
     }
@@ -66,11 +87,11 @@
       },
       "infinite": true,
       "showPaginationDots": "never",
-      "fullWidth": false
-      // "autoplay": {
-      //   "timeout": 4000,
-      //   "stopOnHover": true
-      // }
+      "fullWidth": false,
+      "autoplay": {
+        "timeout": 4000,
+        "stopOnHover": true
+      }
     }
   }
 }
