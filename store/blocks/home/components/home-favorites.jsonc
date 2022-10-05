@@ -7,7 +7,7 @@
   "flex-layout.col#home__favorites": {
     "children": [
       "rich-text#home__favorite--text",
-      "list-context.bullet-group"
+      "flex-layout.row#bullet-group"
       // "list-context.product-list#favorites"   slider de productos inicial
     ],
     "props": {
