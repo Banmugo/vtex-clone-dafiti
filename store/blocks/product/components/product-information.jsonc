@@ -37,7 +37,8 @@
       "product-quantity",
       "buy-button#product", 
       "rich-text#product__promo-info",
-      "share"
+      "share",
+      "add-to-cart-info"
     ],
     "props":{
       "verticalAlign": "top",
