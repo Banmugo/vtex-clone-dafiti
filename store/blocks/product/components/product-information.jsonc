@@ -35,9 +35,11 @@
       "vtex.store-components:product-brand",
       "product-price", 
       "product-quantity",
-      "buy-button#product", 
+      // "buy-button#product", 
+      "add-to-cart-button",
       "rich-text#product__promo-info",
-      "share"
+      "share",
+      "modal-trigger#add-to-cart-info"
     ],
     "props":{
       "verticalAlign": "top",
@@ -64,5 +66,4 @@
       "text": " "
     }
    }
-
 }
