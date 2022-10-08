@@ -34,7 +34,7 @@
   },
   "rich-text#item__nosotros": {
     "props": {
-      "text": "[Nosotros](https://bayrondev--itgloberspartnercl.myvtex.com/sobre-nosotros)",
+      "text": "[Nosotros](/sobre-nosotros)",
       "blockClass": "item__nosotros"
     }
   },
@@ -82,7 +82,7 @@
   },
   "rich-text#item__cambios-dev": {
     "props": {
-      "text": "Cambios y Devoluciones",
+      "text": "[Cambios o Devoluciones](/guia-de-cambio)",
       "blockClass": "all__items-abuot"
     }
   },
