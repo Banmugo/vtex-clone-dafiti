@@ -7,7 +7,7 @@
       "flex-layout.row#home__brands",
       "flex-layout.row#home__changes",
       "flex-layout.row#custom__quick--search",
-      "flex-layout.row#home__favorites",
+      "flex-layout.row#home__favorites",     
       // "list-context.bullet-group",
       "flex-layout.row#home__information",
       "flex-layout.row#home__newsletter"
@@ -36,5 +36,5 @@
       "font": "t-heading-1",
       "blockClass": "zona--pruebas"
     }
-  }
+  }  
 }
