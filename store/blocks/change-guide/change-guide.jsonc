@@ -1,0 +1,33 @@
+{
+  "store.custom#change-guide": {
+    "blocks": [
+      "flex-layout.row#change__guide--main"
+    ]
+  },
+  "flex-layout.row#change__guide--main": {
+    "children": [
+      "flex-layout.col#change__guide--main2"
+    ],
+    "props": {
+      "blockClass": "about__main11"
+    }
+  },
+  "flex-layout.col#change__guide--main2": {
+    "children": [
+      "flex-layout.row#change__guide"
+    ],
+    "props": {
+      "blockClass": "about__main2"
+    }
+  },
+  "flex-layout.row#change__guide": {
+    "children": [
+      "flex-layout.col#about__menu",
+      "flex-layout.col#change__guide--text"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "blockClass": "about__main"
+    }
+  }
+}

@@ -65,6 +65,10 @@
     width: 270px;
 }
 
+:global(.vtex-rich-text-0-x-link--all__items-abuot){
+    text-decoration: none;
+    color: #3f3f40;
+}
 :global(.vtex-rich-text-0-x-paragraph--all__items-abuot){
     width: 230px; 
     font-size: 15px;

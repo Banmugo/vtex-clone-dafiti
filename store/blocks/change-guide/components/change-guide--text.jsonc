@@ -1,0 +1,19 @@
+{
+  "flex-layout.col#change__guide--text": {
+    "children": [
+      "rich-text#change-guide",
+      "pdf-reader"
+    ],
+    "props": {
+      // "preventVerticalStretch": true
+      "verticalAlign": "top",
+      "blockClass": "about__text-main"
+    }
+  },
+  "rich-text#change-guide": {
+    "props": {
+      "text": "## GUÍA DE COMBIOS",
+      "blockClass": "item__we"
+    }
+  }
+}
