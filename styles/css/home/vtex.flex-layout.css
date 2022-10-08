@@ -245,6 +245,14 @@
     font-weight: bold;
 }
 
+/* busqueda rapida */
+.flexCol--home__quick--search {
+    max-width: 1170px;
+    margin-top: 110px;
+    /* margin-bottom: 40px; */
+    height: auto;
+}
+
 /* favorites */
 .flexCol--home__favorite {
     max-width: 1170px;
@@ -252,8 +260,7 @@
     margin-top: 110px;
     margin-bottom: 130px;
     height: auto;
- } 
- 
+ }  
 
 /* newsletter */
 .flexCol--newsletter__main  {
