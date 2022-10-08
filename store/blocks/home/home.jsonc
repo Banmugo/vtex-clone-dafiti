@@ -6,6 +6,7 @@
       "flex-layout.row#home__zones",
       "flex-layout.row#home__brands",
       "flex-layout.row#home__changes",
+      "flex-layout.row#custom__quick--search",
       "flex-layout.row#home__favorites",
       // "list-context.bullet-group",
       "flex-layout.row#home__information",

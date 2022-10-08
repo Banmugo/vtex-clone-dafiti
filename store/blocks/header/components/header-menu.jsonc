@@ -13,10 +13,9 @@
     "title": "Barra de logo y busqueda",
     "children": [
       "logo#header",  
-      "search-bar#header", 
+      "search-bar#header",       
       "login",
       "link#favorite",
-      // "icon#menu__one--heart",
       "minicart.v2"      
     ],
     "props":{
