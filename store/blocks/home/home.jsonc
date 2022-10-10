@@ -1,6 +1,7 @@
 {
   "store.home": {
     "blocks": [
+      "quick-order",
       "whatsapp-button",
       "flex-layout.row#home__commercial--img",
       "flex-layout.row#home__zones",
@@ -21,7 +22,7 @@
       // "responsive-layout.phone#home__info--phone",
       // "responsive-layout.mobile#home__info--mobile",
       // "responsive-layout.tablet#home__info--tablet",
-      // "responsive-layout.desktop#home__info--desktop",
+      // "responsive-layout.desktop#home__info--desktop", 
       // "search-result-layout.customQuery#home__search"      
     ],
     "props": {
