@@ -2,6 +2,7 @@
   "store.home": {
     "blocks": [
       "quick-order",
+      // "custom-grid",
       "whatsapp-button",
       "flex-layout.row#home__commercial--img",
       "flex-layout.row#home__zones",
@@ -37,5 +38,5 @@
       "font": "t-heading-1",
       "blockClass": "zona--pruebas"
     }
-  }  
+  }
 }
