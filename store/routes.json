@@ -4,5 +4,8 @@
   },
   "store.custom#change-guide": {
     "path": "/guia-de-cambio"
+  },
+  "store.custom#testing-area": {
+    "path": "/pruebas"
   }
 }
