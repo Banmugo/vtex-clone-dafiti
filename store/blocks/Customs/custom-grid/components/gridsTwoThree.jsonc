@@ -1,0 +1,20 @@
+{
+  "image#grid-one": {
+    "props": {
+      "height": 240,
+      "src": "assets/custom-grid/img1.jpg"
+    }
+  },
+  "image#grid-two": {
+    "props": {
+      "height": 240,
+      "src": "assets/custom-grid/img2.jpg"
+    }
+  },
+  "image#grid-three": {
+    "props": {
+      "height": 240,
+      "src": "assets/custom-grid/img3.jpg"
+    }
+  }
+}
