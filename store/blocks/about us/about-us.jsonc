@@ -1,24 +1,8 @@
 {
   "store.custom#about-us": {
     "blocks": [
-      "flex-layout.row#about__us--main"
-    ]
-  },
-  "flex-layout.row#about__us--main": {
-    "children": [
-      "flex-layout.col#about__us--main2"
-    ],
-    "props": {
-      "blockClass": "about__main11"
-    }
-  },
-  "flex-layout.col#about__us--main2": {
-    "children": [
       "flex-layout.row#about-us"
-    ],
-    "props": {
-      "blockClass": "about__main2"
-    }
+    ]
   },
   "flex-layout.row#about-us": {
     "children": [
@@ -26,7 +10,7 @@
       "flex-layout.col#about__text"
     ],
     "props": {
-      "preserveLayoutOnMobile": true,
+      // "preserveLayoutOnMobile": true,
       "blockClass": "about__main"
     }
   }

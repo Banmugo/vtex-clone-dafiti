@@ -19,7 +19,7 @@
       "rich-text#item__alianza-banco"      
     ],
     "props":{
-      "width": "20%",
+      "width": "30%",
       "verticalAlign": "top",
       "blockClass":"about__menu--main"
     }

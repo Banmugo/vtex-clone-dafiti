@@ -5,14 +5,13 @@
       "pdf-reader"
     ],
     "props": {
-      // "preventVerticalStretch": true
       "verticalAlign": "top",
       "blockClass": "about__text-main"
     }
   },
   "rich-text#change-guide": {
     "props": {
-      "text": "## GUÍA DE COMBIOS",
+      "text": "## GUÍA DE CAMBIOS",
       "blockClass": "item__we"
     }
   }
