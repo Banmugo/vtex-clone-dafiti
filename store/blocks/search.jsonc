@@ -7,7 +7,8 @@
       "context": {
         "skusFilter": "ALL",
         "simulationBehavior": "default"
-      }
+      },
+      "blockClass":"search__main"
     }
   },
   "store.search#category": {

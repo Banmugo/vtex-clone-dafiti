@@ -3,7 +3,10 @@
     "title": "Información adicional",
     "children": [
       "tab-layout#product__tabs"
-    ]
+    ],
+    "props":{
+      "blockClass": "product__tabs"
+    }
   },
   "tab-layout#product__tabs": {
     "children": [
@@ -16,9 +19,7 @@
       "tab-list.item#tabs__list--product-specification",
       "tab-list.item#tabs__list--reviews-and-ratings",
       "tab-list.item#tabs__list--questions"
-    ],
-    "props":{
-    }
+    ]
   },
   "tab-list.item#tabs__list--product-specification": {
     "props": {

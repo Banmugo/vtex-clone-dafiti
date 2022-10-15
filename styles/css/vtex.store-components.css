@@ -11,3 +11,9 @@
     background-color: red;
 } */
 
+/* search global */
+:global(.vtex-search-result-3-x-container--layout--search__main){
+    max-width: 960px;
+    margin: auto;
+}
+

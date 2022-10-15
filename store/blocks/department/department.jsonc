@@ -21,7 +21,10 @@
     "children": [
       "flex-layout.row#department__breadcrumb",
       "flex-layout.row#department__results"
-    ]
+    ],
+    "props":{
+      "blockClass":"department__search"
+    }
   },
   "flex-layout.row#department__breadcrumb":{
     "children":[
