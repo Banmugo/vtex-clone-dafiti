@@ -265,5 +265,11 @@
       "product-quantity",
       "add-to-cart-button"
     ]
-  }
+  },
+  "add-to-cart-button":{
+    "props":{
+      "large": false,
+      "blockClass": "btn-añadir-carrito__product"
+    }
+   }
 }

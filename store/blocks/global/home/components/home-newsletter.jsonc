@@ -15,11 +15,11 @@
   },
   "flex-layout.row#newsletter__section--one": {
     "children": [
-      "newsletter",
+      "newsletter#desktop",
       "flex-layout.col#section__one--text"
     ]
   },
-  "newsletter": {
+  "newsletter#desktop": {
     "props": {
       "placeholder": "Escribe tu email aquí",
       "hideLabel": true,

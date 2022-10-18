@@ -17,3 +17,8 @@
     margin: auto;
 }
 
+/* paddin general */
+:global(.vtex-store-components-3-x-container){
+    padding: 0;
+}
+

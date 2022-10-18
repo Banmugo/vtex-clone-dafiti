@@ -35,7 +35,6 @@
       "vtex.store-components:product-brand",
       "product-price", 
       "product-quantity",
-      // "buy-button#product", 
       "add-to-cart-button",
       "rich-text#product__promo-info",
       "share",

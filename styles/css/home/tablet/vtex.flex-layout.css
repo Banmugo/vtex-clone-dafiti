@@ -1,0 +1,58 @@
+@media (max-width: 1024px){
+
+    /* information */
+    .flexColChild--home__information
+    :global(.vtex-rich-text-0-x-wrapper--item1){
+    font-size: 40px;
+    }
+
+    .flexColChild--home__information
+    :global(.vtex-rich-text-0-x-wrapper--item2){
+    font-size: 12px;
+    
+    }
+    .flexColChild--home__information
+    :global(.vtex-rich-text-0-x-wrapper--item3){
+    font-size: 12px;
+    }
+
+    /* newsletter */
+    .flexColChild--text__section--one
+    :global(.vtex-rich-text-0-x-paragraph--suscribete){
+        font-size: 17px;        
+    }
+    .flexColChild--text__section--one
+    :global(.vtex-rich-text-0-x-paragraph--text__description){
+        font-size: 8px;
+    }
+
+    .flexRowContent--text__section--two
+    :global(.vtex-rich-text-0-x-paragraph){
+        font-size: 9px; 
+    }
+
+    .flexCol--text__section--one{
+        margin-left: 12px;
+    }
+    
+    :global(.vtex-store-components-3-x-newsletter--newsletter__home--btn){
+        padding: 10px;
+    }
+}
+
+
+@media (max-width: 680px){
+    .flexColChild--home__information
+    :global(.vtex-rich-text-0-x-wrapper--item1){
+    font-size: 34px;
+    }
+    .flexColChild--home__information
+    :global(.vtex-rich-text-0-x-wrapper--item2){
+    font-size: 10px;
+    
+    }
+    .flexColChild--home__information
+    :global(.vtex-rich-text-0-x-wrapper--item3){
+    font-size: 10px;
+    }
+}
