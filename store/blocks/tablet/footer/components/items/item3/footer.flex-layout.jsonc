@@ -1,0 +1,323 @@
+{
+  "flex-layout.row#footer__item3--tablet": {
+    "children": [
+      "flex-layout.row#footer__item3--main--tablet"
+    ]
+  },
+  "flex-layout.row#footer__item3--main--tablet": {
+    "children": [
+      "flex-layout.col#footer__item3--one--tablet",
+      "flex-layout.col#footer__item3--two--tablet",
+      "flex-layout.col#footer__item3--three--tablet",
+      "flex-layout.col#footer__item3--four--tablet",
+      "flex-layout.col#footer__item3--five--tablet"
+    ],
+    "props":{
+     "blockClass":"items3__main--tablet"
+    }
+  },
+  ///////// Col 1
+  "flex-layout.col#footer__item3--one--tablet": {
+    "children": [
+      "rich-text#item3__one--tablet",
+      "social-networks"
+    ],
+    "props": {
+      "verticalAlign": "top"
+  }
+  },
+  "rich-text#item3__one--tablet": {
+    "props": {
+      "text": "SÍGUENOS EN",
+      "blockClass":"brand2--tablet"
+    }
+  },
+  "social-networks": {
+    "props": {
+      "socialNetworks": [
+        {
+          "url": "#",
+          "name": "Instagram"
+        },
+        {
+          "url": "#",
+          "name": "Twitter"
+        },
+        {
+          "url": "#",
+          "name": "Facebook"
+        },
+        {
+          "url": "#",
+          "name": "YouTube"
+        }
+      ]
+    }
+  },
+  ///// Col 2
+  "flex-layout.col#footer__item3--two--tablet": {
+    "children": [
+      "rich-text#item3__two--tablet",
+      "flex-layout.col#footer__item3--col2--tablet"
+    ],
+    "props": {
+      "verticalAlign": "top"
+  }
+  },
+  "rich-text#item3__two--tablet": {
+    "props": {
+      "text": "SERVICIO AL CLIENTE",
+      "blockClass":"brand2--tablet"
+    }
+  },
+  "flex-layout.col#footer__item3--col2--tablet": {
+    "children": [
+      "rich-text#item3__two--nosotros",
+      "rich-text#item3__two--términos",
+      "rich-text#item3__two--aviso",
+      "rich-text#item3__two--politicaone",
+      "rich-text#item3__two--politicatwo",
+      "rich-text#item3__two--trabaja",
+      "rich-text#item3__two--registro",
+      "rich-text#item3__two--app"
+    ],
+    "props":{      
+      "blockClass":"rich__list--tablet"
+    }
+  },
+  "rich-text#item3__two--nosotros": {
+    "props": {
+      "text": "[Nosotros](/sobre-nosotros)",
+      "blockClass": "rich-text__nosotros--tablet"
+    }
+  },
+  "rich-text#item3__two--términos": {
+    "props": {
+      "text": "Términos y Condicioes"
+    }
+  },
+  "rich-text#item3__two--aviso": {
+    "props": {
+      "text": "Aviso de cumplimiento"
+    }
+  },
+  "rich-text#item3__two--politicaone": {
+    "props": {
+      "text": "Política de Privacidad"
+    }
+  },
+  "rich-text#item3__two--politicatwo": {
+    "props": {
+      "text": "Políca de Datos"
+    }
+  },
+  "rich-text#item3__two--trabaja": {
+    "props": {
+      "text": "Trabaha con Nosotros"
+    }
+  },
+  "rich-text#item3__two--registro": {
+    "props": {
+      "text": "Registro"
+    }
+  },
+  "rich-text#item3__two--app": {
+    "props": {
+      "text": "App Dafiti"
+    }
+  },
+  ///// Col 3
+  "flex-layout.col#footer__item3--three--tablet": {
+    "children": [
+      "rich-text#item3__three--tablet",
+      "flex-layout.col#footer__item3--col3--tablet"
+    ],
+    "props": {
+      "verticalAlign": "top"
+  }
+  },
+  "rich-text#item3__three--tablet": {
+    "props": {
+      "text": "ACERCA DE DAFITI",
+      "blockClass":"brand2--tablet"
+    }
+  },
+  "flex-layout.col#footer__item3--col3--tablet": {
+    "children": [
+      "rich-text#item3__three--nuevos",
+      "rich-text#item3__three--membresia",
+      "rich-text#item3__three--plazos",
+      "rich-text#item3__three--cambios",
+      "rich-text#item3__three--uso",
+      "rich-text#item3__three--medios",
+      "rich-text#item3__three--garantias",
+      "rich-text#item3__three--seguimiento",
+      "rich-text#item3__three--crédito",
+      "rich-text#item3__three--contacto",
+      "rich-text#item3__three--radicar",
+      "rich-text#item3__three--tyc"
+    ],
+    "props":{      
+      "blockClass":"rich__list--tablet"
+    }
+  },
+  "rich-text#item3__three--nuevos": {
+    "props": {
+      "text": "NUEVOS Centros de Experiencia"
+    }
+  },
+  "rich-text#item3__three--membresia": {
+    "props": {
+      "text": "Membresia Dafiti PRIME"
+    }
+  },
+  "rich-text#item3__three--plazos": {
+    "props": {
+      "text": "Plazos y Costos de Envío"
+    }
+  },
+  "rich-text#item3__three--cambios": {
+    "props": {
+      "text": "[Cambios o Devoluciones](/guia-de-cambio)",
+      "blockClass": "rich-text__nosotros--tablet"
+    }
+  },
+  "rich-text#item3__three--uso": {
+    "props": {
+      "text": "Uso de Cupones"
+    }
+  },
+  "rich-text#item3__three--medios": {
+    "props": {
+      "text": "Medios de Pago"
+    }
+  },
+  "rich-text#item3__three--garantias": {
+    "props": {
+      "text": "Garantías"
+    }
+  },
+  "rich-text#item3__three--seguimiento": {
+    "props": {
+      "text": "Seguimiento de tu Pedido"
+    }
+  },
+  "rich-text#item3__three--crédito": {
+    "props": {
+      "text": "Crédito ADDI"
+    }
+  },
+  "rich-text#item3__three--contacto": {
+    "props": {
+      "text": "Contacto"
+    }
+  },
+  "rich-text#item3__three--radicar": {
+    "props": {
+      "text": "Radicar PQRS"
+    }
+  },
+  "rich-text#item3__three--tyc": {
+    "props": {
+      "text": "T&C Eventos"
+    }
+  },
+  ///// Col 4
+  "flex-layout.col#footer__item3--four--tablet": {
+    "children": [
+      "rich-text#item3__four--tablet",
+      "flex-layout.col#footer__item3--col4--tablet"
+    ],
+    "props": {
+      "verticalAlign": "top"
+  }
+  },
+  "rich-text#item3__four--tablet": {
+    "props": {
+      "text": "NOVEDADES Y EVENTOS",
+      "blockClass":"brand2--tablet"
+    }
+  },
+  "flex-layout.col#footer__item3--col4--tablet": {
+    "children": [
+      "rich-text#item3__four--black",
+      "rich-text#item3__four--cyberlunes",
+      "rich-text#item3__four--hot",
+      "rich-text#item3__four--diasiniva",
+      "rich-text#item3__four--dafiti",
+      "rich-text#item3__four--sneakers",
+      "rich-text#item3__four--alianza"
+    ],
+    "props":{      
+      "blockClass":"rich__list--tablet"
+    }
+  },
+  "rich-text#item3__four--black": {
+    "props": {
+      "text": "Black Friday"
+    }
+  },
+  "rich-text#item3__four--cyberlunes": {
+    "props": {
+      "text": "Cyberlunes"
+    }
+  },
+  "rich-text#item3__four--hot": {
+    "props": {
+      "text": "Hot Sale"
+    }
+  },
+  "rich-text#item3__four--diasiniva": {
+    "props": {
+      "text": "Día Sin IVA"
+    }
+  },
+  "rich-text#item3__four--dafiti": {
+    "props": {
+      "text": "Dafiti Sports"
+    }
+  },
+  "rich-text#item3__four--sneakers": {
+    "props": {
+      "text": "Sneakers"
+    }
+  },
+  "rich-text#item3__four--alianza": {
+    "props": {
+      "text": "Alianza Banco de Bogotá"
+    }
+  },
+  ///////// Col 5
+  "flex-layout.col#footer__item3--five--tablet": {
+    "children": [
+      "rich-text#item3__five--tablet",
+      "image#footer__item3--one",
+      "image#footer__item3--two",
+      "image#footer__item3--three"
+    ],
+    "props": {
+      "verticalAlign": "top"
+  }
+  },
+  "rich-text#item3__five--tablet": {
+    "props": {
+      "text": "ALIADOS",
+      "blockClass":"brand2--tablet"
+    }
+  },
+  "image#footer__item3--one": {
+    "props": {
+      "src": "assets/footer/footer1.webp"
+    }
+  },
+  "image#footer__item3--two": {
+    "props": {
+      "src": "assets/footer/footer2.webp"
+    }
+  },
+  "image#footer__item3--three": {
+    "props": {
+      "src": "assets/footer/footer3.webp"
+    }
+  }
+}

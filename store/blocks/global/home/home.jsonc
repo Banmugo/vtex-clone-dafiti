@@ -10,19 +10,19 @@
     }
   },
   "responsive-layout.desktop#home":{
-      "children":[
-      "quick-order",
+    "children":[
       "whatsapp-button",
       "flex-layout.row#home__commercial--img",
       "flex-layout.row#home__zones",
-      "custom-grid",
+      "flex-layout.row#custom-grid",     
+      "quick-order",
       "flex-layout.row#home__brands",
       "flex-layout.row#home__changes",
       "flex-layout.row#custom__quick--search",
       "flex-layout.row#home__favorites",
       "flex-layout.row#home__information",
       "flex-layout.row#home__newsletter"  
-      ]
+    ]
   },
   "rich-text#exercicies": {
     "props": {

@@ -1,0 +1,15 @@
+{
+  "flex-layout.row#custom-grid": {
+    "children": [
+      "flex-layout.col#custom-grid"
+    ]
+  },
+  "flex-layout.col#custom-grid":{
+    "children":[
+      "custom-grid"
+    ],
+    "props":{
+      "blockClass": "home__grid--custom"
+    }
+  }
+}

@@ -11,17 +11,6 @@
       "blockClass":"search__main"
     }
   },
-  "store.search#category": {
-    "blocks": [
-      "search-result-layout"
-    ],
-    "props": {
-      "context": {
-        "skusFilter": "FIRST_AVAILABLE",
-        "simulationBehavior": "default"
-      }
-    }
-  },
   "store.search#subcategory": {
     "blocks": [
       "search-result-layout"
@@ -174,12 +163,11 @@
 
 
 
-
-
-
   "search-result-layout.mobile": {
     "children": [
-      "rich-text#mobile-responsive"
+       "flex-layout.row#searchbread",
+      "flex-layout.row#searchtitle",
+      "flex-layout.row#result"
     ]
   },
   "rich-text#desktop-responsive": {
@@ -200,7 +188,6 @@
       "product-rating-inline",
       "product-summary-space",
       "product-summary-price",
-      // "product-summary-sku-selector",
       "product-identifier.summary",
       "add-to-cart-button",
       "modal-trigger#search__global"

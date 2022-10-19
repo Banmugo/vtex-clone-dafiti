@@ -1,0 +1,35 @@
+{
+  "flex-layout.row#footer__item4--tablet":{
+    "children": [
+      "flex-layout.row#footer__item4--main--tablet"
+    ]
+  },
+  "flex-layout.row#footer__item4--main--tablet": {
+    "children": [
+      //original img
+      "image#footer__item4--mediosdepago--tablet"
+      // intento nativo
+      // "rich-text#item4__text",
+      // "accepted-payment-methods"
+    ],
+    "props":{
+     "blockClass":"items4__main--tablet"
+    }
+  },
+  "image#footer__item4--mediosdepago--tablet":{
+    "props":{
+      "src":"assets/footer/mediosdepago.webp"
+    }
+  },
+  "rich-text#item4__text":{
+    "props":{
+      "text":"Medios de pago"
+    }
+  },
+  "accepted-payment-methods": {
+    "props": {
+      "paymentMethods": ["mastercard", "visa", "diners club", "nequi", "daviplata"]
+    }
+  }
+
+}

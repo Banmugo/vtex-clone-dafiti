@@ -1,7 +1,7 @@
 {
-  "store.search#department": {
+  "store.search#category": {
     "blocks": [
-      "search-result-layout#department"
+      "search-result-layout#category"
     ],
     "props": {
       "context": {
@@ -10,7 +10,7 @@
       }
     }
   },
-  "search-result-layout#department": {
+  "search-result-layout#category": {
     "blocks": [
       "search-result-layout.desktop#department",
       "search-result-layout.mobile#department",
@@ -39,7 +39,6 @@
   "flex-layout.row#department__results": {
     "title": "Department Results",
     "children": [
-      // "gallery-layout-switcher",
       "flex-layout.col#department",
       "search-content"
     ],
