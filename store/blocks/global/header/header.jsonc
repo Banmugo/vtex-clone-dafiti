@@ -1,19 +1,25 @@
 {
   "header": {
     "blocks": [
-      "header-layout.desktop"
-      // "header-layout.desktop",
-      // "header-layout.mobile"  
+      "header-layout.desktop",
+      "header-layout.mobile"
     ]
   },
   "header.full": {
     "blocks": [
-      "header-layout.desktop"
-      // "header-layout.desktop",
-      // "header-layout.mobile"  
+      "header-layout.desktop",
+      "header-layout.mobile" 
     ]
   },
   "header-layout.desktop": {
+    "children": [
+      "header-row#header__links",
+      "header-row#header__menu--logo",
+      "header-row#header__menu--nav"
+    ]
+  },
+
+  "header-layout.mobile": {
     "children": [
       "header-row#header__links",
       "header-row#header__menu--logo",

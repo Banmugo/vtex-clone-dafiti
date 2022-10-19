@@ -1,0 +1,9 @@
+{
+  "header-layout.mobile": {
+    "children": [
+      "header-row#header__links",
+      "header-row#header__menu--logo--tablet",
+      "header-row#header__menu--nav"
+    ]
+  }
+}
