@@ -1,0 +1,19 @@
+.wrapper--brand--tablet{
+    font-size: 8px;
+    color: #000;
+    font-family: "Museo Sans",Arial,Verdana,Helvetica,sans-serif;
+}
+.wrapper--brand2--tablet{
+    font-size: 8px;
+    color: #000;
+    font-family: "Museo Sans",Arial,Verdana,Helvetica,sans-serif;
+}
+.container--rich-text__nosotros--tablet
+:global(.vtex-rich-text-0-x-link){
+     text-decoration: none; 
+     color: #858585;
+}
+.container--rich-text__nosotros--tablet
+:global(.vtex-rich-text-0-x-link):hover{
+     color: #000; 
+}

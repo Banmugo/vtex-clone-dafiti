@@ -1,17 +1,17 @@
 {
-  "responsive-layout.tablet#home":{
-      "children":[
-      "quick-order",
+  "responsive-layout.tablet#home": {
+    "children": [
       "whatsapp-button",
       "flex-layout.row#home__commercial--img",
       "flex-layout.row#home__zones--tablet",
-      "custom-grid",
+      "flex-layout.row#custom-grid",    
+      "quick-order",
       "flex-layout.row#home__brands",
       "flex-layout.row#home__changes--tablet",
       "flex-layout.row#custom__quick--search",
       "flex-layout.row#home__favorites",
       "flex-layout.row#home__information",
-      "flex-layout.row#home__newsletter--tablet"  
-      ]
+      "flex-layout.row#home__newsletter--tablet"
+    ]
   }
 }

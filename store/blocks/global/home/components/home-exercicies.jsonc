@@ -161,7 +161,7 @@
     "responsive-layout.phone#home__info--phone": {
         "title": "titulo de telefono",
         "children": [
-            "rich-text#info__phone"
+            // "rich-text#info__phone"
         ]
     },
     "responsive-layout.mobile#home__info--mobile": {
