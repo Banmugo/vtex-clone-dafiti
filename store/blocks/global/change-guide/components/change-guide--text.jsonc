@@ -1,0 +1,18 @@
+{
+  "flex-layout.col#change__guide--text": {
+    "children": [
+      "rich-text#change-guide",
+      "pdf-reader"
+    ],
+    "props": {
+      "verticalAlign": "top",
+      "blockClass": "about__text-main"
+    }
+  },
+  "rich-text#change-guide": {
+    "props": {
+      "text": "## GUÍA DE CAMBIOS",
+      "blockClass": "item__we"
+    }
+  }
+}
