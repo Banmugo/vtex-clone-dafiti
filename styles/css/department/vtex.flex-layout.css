@@ -7,3 +7,8 @@
 :global(.vtex-button):hover{
     background-color: #34a89b;
 } */
+
+:global(.vtex-search-result-3-x-container--layout--department__search){
+    max-width: 960px;
+    margin: auto;
+}

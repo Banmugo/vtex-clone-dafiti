@@ -1,0 +1,19 @@
+{
+  "flex-layout.row#home__zones--tablet": {
+    "children": [
+      "flex-layout.col#home__zones--main--tablet"
+    ],
+    "props":{
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "flex-layout.col#home__zones--main--tablet": {
+    "children": [
+      "flex-layout.row#home__zones--two"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "blockClass": "zone__main"
+    }
+  }
+}

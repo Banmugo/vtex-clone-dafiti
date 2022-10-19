@@ -1,0 +1,24 @@
+{
+    "flex-layout.row#home__changes--tablet": {
+        "children": [
+            "image#home__change--one--tablet",
+            "image#home__change--two--tablet"
+        ],
+        "props":{
+            "blockClass":"home__changes",
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "image#home__change--one--tablet": {
+        "props": {
+            "src": "assets/home/change-one.png",
+            "blockClass":"home__changes--one"
+        }
+    },
+    "image#home__change--two--tablet": {
+        "props": {
+            "src": "assets/home/change-two.png",
+            "blockClass":"home__changes--two"
+        }
+    }
+}

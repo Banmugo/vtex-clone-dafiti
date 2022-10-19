@@ -1,24 +1,9 @@
-/* .flexRow--about__main{
-    background-color: aquamarine !important;
-    max-width: 960px;
-} */
-/* .flexRowContent--about__main{
-    background-color: aquamarine;
-    max-width: 960px;
-} */
 
-.flexRow--about__main11{
-    background-color: aquamarine;
+.flexRow--about__main{
     max-width: 960px;
+    margin: auto;
 }
-/* about menu */
-/* .flexCol--about__menu--main{
-    margin-right: 40px;
-} */
-/* .flexCol--about__main2{
-    max-width: 960px;
-    background-color: beige;
-} */
+
 :global(.vtex-rich-text-0-x-paragraph--item__nosotros){
     font-weight: bold;
     font-size: 15px;
@@ -89,9 +74,6 @@
 
 /* about text */
 
-/* :global(.vtex-rich-text-0-x-headingLevel2--item__we){
-    font-size: 40px;
-} */
 .flexCol--about__text-main{
     margin-left: 20px;
 }

@@ -1,0 +1,75 @@
+{
+  "flex-layout.row#home__newsletter": {
+    "children": [
+      "flex-layout.col#newsletter__section"
+    ]
+  },
+  "flex-layout.col#newsletter__section": {
+    "children": [
+      "flex-layout.row#newsletter__section--one",
+      "flex-layout.row#newsletter__section--two"          
+    ],
+    "props":{
+      "blockClass":"newsletter__main"
+    }
+  },
+  "flex-layout.row#newsletter__section--one": {
+    "children": [
+      "newsletter#desktop",
+      "flex-layout.col#section__one--text"
+    ]
+  },
+  "newsletter#desktop": {
+    "props": {
+      "placeholder": "Escribe tu email aquí",
+      "hideLabel": true,
+      "width": "60%",
+      "blockClass": "newsletter__home--btn"
+    }
+  },
+  "flex-layout.col#section__one--text":{
+    "children":[
+      "rich-text#newsletter__section1--one",
+      "rich-text#newsletter__section1--two"    
+    ],
+    "props":{
+      "verticalAlign": "middle",
+      "width": "40%",
+      "blockClass": "text__section--one"
+    }
+  },
+  "rich-text#newsletter__section1--one":{
+    "props":{
+      "text": "¡Suscríbete!",
+      "blockClass":"suscribete"
+    }
+  },
+  "rich-text#newsletter__section1--two":{
+    "props":{
+      "text": "Se el primero en enterarte de las últimas tendencias y todas las novedades que traemos para ti. Adicional, te damos un 15 Extra OFF* en tu primera compra",
+      "blockClass":"text__description"
+    }
+  },
+  "flex-layout.row#newsletter__section--two":{
+    "children":[
+      "rich-text#newsletter__section2--one",
+      "rich-text#newsletter__section2--two"    
+    ],
+    "props":{
+      "blockClass": "text__section--two"
+    }
+  },
+  "rich-text#newsletter__section2--one":{
+    "props":{
+      "text": "Términos y Condiciones |",
+      "blockClass":"section2__one"
+
+    }
+  },
+  "rich-text#newsletter__section2--two":{
+    "props":{
+      "text": "Política de Tratamiento de Datos",
+      "blockClass":"section2__two"
+    }
+  }
+}

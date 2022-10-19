@@ -1,0 +1,125 @@
+{
+  "flex-layout.col#about__menu": {
+    "children": [
+      // "link.product#nosotros",
+      "rich-text#item__nosotros",
+      "rich-text#item__centros",
+      "rich-text#item__protocolo",
+      "rich-text#item__registro",
+      "rich-text#ite__compra",
+      "rich-text#item__cupones",
+      "rich-text#item__envios",
+      "rich-text#item__medios-pago",
+      "rich-text#item__cambios-dev",
+      "rich-text#item__garantías",
+      "rich-text#item__tiendas",
+      "rich-text#item__contactanos",
+      "rich-text#item__dafiti-prime",
+      "rich-text#item__credito-addi",
+      "rich-text#item__alianza-banco"      
+    ],
+    "props":{
+      "width": "30%",
+      "verticalAlign": "top",
+      "blockClass":"about__menu--main"
+    }
+  },
+  "link.product#nosotros": {
+    "props": {
+      "href": "https://bayrondev--itgloberspartnercl.myvtex.com/sobre-nosotros",
+      "label": "Nosotros",
+      // "displayMode":"button",
+      "blockClass": "link-example"
+    }
+  },
+  "rich-text#item__nosotros": {
+    "props": {
+      "text": "[Nosotros](/sobre-nosotros)",
+      "blockClass": "item__nosotros"
+    }
+  },
+  "rich-text#item__centros": {
+    "props": {
+      "text": "Centros de Experiencia ☆",
+      "blockClass": "item__centros"
+    }
+  },
+  "rich-text#item__protocolo": {
+    "props": {
+      "text": "Protocolo de Bioseguridad",
+      "blockClass": "all__items-abuot"
+    }
+  },
+  "rich-text#item__registro": {
+    "props": {
+      "text": "Registro",
+      "blockClass": "all__items-abuot"
+    }
+  },
+  "rich-text#ite__compra": {
+    "props": {
+      "text": "Compra",
+      "blockClass": "all__items-abuot"
+    }
+  },
+  "rich-text#item__cupones": {
+    "props": {
+      "text": "Cupones",
+      "blockClass": "all__items-abuot"
+    }
+  },
+  "rich-text#item__envios": {
+    "props": {
+      "text": "Envios y Transportes",
+      "blockClass": "all__items-abuot"
+    }
+  },
+  "rich-text#item__medios-pago": {
+    "props": {
+      "text": "Medios de pago",
+      "blockClass": "all__items-abuot"
+    }
+  },
+  "rich-text#item__cambios-dev": {
+    "props": {
+      "text": "[Cambios o Devoluciones](/guia-de-cambio)",
+      "blockClass": "all__items-abuot"
+    }
+  },
+  "rich-text#item__garantías": {
+    "props": {
+      "text": "Garantías",
+      "blockClass": "all__items-abuot"
+    }
+  },
+  "rich-text#item__tiendas": {
+    "props": {
+      "text": "Tiendas asociadas",
+      "blockClass": "all__items-abuot"
+    }
+  },
+  "rich-text#item__contactanos": {
+    "props": {
+      "text": "Contáctanos",
+      "blockClass": "all__items-abuot"
+    }
+  },
+  "rich-text#item__dafiti-prime": {
+    "props": {
+      "text": "Dafiti Prime",
+      "blockClass": "all__items-abuot"
+    }
+  },
+  "rich-text#item__credito-addi": {
+    "props": {
+      "text": "Crédito ADDI",
+      "blockClass": "all__items-abuot"
+    }
+  },
+  "rich-text#item__alianza-banco": {
+    "props": {
+      "text": "Alianza Banco de Bogotá",
+      "blockClass": "all__items-abuot"
+    }
+  }
+}
