@@ -15,18 +15,27 @@
   "flex-layout.row#quick--search":{
     "children":[
       "rich-text#quick__search",
+      "image#quick--search",
       "department-search"
     ],
     "props": {
-      "colJustify": "center"
+      "colSizing": "auto",
+      "horizontalAlign": "center"
+    }
+  },
+  "image#quick--search":{
+    "props": {
+      "width": 100,
+      "height": 80,
+      "src": "assets/customs/lupa.gif"
     }
   },
   "rich-text#quick__search": {
     "title": "Búsqueda rápida",
     "props": {
       "text": "Búsqueda rápida",
-      "textPosition": "CENTER",
-      "width": "40%",
+      // "textPosition": "CENTER",
+      "width": "30%",
       "blockClass": "text__quick--search"
     }
   }

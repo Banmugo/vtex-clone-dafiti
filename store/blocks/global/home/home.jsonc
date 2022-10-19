@@ -3,7 +3,7 @@
     "blocks": [
       "responsive-layout.desktop#home",
       "responsive-layout.tablet#home",
-      "responsive-layout.phone#home__info--phone"        
+      "responsive-layout.phone#home"        
     ],
     "props": {
       "blockClass": "store__home"

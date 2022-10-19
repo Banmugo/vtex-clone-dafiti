@@ -1,0 +1,7 @@
+{
+  "responsive-layout.phone#home": {
+    "children": [
+      "flex-layout.row#home__zones--phone"
+    ]
+  }  
+}
