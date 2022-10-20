@@ -13,20 +13,20 @@
   "flex-layout.col#testing-area": {
     "children": [
       // "rich-text#test",
-      "quick-order",
-      "whatsapp-button",
-      "flex-layout.row#home__commercial--img",
-      "flex-layout.row#home__zones",
-      "custom-grid",
-      "flex-layout.row#home__brands",
-      "flex-layout.row#home__changes",
-      "flex-layout.row#custom__quick--search",
-      "flex-layout.row#home__favorites",
-      // "list-context.bullet-group",
-      "flex-layout.row#home__information",
-      "flex-layout.row#home__newsletter",
-      "flex-layout.row#4-desktop",
-      "flex-layout.row#mega-menu"
+      // "quick-order",
+      // "whatsapp-button",
+      // "flex-layout.row#home__commercial--img",
+      // "flex-layout.row#home__zones",
+      // "custom-grid",
+      // "flex-layout.row#home__brands",
+      // "flex-layout.row#home__changes",
+      // "flex-layout.row#custom__quick--search",
+      // "flex-layout.row#home__favorites",
+      // // "list-context.bullet-group",
+      // "flex-layout.row#home__information",
+      // "flex-layout.row#home__newsletter",
+      // "flex-layout.row#4-desktop",
+      // "flex-layout.row#mega-menu"
     ]
   },
   "rich-text#test": {
@@ -36,29 +36,29 @@
   },
 
   // mega menu
-  "flex-layout.row#4-desktop": {
-    "children": [
-      "flex-layout.row#trigger-mega-menu"
+  // "flex-layout.row#4-desktop": {
+  //   "children": [
+  //     "flex-layout.row#trigger-mega-menu"
      
-      // ...
-    ]
-  },
+  //     // ...
+  //   ]
+  // },
 
-  "rich-text#testmenu":{
-    "props":{
-      "text": "menuu"      
-    }
-  },
+  // "rich-text#testmenu":{
+  //   "props":{
+  //     "text": "menuu"      
+  //   }
+  // },
 
-  "flex-layout.row#mega-menu": {
-    "children": ["mega-menu#desktop"]
-  },
-  "mega-menu#desktop": {
-    "props": {
-      "openOnly": "horizontal"
-    }
-  },
-  "flex-layout.row#trigger-mega-menu": {
+  // "flex-layout.row#mega-menu": {
+  //   "children": ["mega-menu#desktop"]
+  // },
+  // "mega-menu#desktop": {
+  //   "props": {
+  //     "openOnly": "horizontal"
+  //   }
+  // },
+  "flex-layout.col#trigger-mega-menu": {
     "props": {
       "verticalAlign": "middle"
     },

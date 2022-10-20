@@ -20,37 +20,5 @@
       // prueba
       //"disclosure-layout-group#footer__menu--group"
     ]
-  },
-  "responsive-layout.tablet#footer--mobile": {
-    "children": [
-      "rich-text#tablet"
-    ]
-  },
-  "responsive-layout.phone#footer--mobile": {
-    "children": [
-      "rich-text#prueba--phone"
-    ]
-  },
-  "rich-text#tablet":{
-    "props":{
-      "text": "tablet"
-    }
-  },
-  "rich-text#prueba--phone":{
-    "props":{
-      "text": "phone"
-    }
   }
-
-  // "flex-layout.row#footer": { 
-  //   "children": [
-  //     "image"
-  //   ]
-  // },
-  // "image": {
-  //   "props": {
-  //     "width": 100,
-  //     "src": "assets/header/truck.png"
-  //   }
-  // }
 }

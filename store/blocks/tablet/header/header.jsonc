@@ -1,5 +1,5 @@
 {
-  "header-layout.mobile": {
+  "responsive-layout.tablet#header": {
     "children": [
       "header-row#header__links",
       "header-row#header__menu--logo--tablet",
