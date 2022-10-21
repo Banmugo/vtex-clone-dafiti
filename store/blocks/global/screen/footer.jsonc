@@ -1,0 +1,24 @@
+{
+  "footer": {
+    "blocks": [
+      "footer-layout.desktop",
+      "footer-layout.mobile"
+    ]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#footer"
+      // prueba
+      //"disclosure-layout-group#footer__menu--group"
+    ]
+  },
+  "footer-layout.mobile": {
+    "children": [
+      "responsive-layout.tablet#footer--mobile",
+      "responsive-layout.phone#footer--mobile"
+      // "flex-layout.row#footer--mobile"
+      // prueba
+      //"disclosure-layout-group#footer__menu--group"
+    ]
+  }
+}

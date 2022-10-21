@@ -1,0 +1,25 @@
+{
+  "responsive-layout.tablet#footer--mobile": {
+    "children": [
+      "rich-text#tablet"
+    ]
+  },
+  "responsive-layout.phone#footer--mobile": {
+    "children": [
+      "rich-text#item__text--phone"
+      // "rich-text#prueba--phone"
+    ]
+  },
+  "rich-text#prueba--phone":{
+    "props":{
+      "text": "phone"
+    }
+  },
+  "rich-text#item__text--phone": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Cambiar a versión de escritorio"
+    }
+  }
+}

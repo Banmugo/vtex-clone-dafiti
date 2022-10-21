@@ -1,0 +1,10 @@
+.clearLink--prduct__grid--one
+:global(.vtex-button){
+    background-color: #3cbdaf;
+    border: 0;
+    width: auto
+}
+.clearLink--prduct__grid--one
+:global(.vtex-button):hover{
+    background-color: #34a89b;
+}

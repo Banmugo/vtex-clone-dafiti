@@ -1,0 +1,12 @@
+
+/* style btn add to cart search */
+.clearLink--product__search--global
+:global(.vtex-button){
+    background-color: #3cbdaf;
+    border: 0;
+    width: auto
+}
+.clearLink--product__search--global
+:global(.vtex-button):hover{
+    background-color: #34a89b; 
+}

@@ -1,0 +1,43 @@
+{
+  "flex-layout.row#home__zones--phone": {
+    "children": [
+      "flex-layout.col#zone__phone--one",
+      "flex-layout.col#zone__phone--two"
+    ],
+    "props":{
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "flex-layout.col#zone__phone--one": {
+    "children": [
+      "image#home__phone--one",
+      "image#home__phone--two"
+    ]
+  },
+  "flex-layout.col#zone__phone--two": {
+    "children": [
+      "image#home__phone--three",
+      "image#home__phone--four"
+    ]
+  },
+  "image#home__phone--one": {
+    "props": {
+      "src": "assets/home/phone-fem.jpg"
+    }
+  },
+  "image#home__phone--two": {
+    "props": {
+      "src": "assets/home/phone-sports.jpg"
+    }
+  },
+  "image#home__phone--three": {
+    "props": {
+      "src": "assets/home/phone-masc.jpg"
+    }
+  },
+  "image#home__phone--four": {
+    "props": {
+      "src": "assets/home/phone-kids.jpg"
+    }
+  }
+}

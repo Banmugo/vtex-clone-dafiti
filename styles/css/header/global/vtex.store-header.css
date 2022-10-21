@@ -19,9 +19,13 @@
 }
 .headerRowBackground--links__one
 :global(.vtex-rich-text-0-x-paragraph){
-    font-size: 10px;   
+    font-size: 12px;   
     font-family: Roboto,arial,sans-serif;
     color: #404040;   
+}
+.headerRowBackground--links__one
+:global(.vtex-rich-text-0-x-paragraph--item__iconcar){
+     margin-right: 15px;
 }
 .headerRowBackground--links__one
 :global(.vtex-rich-text-0-x-paragraph--item__iconcar)::before{
@@ -29,7 +33,11 @@
      color: #404040;
      font-family: 'Material Icons';
      margin-right: 5px;
-     font-size: 10px;
+     font-size: 11px;
+}
+.headerRowBackground--links__one
+:global(.vtex-rich-text-0-x-paragraph--item__iconrecharge){
+     margin-right: 15px;
 }
 .headerRowBackground--links__one
 :global(.vtex-rich-text-0-x-paragraph--item__iconrecharge)::before{
@@ -37,7 +45,7 @@
      color: #404040;
      font-family: 'Material Icons';
      margin-right: 5px;
-     font-size: 10px;
+     font-size: 11px;
 }
 .headerRowBackground--links__one
 :global(.vtex-rich-text-0-x-paragraph):hover{
@@ -49,7 +57,7 @@
 }
 .headerRowBackground--links__two
 :global(.vtex-rich-text-0-x-paragraph){
-    font-size: 11px;  
+    font-size: 12px;  
     color: #858585  
 }
 .headerRowBackground--links__two
@@ -115,7 +123,14 @@
 .headerRowContainer--menu--nav{
     justify-content: center;    
 }
-
+:global(.vtex-styleguide-9-x-input) {
+    color: #727273;
+    border-radius: 1px;
+    background-color: whitesmoke;
+}
+:global(.vtex-styleguide-9-x-input):focus {
+    background-color: #fff;
+}
 .headerRowContainer--items--nav
 :global(.vtex-rich-text-0-x-paragraph--button__normal){
     padding: 10px;

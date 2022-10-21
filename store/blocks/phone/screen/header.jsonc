@@ -1,0 +1,30 @@
+{
+  "responsive-layout.phone#header": {
+    "children": [
+      "flex-layout.row#header__phone--image",
+      "flex-layout.row#header__phone"
+    ]
+  },
+  "flex-layout.row#header__phone--image": {
+    "children": [
+      "image#header"
+    ]
+  },
+  "image#header":{
+    "props":{
+      "src": "assets/header/header-phone.jpg"
+    }
+  },
+  "flex-layout.row#header__phone": {
+    "children": [
+      "flex-layout.col#header__phone"
+    ]
+  },
+  "flex-layout.col#header__phone":{
+    "children":[
+      "flex-layout.row#header__menu--one",
+      "flex-layout.row#header__menu--two"
+    ]
+  }
+
+}

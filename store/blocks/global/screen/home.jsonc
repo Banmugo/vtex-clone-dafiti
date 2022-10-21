@@ -1,0 +1,36 @@
+{
+  "store.home": {
+    "blocks": [
+      "responsive-layout.desktop#home",
+      "responsive-layout.tablet#home",
+      "responsive-layout.phone#home"        
+    ],
+    "props": {
+      "blockClass": "store__home"
+    }
+  },
+  "responsive-layout.desktop#home":{
+    "children":[
+      "whatsapp-button",
+      "flex-layout.row#home__commercial--img",
+      "flex-layout.row#home__zones",
+      "flex-layout.row#custom-grid",     
+      "quick-order",
+      "flex-layout.row#home__brands",
+      "flex-layout.row#home__changes",
+      "flex-layout.row#custom__quick--search",
+      "flex-layout.row#home__favorites",
+      "flex-layout.row#home__information",
+      "flex-layout.row#home__newsletter"  
+    ]
+  },
+  "rich-text#exercicies": {
+    "props": {
+      "text": "Zona de pruebas",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1",
+      "blockClass": "zona--pruebas"
+    }
+  }
+}

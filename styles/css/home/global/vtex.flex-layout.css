@@ -308,3 +308,11 @@
    cursor: pointer;
    text-decoration: underline; 
  }
+
+ /* custom grid */
+ .flexCol--home__grid--custom{
+    max-width: 1170px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+ }
+

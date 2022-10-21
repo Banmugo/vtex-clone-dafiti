@@ -1,0 +1,29 @@
+{
+  "responsive-layout.tablet#footer--mobile":{
+    "children":[
+      "flex-layout.row#footer--tablet"
+    ]
+  },
+  
+  "flex-layout.row#footer--tablet": {
+    "title":"footer",
+    "children": [
+      "flex-layout.col#footer--tablet"
+    ]
+  },
+  "flex-layout.col#footer--tablet": {
+    "children": [
+      "flex-layout.row#footer__item1--tablet",
+      "flex-layout.row#footer__item2--tablet",
+      "flex-layout.row#footer__item3--tablet",
+      "flex-layout.row#footer__item4--tablet",
+      "flex-layout.row#footer__item5--tablet",
+      "flex-layout.row#footer__item6--tablet",
+      "flex-layout.row#footer__item7--tablet"
+    ],
+    "props":{
+      "blockClass":"items__main--tablet"
+    }
+  }
+  
+}

@@ -1,0 +1,22 @@
+{
+  "flex-layout.row#footer__item7--tablet": {
+    "children": [
+      "flex-layout.col#footer__item7--main--tablet"
+    ]
+  },
+  "flex-layout.col#footer__item7--main--tablet": {
+    "children": [
+      "rich-text#item7__text--one--tablet"      
+    ],
+    "props": {      
+      "blockClass": "items7__main--tablet"
+    }
+  },
+  "rich-text#item7__text--one--tablet": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Cambiar a la versión phone o desktop"
+    }
+  }
+}
