@@ -1,7 +1,7 @@
 {
-  "store.search#category": {
+  "store.search#department": {
     "blocks": [
-      "search-result-layout#category"
+      "search-result-layout#department"
     ],
     "props": {
       "context": {
@@ -10,7 +10,7 @@
       }
     }
   },
-  "search-result-layout#category": {
+  "search-result-layout#department": {
     "blocks": [
       "search-result-layout.desktop#department",
       "search-result-layout.mobile#department",
@@ -39,14 +39,14 @@
   "flex-layout.row#department__results": {
     "title": "Department Results",
     "children": [
-      "flex-layout.col#department",
-      "search-content"
+      "flex-layout.col#filter",
+      "flex-layout.col#results__content"
     ],
     "props": {
       "blockClass": "department__btn"
     }
   },
-  "flex-layout.col#department": {
+  "flex-layout.col#filter": {
     "children": [
       "filter-navigator.v3"
     ],
@@ -55,24 +55,13 @@
       "blockClass": "filterCol"
     }
   },
-  "gallery-layout-switcher": {
-    "children": [
-      "gallery-layout-option#grid__two-columns",
-      "gallery-layout-option#grid__one-columns"
+  "flex-layout.col#results__content":{
+    "children":[
+      "flex-layout.row#searchinfo",
+      "search-content"
     ]
   },
-  "gallery-layout-option#grid__two-columns": {
-    "props": {
-      "name": "grid-two-columns",
-      "blockClass": "grid__selector--two-columns"
-    }
-  },
-  "gallery-layout-option#grid__one-columns": {
-    "props": {
-      "name": "grid-one-columns",
-      "blockClass": "grid__selector--one-columns"
-    }
-  },
+
   "search-result-layout.mobile#department": {
     "children": [
       "flex-layout.row#department__breadcrumb",

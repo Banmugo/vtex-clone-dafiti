@@ -35,7 +35,7 @@
       "vtex.store-components:product-brand",
       "product-price", 
       "product-quantity",
-      "add-to-cart-button",
+      "add-to-cart-button",     
       "rich-text#product__promo-info",
       "share",
       "modal-trigger#add-to-cart-info"
@@ -51,12 +51,6 @@
     ],
     "props":{
       "blockClass": "bto__wishlist--product"
-    }
-   },
-   "buy-button#product":{
-    "props":{
-      "large": false,
-      "blockClass": "btn-añadir-carrito__product"
     }
    },
    "rich-text#product__promo-info":{

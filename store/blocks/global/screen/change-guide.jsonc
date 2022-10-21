@@ -1,0 +1,46 @@
+{
+  "store.custom#change-guide": {
+    "blocks": [
+      "responsive-layout.desktop#change__guide--main",
+      "responsive-layout.tablet#change__guide--main",
+      "responsive-layout.phone#change__guide--main"
+    ]
+  },
+  "responsive-layout.desktop#change__guide--main": {
+    "children": [
+      "flex-layout.row#change__guide--main"
+    ],
+    "props": {
+      "blockClass": "about__main11"
+    }
+  },
+  "flex-layout.row#change__guide--main": {
+    "children": [
+      "flex-layout.col#about__menu",
+      "flex-layout.col#change__guide--text"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "blockClass": "about__main"
+    }
+  },
+
+
+  "responsive-layout.tablet#change__guide--main":{
+    "children": [
+      "flex-layout.col#about__menu",
+      "flex-layout.row#change__guide--main"
+    ]
+  },
+
+
+  "flex-layout.row#change__guide--main--phone": {
+    "children": [
+      "flex-layout.col#change__guide--text"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "blockClass": "about__main"
+    }
+  }
+}

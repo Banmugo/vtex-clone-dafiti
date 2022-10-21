@@ -129,8 +129,8 @@
       "muted-5": "#f2f4f5"
     },
     "text": {
-      "action-primary": "#0F3E99",
-      "action-secondary": "#eef3f7",
+      "action-primary": "#444444",
+      "action-secondary": "#444444",
       "link": "#0F3E99",
       "emphasis": "#000",
       "disabled": "#979899",
@@ -224,7 +224,7 @@
       "base": "#3f3f40",
       "base--inverted": "#ffffff",
       "action-primary": "#ffffff",
-      "action-secondary": "#0F3E99",
+      "action-secondary": "#444444",
       "emphasis": "#ffffff",
       "disabled": "#979899",
       "success": "#ffffff",

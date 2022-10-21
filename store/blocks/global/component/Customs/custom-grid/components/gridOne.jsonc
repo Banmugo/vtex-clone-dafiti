@@ -12,9 +12,12 @@
       "product-summary-image#grid-slider",
       "product-summary-name",
       "product-summary-space",
-      "product-summary-price",
+      "product-summary-price",      
       "add-to-cart-button"
-    ]
+    ],
+    "props":{
+      "blockClass": "prduct__grid--one"
+    }
   },
   "product-summary-image#grid-slider":{
     "props": {
@@ -33,10 +36,10 @@
       },
       "infinite": true,
       "showPaginationDots": "never",
-      "autoplay": {
-        "timeout": 3000,
-        "stopOnHover": true
-    },
+    //   "autoplay": {
+    //     "timeout": 3000,
+    //     "stopOnHover": true
+    // },
       "blockClass": "slider__favorites"
     }
   } 
