@@ -14,7 +14,7 @@
     "children": [
       "logo#header",  
       "search-bar#header--tablet",       
-      "login",
+      "login#header__tablet",
       "link#favorite",
       "minicart.v2"      
     ],
@@ -28,7 +28,7 @@
       "placeholder": "Busca por producto, marca, categoría..."
     }
   },
-  "login":{
+  "login#header__tablet":{
     "props": {
       "showIconProfile":"true",
       "emailAndPasswordTitle": "LOG-IN",
@@ -36,29 +36,5 @@
       "emailPlaceholder": "e-mail",
       "passwordPlaceholder": "password"
     }
-  },
-  "logo#header": {
-    "props": {
-      "title": "Logo",     
-      "url": "assets/header/dafiti-logo.png",
-      "blockClass":"header__menu--logo", 
-      "href": "https://bayrondev--itgloberspartnercl.myvtex.com/"     
-    }
-  },
-  "link#favorite":{
-    "children":[
-      "icon#menu__one--heart"
-    ],
-     "props": {
-      "blockClass":"header__icon--heart",
-      "href": "https://bayrondev--itgloberspartnercl.myvtex.com/account/#/wishlist"
-    }
-  },
-  "icon#menu__one--heart": {
-    "props": {
-      "id": "mpa-heart",
-      "size": 18,
-      "activeClassName": "icon__heart"
-    }
-  } 
+  }
 }

@@ -1,0 +1,26 @@
+{
+  "search-result-layout.mobile#category": {
+    "children": [
+      "flex-layout.row#category__breadcrumb",
+      "flex-layout.row#category__results--mobile"
+    ],
+    "props": {
+      "blockClass": "department__search"
+    }
+  },
+  "flex-layout.row#category__results--mobile": {
+    "title": "category Results",
+    "children": [
+      "flex-layout.col#results__content--mobile"
+    ],
+    "props": {
+      "blockClass": "department__btn"
+    }
+  },
+  "flex-layout.col#results__content--mobile":{
+    "children":[
+      "flex-layout.row#searchinfo--mobile",
+      "search-content"
+    ]
+  }
+}
