@@ -1,0 +1,46 @@
+{
+  "list-context.product-list#grid-slider":{
+    "blocks": [
+      "product-summary.shelf#grid-slider"
+    ],
+    "children": [
+      "slider-layout#grid-slider"
+    ]
+  },
+  "product-summary.shelf#grid-slider": {
+    "children": [
+      "product-summary-image#grid-slider",
+      "product-summary-name",
+      "product-summary-space",
+      "product-summary-price",      
+      "add-to-cart-button"
+    ],
+    "props":{
+      "blockClass": "prduct__grid--one"
+    }
+  },
+  "product-summary-image#grid-slider":{
+    "props": {
+      "showBadge": true,
+      "height":200,
+      "width": 150
+    }
+  },
+  "slider-layout#grid-slider": {
+    "title": "Carrusel de Productos de la grilla",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 2,
+        "tablet": 1,
+        "mobile": 1
+      },
+      "infinite": true,
+      "showPaginationDots": "never",
+    //   "autoplay": {
+    //     "timeout": 3000,
+    //     "stopOnHover": true
+    // },
+      "blockClass": "slider__favorites"
+    }
+  } 
+}

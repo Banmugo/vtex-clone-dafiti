@@ -1,9 +1,0 @@
-{
-  "pdf-reader":{
-    "props":{
-      "pdfUrl": "assets/docs/guiadecambio.pdf",
-      "width": 500,
-      "height": 550
-    }
-  }
-}

@@ -16,9 +16,39 @@
     max-width: 960px;
     margin: auto;
 }
+:global(.vtex-slider__selector){
+    background-color: #d7d7d7;
+}
+:global(.vtex-slider__base-internal){
+    background-color: #d7d7d7;
+}
+:global(.vtex-checkbox__label){
+    color: #858585;
+}
+:global(.vtex-search-result-3-x-filtersWrapper){
+    border: 1px solid #858585;
+    padding: 10px;
+}
+:global(.vtex-search-result-3-x-gallery--grid-two-columns){
+    width: 100%;
+}
+:global(.vtex-search-result-3-x-gallery--grid-one-columns){
+    width: 100%;
+}
+.flexRowContent--orderByAndSwitcher{
+    align-items: center;
+    justify-content: center;
+}
+/* filter search */
+:global(.vtex-search-result-3-x-filterPopupTitle){
+    color: #04c8c9;
+}
+/* quick-view */
+:global(.vtex-modal-layout-0-x-paper--quick-view-modal){
+    padding: 7px;
+}
 
 /* paddin general */
 :global(.vtex-store-components-3-x-container){
     padding: 0;
 }
-

@@ -1,0 +1,13 @@
+{
+  "flex-layout.row#header__menu--two":{
+    "children":[
+      "search-bar#header--phone"
+    ]
+  },
+  "search-bar#header--phone":{
+    "props":{
+      "maxWidth": 300,
+      "placeholder": "Busca por producto, marca, categoría..."
+    }
+  }
+}
