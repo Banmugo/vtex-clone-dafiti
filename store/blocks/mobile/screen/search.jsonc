@@ -36,7 +36,11 @@
     "children": [
       "filter-navigator.v3",
       "flex-layout.col#productCount",
-      "flex-layout.row#orderByAndSwitcher"
-    ]
+      "flex-layout.col#orderByAndSwitcher"
+    ],
+    "props":{
+      "colSizing": "auto",
+      "horizontalAlign": "center"
+    }
   }  
 }

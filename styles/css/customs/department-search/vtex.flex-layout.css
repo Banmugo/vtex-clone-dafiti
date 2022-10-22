@@ -1,10 +1,9 @@
 :global(.vtex-rich-text-0-x-paragraph--text__quick--search){
-  font-size: 30px;
+  font-size: 23px;
   font-weight: bold;
 }
 
-.flexCol--home__quick--search{
-  /* border: 1px solid red;
-  height: 50px; */
+/* .flexCol--department__search 
+:global(.){
 
-}
+} */
