@@ -8,7 +8,15 @@
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "Cambiar a versión de escritorio"
+      "text": "Cambiar a versión de escritorio",
+      "blockClass": "icon--footer-phone"
     }
   }
+  // "icon#footer__phone--desktop": {
+  //   "props": {
+  //     "id": "custom-Desktop",
+  //     "size": 20,
+  //     "activeClassName": "icon__customDesktop"
+  //   }
+  // }
 }
