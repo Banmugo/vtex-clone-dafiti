@@ -3,14 +3,5 @@
     "children": [
       "flex-layout.row#change__guide--main--phone"
     ]
-  },
-  "flex-layout.row#change__guide--main--phone": {
-    "children": [
-      "flex-layout.col#change__guide--text"
-    ],
-    "props": {
-      "preserveLayoutOnMobile": true,
-      "blockClass": "about__main"
-    }
   }
 }

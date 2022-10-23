@@ -1,0 +1,13 @@
+.flexRow--header__menu--one-main{
+  align-items: center;
+}
+:global(.vtex-rich-text-0-x-paragraph--icon--footer-phone)::before{
+  content: "\e30b"; 
+  color: #404040;
+  font-family: 'Material Icons';
+  margin-right: 5px;
+  font-size: 17px;
+}
+.headerRowContainer--header__phone--responsive{
+  justify-content: center;
+}

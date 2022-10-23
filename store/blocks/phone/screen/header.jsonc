@@ -1,12 +1,17 @@
 {
   "responsive-layout.phone#header": {
     "children": [
-      "flex-layout.row#header__phone--image",
-      "flex-layout.row#header__phone"
+      "header-row#header__phone--image",
+      "header-row#header__phone"
     ]
   },
-  "flex-layout.row#header__phone--image": {
+  "header-row#header__phone--image": {
     "children": [
+      "flex-layout.row#header__phone--image"
+    ]
+  },
+  "flex-layout.row#header__phone--image":{
+    "children":[
       "image#header"
     ]
   },
@@ -15,16 +20,32 @@
       "src": "assets/header/header-phone.jpg"
     }
   },
-  "flex-layout.row#header__phone": {
+  "header-row#header__phone": {
     "children": [
+      "flex-layout.row#header__phone"
+    ],
+    "props":{
+      "sticky": true,
+      "inverted": true,
+      "blockClass":"header__phone--responsive"
+    }
+  },
+  "flex-layout.row#header__phone":{
+    "children":[
       "flex-layout.col#header__phone"
-    ]
+    ],
+    "props":{
+      "blockClass": "header__phone-row"
+    }
   },
   "flex-layout.col#header__phone":{
     "children":[
       "flex-layout.row#header__menu--one",
       "flex-layout.row#header__menu--two"
-    ]
+    ],
+    "props":{
+      "blockClass": "header__phone"
+    }
   }
 
 }

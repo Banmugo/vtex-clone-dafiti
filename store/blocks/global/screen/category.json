@@ -54,11 +54,6 @@
       "width": "20%",
       "blockClass": "filterCol"
     }
-  },
-  "search-result-layout.mobile#category": {
-    "children": [
-      "flex-layout.row#category__breadcrumb",
-      "flex-layout.row#category__results"
-    ]
   }
+  
 }

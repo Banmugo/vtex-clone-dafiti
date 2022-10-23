@@ -20,16 +20,5 @@
     "props":{
       "src":"assets/footer/mediosdepago.webp"
     }
-  },
-  "rich-text#item4__text":{
-    "props":{
-      "text":"Medios de pago"
-    }
-  },
-  "accepted-payment-methods": {
-    "props": {
-      "paymentMethods": ["mastercard", "visa", "diners club", "nequi", "daviplata"]
-    }
   }
-
 }

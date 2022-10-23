@@ -2,9 +2,9 @@
   "flex-layout.row#header__menu--one": {
     "children": [
       "flex-layout.col#menu",
-      "flex-layout.col#logo",
-      "flex-layout.col#fav",
-      "flex-layout.col#cart"
+      "flex-layout.col#logo--phone",
+      "flex-layout.col#fav--phone",
+      "flex-layout.col#cart--phone"
     ],
     "props":{
       "colSizing": "auto",
@@ -22,23 +22,46 @@
       "verticalAlign":"middle"
     }
   },
-  "flex-layout.col#logo": {
+  "flex-layout.col#logo--phone": {
     "children": [
-      "logo#header"      
+      "logo#header--phone"      
+    ],
+    "props":{
+      "verticalAlign":"middle"
+    }
+  }, "logo#header--phone": {
+    "props": {
+      "title": "Logo",     
+      "url": "assets/header/dafiti-logo-white.webp",
+      "blockClass":"header__menu--logo-phone", 
+      "href": "https://bayrondev--itgloberspartnercl.myvtex.com/"     
+    }
+  },
+  "flex-layout.col#fav--phone": {
+    "children": [
+      "link#favorite__phone"
     ],
     "props":{
       "verticalAlign":"middle"
     }
   },
-  "flex-layout.col#fav": {
-    "children": [
-      "link#favorite"
+  "link#favorite__phone":{ 
+    "children":[
+      "icon#menu__one--heart-white" 
     ],
-    "props":{
-      "verticalAlign":"middle"
+     "props": {
+      "blockClass":"header__icon--heart-white",
+      "href": "https://bayrondev--itgloberspartnercl.myvtex.com/account/#/wishlist"
     }
   },
-  "flex-layout.col#cart":{
+  "icon#menu__one--heart-white": {
+    "props": {
+      "id": "mpa-heart-white",
+      "size": 18,
+      "activeClassName": "icon__heart--white"
+    }
+  },
+  "flex-layout.col#cart--phone":{
     "children":[      
       "minicart.v2"
     ],

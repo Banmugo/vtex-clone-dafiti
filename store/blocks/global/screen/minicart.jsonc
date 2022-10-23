@@ -3,7 +3,8 @@
     "props": {
       "variation": "drawer",
       "itemCountMode": "total",
-      "quantityDisplay": "not-empty"
+      "quantityDisplay": "not-empty",
+      "backdropMode": "none"
     },
     "children": [
       "minicart-base-content"

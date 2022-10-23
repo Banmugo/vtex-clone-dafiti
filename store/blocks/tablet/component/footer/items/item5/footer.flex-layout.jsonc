@@ -6,7 +6,7 @@
   },
   "flex-layout.row#footer__item5--main--tablet": {
     "children": [
-      "rich-text#item4__text--one--tablet",      
+      "rich-text#item5__text--one--tablet",      
       "image#footer__item5--one--tablet",
       "image#footer__item5--two--tablet",
       "rich-text#item4__text--two--tablet",
@@ -18,7 +18,7 @@
      "colSizing": "auto"
     }
   },
-  "rich-text#item4__text--one--tablet":{
+  "rich-text#item5__text--one--tablet":{
     "props":{
       "text":"Compra Segura",
       "blockClass":"text__one--tablet"
