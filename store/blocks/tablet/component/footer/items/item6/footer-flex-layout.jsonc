@@ -15,40 +15,5 @@
     "props": {      
       "blockClass": "items6__main--tablet"
     }
-  },
-  "rich-text#item6__text--one": {
-    "props": {
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "text": "© Dafiti 2011 - 2022 . Todos los derechos reservados. - Conoce nuestra Política de privacidad. - Política de Datos."
-    }
-  },
-  "rich-text#item6__text--two": {
-    "props": {
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "text": "a Bigfoot Colombia SAS.- NIT: 900.469.230-6. Carrera 58 No. 128A-35, Bogotá, Colombia."
-    }
-  },
-  "rich-text#item6__text--three": {
-    "props": {
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "text": "Teléfono: 01 8000 942 434 o en Bogotá (601) 508 2244"
-    }
-  },
-  "rich-text#item6__text--four": {
-    "props": {
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "text": "E-mail: info@dafiti.com.co"
-    }
-  },
-  "rich-text#item6__text--five": {
-    "props": {
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "text": "Horarios de atención: Lunes a sábado de 8:00 a.m. a 5:00 p.m. - Domingos y festivos estaremos recargando baterías"
-    }
   }
 }

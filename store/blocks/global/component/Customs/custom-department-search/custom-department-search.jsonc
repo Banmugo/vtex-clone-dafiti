@@ -4,7 +4,7 @@
       "flex-layout.col#quick--search"
     ]
   },
-  "flex-layout.col#quick--search":{
+  "flex-layout.col#quick--search": {
     "children": [
       "flex-layout.row#quick--search"
     ],
@@ -12,31 +12,56 @@
       "blockClass": "home__quick--search"
     }
   },
-  "flex-layout.row#quick--search":{
-    "children":[
-      "rich-text#quick__search",
-      "image#quick--search",
-      "department-search"
+  "flex-layout.row#quick--search": {
+    "children": [
+      "flex-layout.col#rich__text-quick-searh",
+      "flex-layout.col#image__quick--search",
+      "flex-layout.col#department-search"
     ],
     "props": {
       "colSizing": "auto",
       "horizontalAlign": "center"
     }
   },
-  "image#quick--search":{
+  "flex-layout.col#rich__text-quick-searh": {
+    "children": [
+      "rich-text#quick__search"
+    ],
     "props": {
-      "width": 100,
-      "height": 80,
-      "src": "assets/customs/lupa.gif"
+      "verticalAlign": "middle"
     }
   },
   "rich-text#quick__search": {
     "title": "Búsqueda rápida",
     "props": {
       "text": "Búsqueda rápida",
-      // "textPosition": "CENTER",
+      "textPosition": "CENTER",
       "width": "30%",
       "blockClass": "text__quick--search"
+    }
+  },
+  "flex-layout.col#image__quick--search": {
+    "children": [
+      "image#quick--search"
+    ],
+    "props": {
+      "verticalAlign": "middle"
+    }
+  },
+  "image#quick--search": {
+    "props": {
+      "width": 100,
+      "height": 70,
+      "src": "assets/customs/lupa.gif"
+    }
+  },
+  "flex-layout.col#department-search": {
+    "children": [
+      "department-search"
+    ],
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass": "department__search"
     }
   }
 }

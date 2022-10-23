@@ -1,0 +1,20 @@
+{  
+  "search-result-layout.mobile#department": {
+    "children": [
+      "flex-layout.row#department__breadcrumb",
+      "flex-layout.row#department__results--mobile"
+    ],
+    "props": {
+      "blockClass": "department__search"
+    }
+  },
+  "flex-layout.row#department__results--mobile": {
+    "title": "Department Results",
+    "children": [      
+      "flex-layout.col#results__content--mobile"
+    ],
+    "props": {
+      "blockClass": "department__btn"
+    }
+  }
+}

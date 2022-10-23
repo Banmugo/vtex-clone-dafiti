@@ -32,28 +32,6 @@
       "blockClass":"brand2--tablet"
     }
   },
-  "social-networks": {
-    "props": {
-      "socialNetworks": [
-        {
-          "url": "#",
-          "name": "Instagram"
-        },
-        {
-          "url": "#",
-          "name": "Twitter"
-        },
-        {
-          "url": "#",
-          "name": "Facebook"
-        },
-        {
-          "url": "#",
-          "name": "YouTube"
-        }
-      ]
-    }
-  },
   ///// Col 2
   "flex-layout.col#footer__item3--two--tablet": {
     "children": [
@@ -72,7 +50,7 @@
   },
   "flex-layout.col#footer__item3--col2--tablet": {
     "children": [
-      "rich-text#item3__two--nosotros",
+      "rich-text#item3__two--nosotros--tablet",
       "rich-text#item3__two--términos",
       "rich-text#item3__two--aviso",
       "rich-text#item3__two--politicaone",
@@ -85,45 +63,10 @@
       "blockClass":"rich__list--tablet"
     }
   },
-  "rich-text#item3__two--nosotros": {
+  "rich-text#item3__two--nosotros--tablet": {
     "props": {
       "text": "[Nosotros](/sobre-nosotros)",
       "blockClass": "rich-text__nosotros--tablet"
-    }
-  },
-  "rich-text#item3__two--términos": {
-    "props": {
-      "text": "Términos y Condicioes"
-    }
-  },
-  "rich-text#item3__two--aviso": {
-    "props": {
-      "text": "Aviso de cumplimiento"
-    }
-  },
-  "rich-text#item3__two--politicaone": {
-    "props": {
-      "text": "Política de Privacidad"
-    }
-  },
-  "rich-text#item3__two--politicatwo": {
-    "props": {
-      "text": "Políca de Datos"
-    }
-  },
-  "rich-text#item3__two--trabaja": {
-    "props": {
-      "text": "Trabaha con Nosotros"
-    }
-  },
-  "rich-text#item3__two--registro": {
-    "props": {
-      "text": "Registro"
-    }
-  },
-  "rich-text#item3__two--app": {
-    "props": {
-      "text": "App Dafiti"
     }
   },
   ///// Col 3
@@ -147,7 +90,7 @@
       "rich-text#item3__three--nuevos",
       "rich-text#item3__three--membresia",
       "rich-text#item3__three--plazos",
-      "rich-text#item3__three--cambios",
+      "rich-text#item3__three--cambios--tablet",
       "rich-text#item3__three--uso",
       "rich-text#item3__three--medios",
       "rich-text#item3__three--garantias",
@@ -161,65 +104,10 @@
       "blockClass":"rich__list--tablet"
     }
   },
-  "rich-text#item3__three--nuevos": {
-    "props": {
-      "text": "NUEVOS Centros de Experiencia"
-    }
-  },
-  "rich-text#item3__three--membresia": {
-    "props": {
-      "text": "Membresia Dafiti PRIME"
-    }
-  },
-  "rich-text#item3__three--plazos": {
-    "props": {
-      "text": "Plazos y Costos de Envío"
-    }
-  },
-  "rich-text#item3__three--cambios": {
+  "rich-text#item3__three--cambios--tablet": {
     "props": {
       "text": "[Cambios o Devoluciones](/guia-de-cambio)",
       "blockClass": "rich-text__nosotros--tablet"
-    }
-  },
-  "rich-text#item3__three--uso": {
-    "props": {
-      "text": "Uso de Cupones"
-    }
-  },
-  "rich-text#item3__three--medios": {
-    "props": {
-      "text": "Medios de Pago"
-    }
-  },
-  "rich-text#item3__three--garantias": {
-    "props": {
-      "text": "Garantías"
-    }
-  },
-  "rich-text#item3__three--seguimiento": {
-    "props": {
-      "text": "Seguimiento de tu Pedido"
-    }
-  },
-  "rich-text#item3__three--crédito": {
-    "props": {
-      "text": "Crédito ADDI"
-    }
-  },
-  "rich-text#item3__three--contacto": {
-    "props": {
-      "text": "Contacto"
-    }
-  },
-  "rich-text#item3__three--radicar": {
-    "props": {
-      "text": "Radicar PQRS"
-    }
-  },
-  "rich-text#item3__three--tyc": {
-    "props": {
-      "text": "T&C Eventos"
     }
   },
   ///// Col 4
@@ -252,41 +140,6 @@
       "blockClass":"rich__list--tablet"
     }
   },
-  "rich-text#item3__four--black": {
-    "props": {
-      "text": "Black Friday"
-    }
-  },
-  "rich-text#item3__four--cyberlunes": {
-    "props": {
-      "text": "Cyberlunes"
-    }
-  },
-  "rich-text#item3__four--hot": {
-    "props": {
-      "text": "Hot Sale"
-    }
-  },
-  "rich-text#item3__four--diasiniva": {
-    "props": {
-      "text": "Día Sin IVA"
-    }
-  },
-  "rich-text#item3__four--dafiti": {
-    "props": {
-      "text": "Dafiti Sports"
-    }
-  },
-  "rich-text#item3__four--sneakers": {
-    "props": {
-      "text": "Sneakers"
-    }
-  },
-  "rich-text#item3__four--alianza": {
-    "props": {
-      "text": "Alianza Banco de Bogotá"
-    }
-  },
   ///////// Col 5
   "flex-layout.col#footer__item3--five--tablet": {
     "children": [
@@ -303,21 +156,6 @@
     "props": {
       "text": "ALIADOS",
       "blockClass":"brand2--tablet"
-    }
-  },
-  "image#footer__item3--one": {
-    "props": {
-      "src": "assets/footer/footer1.webp"
-    }
-  },
-  "image#footer__item3--two": {
-    "props": {
-      "src": "assets/footer/footer2.webp"
-    }
-  },
-  "image#footer__item3--three": {
-    "props": {
-      "src": "assets/footer/footer3.webp"
     }
   }
 }

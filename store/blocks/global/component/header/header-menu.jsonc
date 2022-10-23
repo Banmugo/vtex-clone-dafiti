@@ -43,9 +43,9 @@
       "href": "https://bayrondev--itgloberspartnercl.myvtex.com/"     
     }
   },
-  "link#favorite":{
+  "link#favorite":{ 
     "children":[
-      "icon#menu__one--heart"
+      "icon#menu__one--heart" 
     ],
      "props": {
       "blockClass":"header__icon--heart",

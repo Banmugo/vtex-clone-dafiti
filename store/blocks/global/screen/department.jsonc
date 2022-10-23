@@ -46,31 +46,10 @@
       "blockClass": "department__btn"
     }
   },
-  "flex-layout.col#filter": {
-    "children": [
-      "filter-navigator.v3"
-    ],
-    "props": {
-      "width": "20%",
-      "blockClass": "filterCol"
-    }
-  },
   "flex-layout.col#results__content":{
     "children":[
       "flex-layout.row#searchinfo",
       "search-content"
     ]
-  },
-
-  "search-result-layout.mobile#department": {
-    "children": [
-      "flex-layout.row#department__breadcrumb",
-      "flex-layout.row#department__results"
-    ]
-  },
-  "rich-text#mobile-responsivedepartment": {
-    "props": {
-      "text": "## Mobiledepartment"
-    }
   }
 }

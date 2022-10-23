@@ -6,7 +6,7 @@
   },
   "flex-layout.row#footer__item5--main": {
     "children": [
-      "rich-text#item4__text--one",      
+      "rich-text#item5__text--one",      
       "image#footer__item5--one",
       "image#footer__item5--two",
       "rich-text#item4__text--two",
@@ -18,7 +18,7 @@
      "colSizing": "auto"
     }
   },
-  "rich-text#item4__text--one":{
+  "rich-text#item5__text--one":{
     "props":{
       "text":"Compra Segura",
       "blockClass":"text__one"
