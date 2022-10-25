@@ -1,0 +1,54 @@
+{
+  "vtex.menu@2.x:menu#belleza": {
+    "children": [
+      "menu-item#belleza"
+    ]
+  },
+  "menu-item#belleza": {
+    "props": {
+      "id": "menu-item-belleza",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "BELLEZA",
+        "text": "BELLEZA"
+      },
+      "blockClass": "menu-title"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#department__desktop--belleza"
+    ]
+  },
+  "vtex.menu@2.x:submenu#department__desktop--belleza": {
+    "title": "Submenu Belleza",
+    "children": [
+      "vtex.menu@2.x:menu#category__desktop--belleza"
+    ],
+    "props": {
+      "blockClass": "submenudepartment__desktop--belleza"
+    }
+  },
+  "vtex.menu@2.x:menu#category__desktop--belleza": {
+    "title": "Categorias de Belleza",
+    "children": [
+      "flex-layout.row#category__desktop--belleza"
+    ],
+    "props": {
+      "blockClass": "category__desktop--belleza",
+      "orientation": "vertical"
+    }
+  },
+  "flex-layout.row#category__desktop--belleza": {
+    "title": "Menu Belleza",
+    "children": [
+      // "flex-layout.col#category__desktop--zapatos",
+      // "flex-layout.col#category__desktop--ropa",
+      "flex-layout.col#category__desktop--accesorios",
+      "flex-layout.col#category__desktop--deportes",
+      "flex-layout.col#category__desktop--marcas"
+    ]
+  }
+}

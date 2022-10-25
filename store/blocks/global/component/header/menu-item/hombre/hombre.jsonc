@@ -1,0 +1,54 @@
+{
+  "vtex.menu@2.x:menu#hombre": {
+    "children": [
+      "menu-item#hombre"
+    ]
+  },
+  "menu-item#hombre": {
+    "props": {
+      "id": "menu-item-hombre",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "HOMBRE",
+        "text": "HOMBRE"
+      },
+      "blockClass": "menu-title"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#department__desktop--hombre"
+    ]
+  },
+  "vtex.menu@2.x:submenu#department__desktop--hombre": {
+    "title": "Submenu Hombre",
+    "children": [
+      "vtex.menu@2.x:menu#category__desktop--hombre"
+    ],
+    "props": {
+      "blockClass": "submenudepartment__desktop--hombre"
+    }
+  },
+  "vtex.menu@2.x:menu#category__desktop--hombre": {
+    "title": "Categorias de Hombre",
+    "children": [
+      "flex-layout.row#category__desktop--hombre"
+    ],
+    "props": {
+      "blockClass": "category__desktop--hombre",
+      "orientation": "vertical"
+    }
+  },
+  "flex-layout.row#category__desktop--hombre": {
+    "title": "Menu Hombre",
+    "children": [
+      "flex-layout.col#category__desktop--zapatos",
+      "flex-layout.col#category__desktop--ropa",
+      "flex-layout.col#category__desktop--accesorios",
+      "flex-layout.col#category__desktop--deportes",
+      "flex-layout.col#category__desktop--marcas"
+    ]
+  }
+}

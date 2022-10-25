@@ -1,0 +1,154 @@
+{
+  "flex-layout.col#category__desktop--accesorios": {
+    "title": "Columna de Accesorios",
+    "children": [
+      "menu-item#title--accesorios",
+      "menu-item#bolsos-carteras",
+      "menu-item#relojes",
+      "menu-item#maletas-morrales",
+      "menu-item#joyeria-bisuteria",
+      "menu-item#billeteras",
+      "menu-item#gafas",
+      "menu-item#cinturones",
+      "menu-item#cosmetiqueras-estuches",
+      "menu-item#vertodos",
+      "menu-item#novedades",
+      "menu-item#ofertas"
+    ]
+  },
+  "menu-item#title--accesorios": {
+    "props": {
+      "id": "menu-item-title-accesorios",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "ACCESORIOS",
+        "text": "ACCESORIOS"
+      },
+      "blockClass": "submenu-title"
+    }
+  },
+  "menu-item#bolsos-carteras": {
+    "props": {
+      "id": "menu-item-bolsos-carteras",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Bolsos y carteras",
+        "text": "Bolsos y carteras"
+      },
+      "blockClass":"submenu-item"
+    }
+  },
+  "menu-item#relojes": {
+    "props": {
+      "id": "menu-item-relojes",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Relojes",
+        "text": "Relojes"
+      },
+      "blockClass":"submenu-item"
+    }
+  },
+  "menu-item#maletas-morrales": {
+    "props": {
+      "id": "menu-item-maletas-morrales",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Maletas y morrales",
+        "text": "Maletas y morrales"
+      },
+      "blockClass":"submenu-item"
+    }
+  },
+  "menu-item#joyeria-bisuteria": {
+    "props": {
+      "id": "menu-item-joyeria-bisuteria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Joyeria y Bisuteria",
+        "text": "Joyeria y Bisuteria"
+      },
+      "blockClass":"submenu-item"
+    }
+  },
+  "menu-item#billeteras": {
+    "props": {
+      "id": "menu-item-billeteras",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Billeteras",
+        "text": "Billeteras"
+      },
+      "blockClass":"submenu-item"
+    }
+  },
+  "menu-item#gafas": {
+    "props": {
+      "id": "menu-item-gafas",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Gafas",
+        "text": "Gafas"
+      },
+      "blockClass":"submenu-item"
+    }
+  },
+  "menu-item#cinturones": {
+    "props": {
+      "id": "menu-item-cinturones",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Cinturones",
+        "text": "Cinturones"
+      },
+      "blockClass":"submenu-item"
+    }
+  },
+  "menu-item#cosmetiqueras-estuches": {
+    "props": {
+      "id": "menu-item-cosmetiqueras-estuches",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Cosmetiqueras y Estuches",
+        "text": "Cosmetiqueras y Estuches"
+      },
+      "blockClass":"submenu-item"
+    }
+  }
+}
