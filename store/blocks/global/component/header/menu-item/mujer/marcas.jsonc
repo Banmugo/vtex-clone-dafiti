@@ -1,0 +1,199 @@
+{
+  "flex-layout.col#category__desktop--marcas": {
+    "title": "Columna de Marcas",
+    "children": [
+      "menu-item#title--marcas",
+      "menu-item#royalCounty",
+      "menu-item#desigual",
+      "menu-item#tommyHilfiger",
+      "menu-item#mp",
+      "menu-item#levi's",
+      "menu-item#gap",
+      "menu-item#tellenzi",
+      "menu-item#gef",
+      "menu-item#calvinKlein",
+      "menu-item#usPoloAssn",
+      "menu-item#mattelsa"
+    ]
+  },
+  "menu-item#title--marcas": {
+    "props": {
+      "id": "menu-item-title-marcas",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "MARCAS",
+        "text": "MARCAS"
+      },
+      "blockClass": "submenu-title"
+    }
+  },
+  "menu-item#royalCounty": {
+    "props": {
+      "id": "menu-item-royalCounty",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Royal County",
+        "text": "Royal County"
+      },
+      "blockClass":"submenu-item"
+    }
+  },
+  "menu-item#desigual": {
+    "props": {
+      "id": "menu-item-desigual",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Desigual",
+        "text": "Desigual"
+      },
+      "blockClass":"submenu-item"
+    }
+  },
+  "menu-item#tommyHilfiger": {
+    "props": {
+      "id": "menu-item-tommyHilfiger",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "tommy Hilfiger",
+        "text": "tommy Hilfiger"
+      },
+      "blockClass":"submenu-item"
+    }
+  },
+  "menu-item#mp": {
+    "props": {
+      "id": "menu-item-mp",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "MP",
+        "text": "MP"
+      },
+      "blockClass":"submenu-item"
+    }
+  },
+  "menu-item#levi's": {
+    "props": {
+      "id": "menu-item-levi's",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Levi'S",
+        "text": "Levi'S"
+      },
+      "blockClass":"submenu-item"
+    }
+  },
+  "menu-item#gap": {
+    "props": {
+      "id": "menu-item-gap",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "GAP",
+        "text": "GAP"
+      },
+      "blockClass":"submenu-item"
+    }
+  },
+  "menu-item#tellenzi": {
+    "props": {
+      "id": "menu-item-tellenzi",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Tellenzi",
+        "text": "Tellenzi"
+      },
+      "blockClass":"submenu-item"
+    }
+  },
+  "menu-item#gef": {
+    "props": {
+      "id": "menu-item-gef",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "GEF",
+        "text": "GEF"
+      },
+      "blockClass":"submenu-item"
+    }
+  },
+  "menu-item#calvinKlein": {
+    "props": {
+      "id": "menu-item-calvinKlein",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "calvin Klein",
+        "text": "calvin Klein"
+      },
+      "blockClass":"submenu-item"
+    }
+  },
+  "menu-item#usPoloAssn": {
+    "props": {
+      "id": "menu-item-usPoloAssn",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "US Polo Assn",
+        "text": "US Polo Assn"
+      },
+      "blockClass":"submenu-item"
+    }
+  },
+  "menu-item#mattelsa": {
+    "props": {
+      "id": "menu-item-mattelsa",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Mattelsa",
+        "text": "Mattelsa"
+      },
+      "blockClass":"submenu-item"
+    }
+  }
+}

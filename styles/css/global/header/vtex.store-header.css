@@ -174,3 +174,33 @@
 :global(.vtex-rich-text-0-x-link--button__construction):hover{
     color: white;
 }
+
+/* .headerRow--menu--nav{
+    padding: 0px 8px;
+}
+
+.headerRowContentContainer--menu--nav{
+    justify-content: center;
+} */
+
+:global(.vtex-menu-2-x-menuItem--menu-title):hover{
+    font-size: 14px;
+    background-color: #858585 !important;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--submenu-title){
+    font-weight: bold;
+    color: #000;
+    border-bottom: 1px solid #858585;
+    padding-bottom: 6px;
+}
+:global(.vtex-menu-2-x-styledLinkContent--submenu-title):hover{
+    text-decoration: underline;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--submenu-item){
+    color:#858585
+}
+:global(.vtex-menu-2-x-styledLinkContent--submenu-item):hover{
+    text-decoration: underline;
+}

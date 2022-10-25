@@ -1,0 +1,54 @@
+{
+  "vtex.menu@2.x:menu#niños": {
+    "children": [
+      "menu-item#niños"
+    ]
+  },
+  "menu-item#niños": {
+    "props": {
+      "id": "menu-item-niños",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "NIÑOS",
+        "text": "NIÑOS"
+      },
+      "blockClass": "menu-title"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#department__desktop--niños"
+    ]
+  },
+  "vtex.menu@2.x:submenu#department__desktop--niños": {
+    "title": "Submenu Niños",
+    "children": [
+      "vtex.menu@2.x:menu#category__desktop--niños"
+    ],
+    "props": {
+      "blockClass": "submenudepartment__desktop--niños"
+    }
+  },
+  "vtex.menu@2.x:menu#category__desktop--niños": {
+    "title": "Categorias de Niños",
+    "children": [
+      "flex-layout.row#category__desktop--niños"
+    ],
+    "props": {
+      "blockClass": "category__desktop--niños",
+      "orientation": "vertical"
+    }
+  },
+  "flex-layout.row#category__desktop--niños": {
+    "title": "Menu Niños",
+    "children": [
+      "flex-layout.col#category__desktop--zapatos",
+      "flex-layout.col#category__desktop--ropa",
+      "flex-layout.col#category__desktop--accesorios",
+      "flex-layout.col#category__desktop--deportes"
+      // "flex-layout.col#category__desktop--marcas"
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "vtex.menu@2.x:menu#deportes": {
+    "children": [
+      "menu-item#deportes"
+    ]
+  },
+  "menu-item#deportes": {
+    "props": {
+      "id": "menu-item-deportes",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "DEPORTES",
+        "text": "DEPORTES"
+      },
+      "blockClass": "menu-title"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#department__desktop--deportes"
+    ]
+  },
+  "vtex.menu@2.x:submenu#department__desktop--deportes": {
+    "title": "Submenu Deportes",
+    "children": [
+      "vtex.menu@2.x:menu#category__desktop--deportes"
+    ],
+    "props": {
+      "blockClass": "submenudepartment__desktop--deportes"
+    }
+  },
+  "vtex.menu@2.x:menu#category__desktop--deportes": {
+    "title": "Categorias de Deportes",
+    "children": [
+      "flex-layout.row#category__desktop--deportes"
+    ],
+    "props": {
+      "blockClass": "category__desktop--deportes",
+      "orientation": "vertical"
+    }
+  },
+  "flex-layout.row#category__desktop--deportes": {
+    "title": "Menu Deportes",
+    "children": [
+      "flex-layout.col#category__desktop--zapatos",
+      "flex-layout.col#category__desktop--ropa",
+      "flex-layout.col#category__desktop--accesorios",
+      "flex-layout.col#category__desktop--deportes",
+      "flex-layout.col#category__desktop--marcas"
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "header-layout.desktop": {
+    "children": [
+      "header-row#header__links",
+      "header-row#header__menu--logo",
+      "header-row#header__menu--nav"
+    ]
+  }
+}
