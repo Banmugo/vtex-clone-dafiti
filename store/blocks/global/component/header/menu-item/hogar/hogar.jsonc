@@ -1,0 +1,54 @@
+{
+  "vtex.menu@2.x:menu#hogar": {
+    "children": [
+      "menu-item#hogar"
+    ]
+  },
+  "menu-item#hogar": {
+    "props": {
+      "id": "menu-item-hogar",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "HOGAR",
+        "text": "HOGAR"
+      },
+      "blockClass": "menu-title"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#department__desktop--hogar"
+    ]
+  },
+  "vtex.menu@2.x:submenu#department__desktop--hogar": {
+    "title": "Submenu Hogar",
+    "children": [
+      "vtex.menu@2.x:menu#category__desktop--hogar"
+    ],
+    "props": {
+      "blockClass": "submenudepartment__desktop--hogar"
+    }
+  },
+  "vtex.menu@2.x:menu#category__desktop--hogar": {
+    "title": "Categorias de Hogar",
+    "children": [
+      "flex-layout.row#category__desktop--hogar"
+    ],
+    "props": {
+      "blockClass": "category__desktop--hogar",
+      "orientation": "vertical"
+    }
+  },
+  "flex-layout.row#category__desktop--hogar": {
+    "title": "Menu Hogar",
+    "children": [
+      "flex-layout.col#category__desktop--zapatos"
+      // "flex-layout.col#category__desktop--ropa",
+      // "flex-layout.col#category__desktop--accesorios",
+      // "flex-layout.col#category__desktop--deportes",
+      // "flex-layout.col#category__desktop--marcas"
+    ]
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "flex-layout.col#category__desktop--zapatos": {
+    "title": "Columna de Zapatos",
+    "children": [
+      "menu-item#title--zapatos",
+      "menu-item#tenis",
+      "menu-item#botas",
+      "menu-item#tacones",
+      "menu-item#zapatos-casuales",
+      "menu-item#baletas",
+      "menu-item#mocasines",
+      "menu-item#vertodos",
+      "menu-item#novedades",
+      "menu-item#ofertas"
+    ]
+  },
+  "menu-item#title--zapatos": {
+    "props": {
+      "id": "menu-item-title-zapatos",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "ZAPATOS",
+        "text": "ZAPATOS"
+      },
+      "blockClass": "submenu-title"
+    }
+  },
+  "menu-item#tenis": {
+    "props": {
+      "id": "menu-item-tenis",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Tenis",
+        "text": "Tenis"
+      },
+      "blockClass":"submenu-item"
+    }
+  },
+  "menu-item#botas": {
+    "props": {
+      "id": "menu-item-botas",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Botas",
+        "text": "Botas"
+      },
+      "blockClass":"submenu-item"
+    }
+  },
+  "menu-item#tacones": {
+    "props": {
+      "id": "menu-item-tacones",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Tacones",
+        "text": "Tacones"
+      },
+      "blockClass":"submenu-item"
+    }
+  },
+  "menu-item#zapatos-casuales": {
+    "props": {
+      "id": "menu-item-casuales",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Casuales",
+        "text": "Casuales"
+      },
+      "blockClass":"submenu-item"
+    }
+  },
+  "menu-item#baletas": {
+    "props": {
+      "id": "menu-item-baletas",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Baletas",
+        "text": "Baletas"
+      },
+      "blockClass":"submenu-item"
+    }
+  },
+  "menu-item#mocasines": {
+    "props": {
+      "id": "menu-item-mocasines",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Mocasines",
+        "text": "Mocasines"
+      },
+      "blockClass":"submenu-item"
+    }
+  },
+  "menu-item#vertodos": {
+    "props": {
+      "id": "menu-item-vertodos",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Ver todos",
+        "text": "Ver todos"
+      },
+      "blockClass":"submenu-item"
+    }
+  },
+  "menu-item#novedades": {
+    "props": {
+      "id": "menu-item-novedades",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Novedades",
+        "text": "Novedades"
+      },
+      "blockClass":"submenu-item"
+    }
+  },
+  "menu-item#ofertas": {
+    "props": {
+      "id": "menu-item-ofertas",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Ofertas",
+        "text": "Ofertas"
+      },
+      "blockClass":"submenu-item"
+    }
+  }
+}

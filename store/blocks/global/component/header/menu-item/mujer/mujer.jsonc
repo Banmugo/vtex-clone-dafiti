@@ -1,0 +1,54 @@
+{
+  "vtex.menu@2.x:menu#mujer": {
+    "children": [
+      "menu-item#mujer"
+    ]
+  },
+  "menu-item#mujer": {
+    "props": {
+      "id": "menu-item-mujer",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "MUJER",
+        "text": "MUJER"
+      },
+      "blockClass": "menu-title"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#department__desktop--mujer"
+    ]
+  },
+  "vtex.menu@2.x:submenu#department__desktop--mujer": {
+    "title": "Submenu Mujer",
+    "children": [
+      "vtex.menu@2.x:menu#category__desktop--mujer"
+    ],
+    "props": {
+      "blockClass": "submenudepartment__desktop--mujer"
+    }
+  },
+  "vtex.menu@2.x:menu#category__desktop--mujer": {
+    "title": "Categorias de Mujer",
+    "children": [
+      "flex-layout.row#category__desktop--mujer"
+    ],
+    "props": {
+      "blockClass": "category__desktop--mujer",
+      "orientation": "vertical"
+    }
+  },
+  "flex-layout.row#category__desktop--mujer": {
+    "title": "Menu Mujer",
+    "children": [
+      "flex-layout.col#category__desktop--zapatos",
+      "flex-layout.col#category__desktop--ropa",
+      "flex-layout.col#category__desktop--accesorios",
+      "flex-layout.col#category__desktop--deportes",
+      "flex-layout.col#category__desktop--marcas"
+    ]
+  }
+}

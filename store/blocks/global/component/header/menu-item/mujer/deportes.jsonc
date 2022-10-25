@@ -1,0 +1,90 @@
+{
+  "flex-layout.col#category__desktop--deportes": {
+    "title": "Columna de Deportes",
+    "children": [
+      "menu-item#title--deportes",
+      "menu-item#tenis-zapatos",
+      "menu-item#vestuario-depo",
+      "menu-item#accesorios-depo",
+      "menu-item#equipamiento",
+      "menu-item#vertodos",
+      "menu-item#novedades",
+      "menu-item#ofertas"
+    ]
+  },
+  "menu-item#title--deportes": {
+    "props": {
+      "id": "menu-item-title-deportes",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "DEPORTES",
+        "text": "DEPORTES"
+      },
+      "blockClass": "submenu-title"
+    }
+  },
+  "menu-item#tenis-zapatos": {
+    "props": {
+      "id": "menu-item-tenis-zapatos",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Tenis y zapatos",
+        "text": "Tenis y zapatos"
+      },
+      "blockClass":"submenu-item"
+    }
+  },
+  "menu-item#vestuario-depo": {
+    "props": {
+      "id": "menu-item-vestuario-depo",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Vestuario",
+        "text": "Vestuario"
+      },
+      "blockClass":"submenu-item"
+    }
+  },
+  "menu-item#accesorios-depo": {
+    "props": {
+      "id": "menu-item-accesorios-depo",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Accesorios",
+        "text": "Accesorios"
+      },
+      "blockClass":"submenu-item"
+    }
+  },
+  "menu-item#equipamiento": {
+    "props": {
+      "id": "menu-item-equipamiento",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Equipamiento",
+        "text": "Equipamiento"
+      },
+      "blockClass":"submenu-item"
+    }
+  } 
+}

@@ -1,0 +1,186 @@
+{
+  "flex-layout.col#category__desktop--ropa": {
+    "title": "Columna de Ropa",
+    "children": [
+      "menu-item#title--ropa",
+      "menu-item#blusasYCamisas",
+      "menu-item#sacos",
+      "menu-item#camisetas",
+      "menu-item#chaquetas",
+      "menu-item#vestidos",
+      "menu-item#jeans",
+      "menu-item#ropa-interior",
+      "menu-item#pantalones",
+      "menu-item#ropa-dormir",
+      "menu-item#pack-conjuntos",
+      "menu-item#vertodos",
+      "menu-item#novedades",
+      "menu-item#ofertas"
+    ]
+  },
+  "menu-item#title--ropa": {
+    "props": {
+      "id": "menu-item-title-ropa",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "ROPA",
+        "text": "ROPA"
+      },
+      "blockClass": "submenu-title"
+    }
+  },
+  "menu-item#blusasYCamisas": {
+    "props": {
+      "id": "menu-item-blusasYCamisas",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Blusas y Camisas",
+        "text": "Blusas y Camisas"
+      },
+      "blockClass":"submenu-item"
+    }
+  },
+  "menu-item#sacos": {
+    "props": {
+      "id": "menu-item-sacos",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Sacos",
+        "text": "Sacos"
+      },
+      "blockClass":"submenu-item"
+    }
+  },
+  "menu-item#camisetas": {
+    "props": {
+      "id": "menu-item-camisetas",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Camisetas",
+        "text": "Camisetas"
+      },
+      "blockClass":"submenu-item"
+    }
+  },
+  "menu-item#chaquetas": {
+    "props": {
+      "id": "menu-item-chaquetas",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Chaquetas",
+        "text": "Chaquetas"
+      },
+      "blockClass":"submenu-item"
+    }
+  },
+  "menu-item#vestidos": {
+    "props": {
+      "id": "menu-item-vestidos",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Vestidos",
+        "text": "Vestidos"
+      },
+      "blockClass":"submenu-item"
+    }
+  },
+  "menu-item#jeans": {
+    "props": {
+      "id": "menu-item-jeans",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Jeans",
+        "text": "Jeans"
+      },
+      "blockClass":"submenu-item"
+    }
+  },
+  "menu-item#ropa-interior": {
+    "props": {
+      "id": "menu-item-ropa-interior",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Ropa interior",
+        "text": "Ropa interior"
+      },
+      "blockClass":"submenu-item"
+    }
+  },
+  "menu-item#pantalones": {
+    "props": {
+      "id": "menu-item-pantalones",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Pantalones",
+        "text": "Pantalones"
+      },
+      "blockClass":"submenu-item"
+    }
+  },
+  "menu-item#ropa-dormir": {
+    "props": {
+      "id": "menu-item-ropa-dormir",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Ropa de Dormir",
+        "text": "Ropa de Dormir"
+      },
+      "blockClass":"submenu-item"
+    }
+  },
+  "menu-item#pack-conjuntos": {
+    "props": {
+      "id": "menu-item-pack-conjuntos",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Packs y conjuntos",
+        "text": "Packs y conjuntos"
+      },
+      "blockClass":"submenu-item"
+    }
+  }
+}

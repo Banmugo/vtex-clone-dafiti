@@ -1,0 +1,54 @@
+{
+  "vtex.menu@2.x:menu#ofertas": {
+    "children": [
+      "menu-item#ofertas-main"
+    ]
+  },
+  "menu-item#ofertas-main": {
+    "props": {
+      "id": "menu-item-ofertas",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "OFERTAS",
+        "text": "OFERTAS"
+      },
+      "blockClass": "menu-title"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#department__desktop--ofertas"
+    ]
+  },
+  "vtex.menu@2.x:submenu#department__desktop--ofertas": {
+    "title": "Submenu Ofertas",
+    "children": [
+      "vtex.menu@2.x:menu#category__desktop--ofertas"
+    ],
+    "props": {
+      "blockClass": "submenudepartment__desktop--ofertas"
+    }
+  },
+  "vtex.menu@2.x:menu#category__desktop--ofertas": {
+    "title": "Categorias de Ofertas",
+    "children": [
+      "flex-layout.row#category__desktop--ofertas"
+    ],
+    "props": {
+      "blockClass": "category__desktop--ofertas",
+      "orientation": "vertical"
+    }
+  },
+  "flex-layout.row#category__desktop--ofertas": {
+    "title": "Menu Ofertas",
+    "children": [
+      // "flex-layout.col#category__desktop--zapatos",
+      // "flex-layout.col#category__desktop--ropa",
+      "flex-layout.col#category__desktop--accesorios",
+      // "flex-layout.col#category__desktop--deportes",
+      "flex-layout.col#category__desktop--marcas"
+    ]
+  }
+}
