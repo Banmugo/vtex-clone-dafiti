@@ -1,0 +1,41 @@
+{
+  "search-result-layout.desktop#department": {
+    "title": "search department desktop",
+    "children": [
+      "flex-layout.row#department__breadcrumb",
+      "flex-layout.row#department__results"
+    ],
+    "props": {
+      "blockClass": "department__search"
+    }
+  },
+  "flex-layout.row#department__breadcrumb": {
+    "title": "flex miga de pan department",
+    "children": [
+      "flex-layout.col#department__breadcrumb"
+    ]
+  },
+  "flex-layout.col#department__breadcrumb": {
+    "title": "miga de pan department",
+    "children": [
+      "breadcrumb.search"
+    ]
+  },
+  "flex-layout.row#department__results": {
+    "title": "Department Results",
+    "children": [
+      "flex-layout.col#filter",
+      "flex-layout.col#results__content"
+    ],
+    "props": {
+      "blockClass": "department__btn"
+    }
+  },
+  "flex-layout.col#results__content":{
+    "title": "contenido de resultados departament",
+    "children":[
+      "flex-layout.row#searchinfo",
+      "search-content"
+    ]
+  }
+}

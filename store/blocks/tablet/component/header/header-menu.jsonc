@@ -2,6 +2,7 @@
   /// menu logo
 
   "header-row#header__menu--logo--tablet": {
+    "title": "header menu logo tablet",
     "children": [
       "header-row#header__menu--one--tablet"
     ],

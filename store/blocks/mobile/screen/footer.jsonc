@@ -1,0 +1,12 @@
+{
+  "footer-layout.mobile": {
+    "title": "footer mobile",
+    "children": [
+      "responsive-layout.tablet#footer--mobile",
+      "responsive-layout.phone#footer--mobile"
+      // "flex-layout.row#footer--mobile"
+      // prueba
+      //"disclosure-layout-group#footer__menu--group"
+    ]
+  }
+}

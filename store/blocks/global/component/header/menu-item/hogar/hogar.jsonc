@@ -44,11 +44,11 @@
   "flex-layout.row#category__desktop--hogar": {
     "title": "Menu Hogar",
     "children": [
-      "flex-layout.col#category__desktop--zapatos"
+      "flex-layout.col#category__desktop--zapatos",
       // "flex-layout.col#category__desktop--ropa",
       // "flex-layout.col#category__desktop--accesorios",
-      // "flex-layout.col#category__desktop--deportes",
-      // "flex-layout.col#category__desktop--marcas"
+      "flex-layout.col#category__desktop--deportes",
+      "flex-layout.col#category__desktop--marcas"
     ]
   }
 }

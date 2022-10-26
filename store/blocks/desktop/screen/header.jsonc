@@ -1,5 +1,6 @@
 {
   "header-layout.desktop": {
+    "title":"Header desktop",
     "children": [
       "header-row#header__links",
       "header-row#header__menu--logo",

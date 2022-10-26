@@ -1,0 +1,19 @@
+{
+  "responsive-layout.desktop#about-us": {
+    "title":"pagina de acerca de nosotros desktop",
+    "children": [
+      "flex-layout.row#about__us"
+    ]
+  },
+  "flex-layout.row#about__us":{
+    "title":"componentes de la pagina acerca de nosotros",
+      "children": [
+        "flex-layout.col#about__menu",
+        "flex-layout.col#about__text"
+      ],
+      "props": {
+        // "preserveLayoutOnMobile": true,
+        "blockClass": "about__main"
+      }
+  }
+}

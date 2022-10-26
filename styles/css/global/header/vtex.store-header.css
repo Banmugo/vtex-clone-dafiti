@@ -175,18 +175,15 @@
     color: white;
 }
 
-/* .headerRow--menu--nav{
-    padding: 0px 8px;
-}
+/* menus items */
 
-.headerRowContentContainer--menu--nav{
-    justify-content: center;
-} */
-
-:global(.vtex-menu-2-x-menuItem--menu-title):hover{
+:global(.vtex-menu-2-x-styledLinkContent--menu-title){
     font-size: 14px;
+}
+:global(.vtex-menu-2-x-menuItem--menu-title):hover{
     background-color: #858585 !important;
 }
+
 
 :global(.vtex-menu-2-x-styledLinkContent--submenu-title){
     font-weight: bold;
@@ -204,3 +201,36 @@
 :global(.vtex-menu-2-x-styledLinkContent--submenu-item):hover{
     text-decoration: underline;
 }
+:global(.vtex-menu-2-x-styledLinkContent--submenu-item-bold){
+    color:#000;
+    font-weight: bold;
+}
+:global(.vtex-menu-2-x-styledLinkContent--submenu-item-red){
+    color:#fa0909;
+}
+
+:global(.vtex-menu-2-x-submenuWrapper--submenudepartment__desktop--mujer--isOpen){
+    left: -100%;
+}
+:global(.vtex-menu-2-x-submenuWrapper--submenudepartment__desktop--hombre--isOpen){
+    left: -173%;
+}
+:global(.vtex-menu-2-x-submenuWrapper--submenudepartment__desktop--deportes--isOpen){
+    left: -250%;
+}
+:global(.vtex-menu-2-x-submenuWrapper--submenudepartment__desktop--kids--isOpen){
+    left: -200%;
+}
+:global(.vtex-menu-2-x-submenuWrapper--submenudepartment__desktop--belleza--isOpen){
+    left: -83%;
+}
+:global(.vtex-menu-2-x-submenuWrapper--submenudepartment__desktop--ofertas--isOpen){
+    left: -38%;
+}
+:global(.vtex-menu-2-x-submenuWrapper--submenudepartment__desktop--marcas--isOpen){
+    left: -403%;
+}
+:global(.vtex-menu-2-x-submenuWrapper--submenudepartment__desktop--hogar--isOpen){
+    left: -310%;
+}
+

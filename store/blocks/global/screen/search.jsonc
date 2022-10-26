@@ -1,5 +1,6 @@
 {
   "store.search": {
+    "title": "search general",
     "blocks": [
       "search-result-layout"
     ],
@@ -12,6 +13,7 @@
     }
   },
   "store.search#subcategory": {
+    "title": "search subcategoria",
     "blocks": [
       "search-result-layout"
     ],
@@ -23,6 +25,7 @@
     }
   },
   "store.search#brand": {
+    "title": "search marca",
     "blocks": [
       "search-result-layout"
     ],
@@ -35,6 +38,7 @@
   },
   // search result
   "search-result-layout": {
+    "title": "search views",
     "blocks": [
       "search-result-layout.desktop",
       "search-result-layout.mobile",
@@ -43,6 +47,7 @@
   },
   
   "flex-layout.row#searchbread": {
+    "title": "search miga de pan",
     "children": [
       "breadcrumb.search"
     ],
@@ -52,11 +57,13 @@
     }
   },
   "flex-layout.row#searchtitle": {
+    "title": "search titulo",
     "children": [
       "search-title.v2"
     ]
   },
   "flex-layout.row#result": {
+    "title": "search resultados",
     "children": [
       "flex-layout.col#filter",
       "flex-layout.col#content"
@@ -67,6 +74,7 @@
     }
   },
   "flex-layout.col#content": {
+    "title": "search contenido",
     "children": [
       "flex-layout.row#searchinfo",
       "flex-layout.row#fetchprevious",
@@ -79,6 +87,7 @@
     }
   },
   "flex-layout.row#searchinfo": {
+    "title": "search informacion",
     "children": [
       "flex-layout.col#productCount",
       "flex-layout.col#orderByAndSwitcher"
@@ -89,6 +98,7 @@
     }
   },
   "flex-layout.col#productCount": {
+    "title": "search total productos",
     "children": [
       "total-products.v2"
     ],
@@ -97,6 +107,7 @@
     }
   },
   "flex-layout.col#orderByAndSwitcher": {
+    "title": "search opciones de orden",
     "children": [
       "flex-layout.row#orderByAndSwitcher"
     ],
@@ -106,6 +117,7 @@
     }
   },
   "flex-layout.row#orderByAndSwitcher":{
+    "title": "search opciones de orden",
     "children": [
       "rich-text#orderBy",
       "flex-layout.row#galleryt-switcher",      
@@ -123,6 +135,7 @@
     }
   },
   "flex-layout.row#galleryt-switcher":{
+    "title": "gallery layout switcher",
     "children":[
       "gallery-layout-switcher"
     ],
@@ -133,12 +146,14 @@
     }
   },
   "gallery-layout-switcher": {
+    "title": "gallery layout switcher columnas",
     "children": [
       "gallery-layout-option#grid__two-columns",
       "gallery-layout-option#grid__one-columns"
     ]
   },
   "gallery-layout-option#grid__two-columns": {
+    "title": "dos columnas",
     "props": {
       "name": "grid-two-columns",
       "blockClass": "grid__selector--two-columns"
@@ -154,6 +169,7 @@
     }
   },
   "gallery-layout-option#grid__one-columns": {
+    "title": "una columna",
     "props": {
       "name": "grid-one-columns",
       "blockClass": "grid__selector--one-columns"
@@ -182,6 +198,7 @@
     }
   },
   "flex-layout.row#products": {
+    "title": "contenido de busqueda",
     "children": [
       "search-content"
     ],
@@ -214,6 +231,7 @@
     }
   },
   "product-summary.shelf#search_global": {
+    "title": "product summary shelf",
     "children": [
       "flex-layout.row#btn__wishlist",
       "product-summary-image#search__global",
@@ -230,6 +248,7 @@
     }
   },
   "product-summary-image#search__global": {
+    "title": "imagen del producto",
     "props": {
       "showBadge": true,
       "height": 200,
@@ -239,6 +258,7 @@
 
   // modal trigger
   "modal-trigger#search__global": {
+    "title": " opcion vista rapida",
     "children": [
       "rich-text#global__quick--view--trigger",
       "modal-layout#global__quick--view--modal"
@@ -251,6 +271,7 @@
     }
   },
   "modal-layout#global__quick--view--modal": {
+    "title": "modal de vista rapida",
     "children": [
       "flex-layout.row#quick-view__modal"
     ],
@@ -259,22 +280,26 @@
     }
   },
   "flex-layout.row#quick-view__modal": {
+    "title": "modal de vista rapida",
     "children": [
       "flex-layout.col#quick-view__modal--image",
       "flex-layout.col#quick-view__modal--info"
     ]
   },
   "modal-header#quick-view__modal--btn-closed": {
+    "title": "boton cerrar",
     "props": {
       "showCloseButton": true
     }
   },
   "flex-layout.col#quick-view__modal--image": {
+    "title": "imagen",
     "children": [
       "product-images"
     ]
   },
   "flex-layout.col#quick-view__modal--info": {
+    "title": "informacion de producto",
     "children": [
       "modal-header#quick-view__modal--btn-closed",
       "product-summary-name",

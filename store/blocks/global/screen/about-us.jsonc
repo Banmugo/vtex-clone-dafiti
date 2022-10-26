@@ -1,39 +1,10 @@
 {
   "store.custom#about-us": {
+    "title":"pagina de acerca de nosotros",
     "blocks": [
       "responsive-layout.desktop#about-us",
       "responsive-layout.tablet#about-us",
       "responsive-layout.phone#about-us"
-    ]
-  },
-  "responsive-layout.desktop#about-us": {
-    "children": [
-      "flex-layout.row#about__us"
-    ]
-  },
-  "flex-layout.row#about__us":{
-      "children": [
-        "flex-layout.col#about__menu",
-        "flex-layout.col#about__text"
-      ],
-      "props": {
-        // "preserveLayoutOnMobile": true,
-        "blockClass": "about__main"
-      }
-  },
-  "responsive-layout.tablet#about-us": {
-    "children": [
-      "flex-layout.row#about__us"
-    ]
-  },
-  "responsive-layout.phone#about-us": {
-    "children": [
-      "flex-layout.row#about__us--phone"
-    ]
-  },
-  "flex-layout.row#about__us--phone":{
-    "children": [
-      "flex-layout.col#about__text"
     ]
   }
 }

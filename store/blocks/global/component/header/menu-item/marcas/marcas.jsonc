@@ -44,10 +44,10 @@
   "flex-layout.row#category__desktop--marcas": {
     "title": "Menu Marcas",
     "children": [
-      // "flex-layout.col#category__desktop--zapatos",
+      "flex-layout.col#category__desktop--zapatos",
       "flex-layout.col#category__desktop--ropa",
-      "flex-layout.col#category__desktop--accesorios"
-      // "flex-layout.col#category__desktop--deportes",
+      "flex-layout.col#category__desktop--accesorios",
+      "flex-layout.col#category__desktop--deportes"
       // "flex-layout.col#category__desktop--marcas"
     ]
   }
