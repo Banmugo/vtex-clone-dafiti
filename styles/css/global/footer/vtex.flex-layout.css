@@ -97,7 +97,7 @@
 }
 .flexRowContent--items5__main
 :global(.vtex-rich-text-0-x-paragraph--text__one){
-    font-size: 12px;
+    font-size: 11px;
     font-weight: bold;
     color: #000;
 }
