@@ -1,8 +1,7 @@
 .clearLink--prduct__grid--one
 :global(.vtex-button){
     background-color: #3cbdaf;
-    border: 0;
-    width: auto
+    margin: 6px;
 }
 .clearLink--prduct__grid--one
 :global(.vtex-button):hover{

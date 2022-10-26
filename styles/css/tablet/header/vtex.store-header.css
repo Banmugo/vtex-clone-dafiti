@@ -68,14 +68,14 @@
   /* menus nav */
 
   :global(.vtex-menu-2-x-styledLinkContent--menu-title) {
-    font-size: 10px;
+    font-size: 9px;
     height: 5px;
   }
 
   :global(.vtex-menu-2-x-styledLinkContent--submenu-title) {
     font-weight: bold;
     color: #000;
-    font-size: 11px;
+    font-size: 10px;
     border-bottom: 1px solid #858585;
     padding-bottom: 6px;
   }
@@ -86,13 +86,29 @@
   }
 
   :global(.vtex-menu-2-x-styledLinkContent--submenu-item-bold) {
-    font-size: 10px;
+    font-size: 9px;
     color: #000;
     font-weight: bold;
   }
 
   :global(.vtex-menu-2-x-styledLinkContent--submenu-item-red) {
-    font-size: 10px;
+    font-size: 9px;
     color: #fa0909;
+  }
+
+  :global(.vtex-menu-2-x-submenuWrapper--submenudepartment__desktop--belleza--isOpen) {
+    left: -107%;
+  }
+
+  :global(.vtex-menu-2-x-submenuWrapper--submenudepartment__desktop--ofertas--isOpen) {
+    left: -57%;
+  }
+
+  :global(.vtex-menu-2-x-submenuWrapper--submenudepartment__desktop--marcas--isOpen) {
+    left: -442%;
+  }
+
+  :global(.vtex-menu-2-x-submenuWrapper--submenudepartment__desktop--hogar--isOpen) {
+    left: -334%;
   }
 }

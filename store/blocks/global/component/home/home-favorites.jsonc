@@ -15,7 +15,7 @@
     }
   },
   "rich-text#home__favorite--text": {
-    "title": "Titulo de Favoritos",
+    "title": "Titulo de presentacion",
     "props": {
       "text": "Los favoritos de la semana",
       "blockClass": "title__favorites"
