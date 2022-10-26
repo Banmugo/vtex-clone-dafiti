@@ -97,13 +97,13 @@
 }
 .flexRowContent--items5__main--tablet
 :global(.vtex-rich-text-0-x-paragraph--text__one--tablet){
-    font-size: 9px;
+    font-size: 5px;
     font-weight: bold;
     color: #000;
 }
 .flexRowContent--items5__main--tablet
 :global(.vtex-rich-text-0-x-paragraph--text__two--tablet){
-    font-size: 8px;
+    font-size: 5px;
     color: #858585;
 }
 
