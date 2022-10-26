@@ -1,5 +1,6 @@
 {
   "search-result-layout.mobile": {
+    "title":"search mobile",
     "children": [
       "flex-layout.row#searchbread",
       "flex-layout.row#searchtitle",
@@ -12,6 +13,7 @@
     }
   },
   "flex-layout.row#result--mobile": {
+    "title":"contenido mobile",
     "children": [
       "flex-layout.col#content--mobile"
     ],
@@ -21,6 +23,7 @@
     }
   },
   "flex-layout.col#content--mobile": {
+    "title":"contenido mobile",
     "children": [
       "flex-layout.row#searchinfo--mobile",
       "flex-layout.row#fetchprevious",
@@ -33,6 +36,7 @@
     }
   },
   "flex-layout.row#searchinfo--mobile": {
+    "title":"contenido de orden mobile",
     "children": [
       "filter-navigator.v3",
       "flex-layout.col#productCount",

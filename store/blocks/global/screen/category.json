@@ -1,5 +1,6 @@
 {
   "store.search#category": {
+    "title": "search categoria",
     "blocks": [
       "search-result-layout#category"
     ],
@@ -11,49 +12,11 @@
     }
   },
   "search-result-layout#category": {
+    "title": "search categoria en distintas screen",
     "blocks": [
       "search-result-layout.desktop#category",
       "search-result-layout.mobile#category",
       "search-not-found-layout"
     ]
-  },
-  "search-result-layout.desktop#category": {
-    "children": [
-      "flex-layout.row#category__breadcrumb",
-      "flex-layout.row#category__results"
-    ],
-    "props": {
-      "blockClass": "department__search"
-    }
-  },
-  "flex-layout.row#category__breadcrumb": {
-    "children": [
-      "flex-layout.col#category__breadcrumb"
-    ]
-  },
-  "flex-layout.col#category__breadcrumb": {
-    "children": [
-      "breadcrumb.search"
-    ]
-  },
-  "flex-layout.row#category__results": {
-    "title": "category Results",
-    "children": [
-      "flex-layout.col#filter",
-      "flex-layout.col#results__content"
-    ],
-    "props": {
-      "blockClass": "department__btn"
-    }
-  },
-  "flex-layout.col#filter": {
-    "children": [
-      "filter-navigator.v3"
-    ],
-    "props": {
-      "width": "20%",
-      "blockClass": "filterCol"
-    }
   }
-  
 }

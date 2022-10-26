@@ -1,5 +1,6 @@
 {  
   "search-result-layout.mobile#department": {
+    "title": "search department mobile",
     "children": [
       "flex-layout.row#department__breadcrumb",
       "flex-layout.row#department__results--mobile"

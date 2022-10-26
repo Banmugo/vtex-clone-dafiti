@@ -1,0 +1,10 @@
+{
+  "footer-layout.desktop": {
+    "title": "footer desktop",
+    "children": [
+      "flex-layout.row#footer"
+      // prueba
+      //"disclosure-layout-group#footer__menu--group"
+    ]
+  }
+}

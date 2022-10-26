@@ -1,67 +1,98 @@
-@media (max-width: 1024px){
+@media (max-width: 1024px) {
 
-    /* LInks one */
-    .headerRowContentContainer--header__links{
-        height: 20px;
-    }
-    .headerRowBackground--links__one
-    :global(.vtex-rich-text-0-x-paragraph){
-        font-size: 9px;    
-        margin-right: 5px;
-    }
-    .headerRowBackground--links__one
-    :global(.vtex-rich-text-0-x-paragraph--item__iconcar)::before{       
-        font-size: 9px;
-    }
-    .headerRowBackground--links__one
-    :global(.vtex-rich-text-0-x-paragraph--item__iconrecharge)::before{ 
-        font-size: 9px;
-    }
-    .headerRowBackground--links__two
-    :global(.vtex-rich-text-0-x-paragraph){
-        font-size: 10px;  
-    }
-    :global(.vtex-rich-text-0-x-wrapper--item__iconphone)::before{
-        font-size: 10px;
-    }
+  /* LInks one */
+  .headerRowContentContainer--header__links {
+    height: 20px;
+  }
 
-    /* menu header */
-    /* menu logo y barra de busqueda */
-    .headerRowContainer
-    :global(.vtex-store-components-3-x-logoContainer--header__menu--logo){
-        margin-right: 7px;
-    }
-    .headerRowBackground--items--logo
-    :global(.vtex-store-components-3-x-searchBarContainer){
-        margin-right: 10px;
-        width: 500px;
-    }
-    .headerRowContainer
-    :global(.vtex-store-components-3-x-logoImage--header__menu--logo){
+  .headerRowBackground--links__one :global(.vtex-rich-text-0-x-paragraph) {
+    font-size: 9px;
+    margin-right: 5px;
+  }
+
+  .headerRowBackground--links__one :global(.vtex-rich-text-0-x-paragraph--item__iconcar)::before {
+    font-size: 9px;
+  }
+
+  .headerRowBackground--links__one :global(.vtex-rich-text-0-x-paragraph--item__iconrecharge)::before {
+    font-size: 9px;
+  }
+
+  .headerRowBackground--links__two :global(.vtex-rich-text-0-x-paragraph) {
+    font-size: 10px;
+  }
+
+  :global(.vtex-rich-text-0-x-wrapper--item__iconphone)::before {
+    font-size: 10px;
+  }
+
+  /* menu header */
+  /* menu logo y barra de busqueda */
+  .headerRowContainer :global(.vtex-store-components-3-x-logoContainer--header__menu--logo) {
+    margin-right: 7px;
+  }
+
+  .headerRowBackground--items--logo :global(.vtex-store-components-3-x-searchBarContainer) {
+    margin-right: 10px;
+    width: 500px;
+  }
+
+  .headerRowContainer :global(.vtex-store-components-3-x-logoImage--header__menu--logo) {
     width: 100px;
     height: 40px;
-}
-    
+  }
 
-    /* menu nav (megamenu) */
-    .headerRowBackground--menu--nav{
-        height: 39px;
-    }
-    .headerRowContainer--items--nav
-    :global(.vtex-rich-text-0-x-paragraph--button__normal){
-        padding: 10px;
-        margin-right: 10px; 
-        font-size: 8px;
-        border: 0;
-    }    
-    .headerRowContainer--items--nav
-    :global(.vtex-rich-text-0-x-paragraph--button__construction){
-        padding: 10px;
-        margin-right: 10px; 
-        font-size: 8px;        
-    }
-    .headerRowContainer--items--nav
-    :global(.vtex-rich-text-0-x-paragraph--button__construction)::after{        
-        font-size: 10px;
-    }
+
+  /* menu nav (megamenu) */
+  .headerRowBackground--menu--nav {
+    height: 39px;
+  }
+
+  .headerRowContainer--items--nav :global(.vtex-rich-text-0-x-paragraph--button__normal) {
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 8px;
+    border: 0;
+  }
+
+  .headerRowContainer--items--nav :global(.vtex-rich-text-0-x-paragraph--button__construction) {
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 8px;
+  }
+
+  .headerRowContainer--items--nav :global(.vtex-rich-text-0-x-paragraph--button__construction)::after {
+    font-size: 10px;
+  }
+
+  /* menus nav */
+
+  :global(.vtex-menu-2-x-styledLinkContent--menu-title) {
+    font-size: 10px;
+    height: 5px;
+  }
+
+  :global(.vtex-menu-2-x-styledLinkContent--submenu-title) {
+    font-weight: bold;
+    color: #000;
+    font-size: 11px;
+    border-bottom: 1px solid #858585;
+    padding-bottom: 6px;
+  }
+
+  :global(.vtex-menu-2-x-styledLinkContent--submenu-item) {
+    font-size: 10px;
+    color: #858585
+  }
+
+  :global(.vtex-menu-2-x-styledLinkContent--submenu-item-bold) {
+    font-size: 10px;
+    color: #000;
+    font-weight: bold;
+  }
+
+  :global(.vtex-menu-2-x-styledLinkContent--submenu-item-red) {
+    font-size: 10px;
+    color: #fa0909;
+  }
 }

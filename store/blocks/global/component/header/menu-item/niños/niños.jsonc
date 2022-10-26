@@ -28,7 +28,7 @@
       "vtex.menu@2.x:menu#category__desktop--niños"
     ],
     "props": {
-      "blockClass": "submenudepartment__desktop--niños"
+      "blockClass": "submenudepartment__desktop--kids"
     }
   },
   "vtex.menu@2.x:menu#category__desktop--niños": {

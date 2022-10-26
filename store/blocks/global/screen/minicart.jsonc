@@ -11,6 +11,7 @@
     ]
   },
   "minicart-base-content": {
+    "title": "contenido minicart",
     "blocks": [
       "minicart-empty-state"
     ],
@@ -20,11 +21,13 @@
     ]
   },
   "minicart-empty-state": {
+    "title": "estado minicart",
     "children": [
       "flex-layout.row#minicart__empty"
     ]
   },
   "flex-layout.row#minicart__empty": {
+    "title": "minicart vacio",
     "children": [
       "icon-cart#minicart__empty--icon",
       "rich-text#minicart__empty--text"

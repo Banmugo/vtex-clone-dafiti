@@ -6,7 +6,6 @@
   },
   
   "flex-layout.row#footer--tablet": {
-    "title":"footer",
     "children": [
       "flex-layout.col#footer--tablet"
     ]

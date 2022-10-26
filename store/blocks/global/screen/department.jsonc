@@ -1,5 +1,6 @@
 {
   "store.search#department": {
+    "title": "search department",
     "blocks": [
       "search-result-layout#department"
     ],
@@ -11,45 +12,11 @@
     }
   },
   "search-result-layout#department": {
+    "title": "blocks search department",
     "blocks": [
       "search-result-layout.desktop#department",
       "search-result-layout.mobile#department",
       "search-not-found-layout"
-    ]
-  },
-  "search-result-layout.desktop#department": {
-    "children": [
-      "flex-layout.row#department__breadcrumb",
-      "flex-layout.row#department__results"
-    ],
-    "props": {
-      "blockClass": "department__search"
-    }
-  },
-  "flex-layout.row#department__breadcrumb": {
-    "children": [
-      "flex-layout.col#department__breadcrumb"
-    ]
-  },
-  "flex-layout.col#department__breadcrumb": {
-    "children": [
-      "breadcrumb.search"
-    ]
-  },
-  "flex-layout.row#department__results": {
-    "title": "Department Results",
-    "children": [
-      "flex-layout.col#filter",
-      "flex-layout.col#results__content"
-    ],
-    "props": {
-      "blockClass": "department__btn"
-    }
-  },
-  "flex-layout.col#results__content":{
-    "children":[
-      "flex-layout.row#searchinfo",
-      "search-content"
     ]
   }
 }

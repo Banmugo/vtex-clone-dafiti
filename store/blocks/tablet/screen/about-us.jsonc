@@ -1,0 +1,17 @@
+{
+  "responsive-layout.tablet#about-us": {
+    "children": [
+      "flex-layout.row#about__us"
+    ]
+  },
+  "responsive-layout.phone#about-us": {
+    "children": [
+      "flex-layout.row#about__us--phone"
+    ]
+  },
+  "flex-layout.row#about__us--phone":{
+    "children": [
+      "flex-layout.col#about__text"
+    ]
+  }
+}
