@@ -13,7 +13,7 @@
       ],
       "props": {
         // "preserveLayoutOnMobile": true,
-        "blockClass": "about__main"
+        "blockClass": "about__main"  
       }
   }
 }
