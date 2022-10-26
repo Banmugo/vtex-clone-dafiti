@@ -1,0 +1,19 @@
+{
+  "responsive-layout.tablet#change__guide--main": {
+    "title": "pagina guia de cambios tablet",
+    "children": [
+      "flex-layout.col#about__menu",
+      "flex-layout.row#change__guide--main"
+    ]
+  },
+  "flex-layout.row#change__guide--main--phone": {
+    "title": "componente de texto tablet",
+    "children": [
+      "flex-layout.col#change__guide--text"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "blockClass": "about__main"
+    }
+  }
+}

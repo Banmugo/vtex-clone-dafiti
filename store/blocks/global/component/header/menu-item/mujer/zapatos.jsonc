@@ -131,7 +131,7 @@
         "tagTitle": "Ver todos",
         "text": "Ver todos"
       },
-      "blockClass":"submenu-item"
+      "blockClass":"submenu-item-bold"
     }
   },
   "menu-item#novedades": {
@@ -146,7 +146,7 @@
         "tagTitle": "Novedades",
         "text": "Novedades"
       },
-      "blockClass":"submenu-item"
+      "blockClass":"submenu-item-red"
     }
   },
   "menu-item#ofertas": {
@@ -161,7 +161,7 @@
         "tagTitle": "Ofertas",
         "text": "Ofertas"
       },
-      "blockClass":"submenu-item"
+      "blockClass":"submenu-item-red"
     }
   }
 }

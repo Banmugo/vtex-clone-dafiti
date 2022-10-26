@@ -13,12 +13,14 @@
     ]
   },
   "store.wishlist": {
+    "title": "Wishlist",
     "blocks": [
       "flex-layout.row#top",
       "list-context.wishlist"
     ]
   },
   "flex-layout.row#top": {
+    "title": "titulo de wish list",
     "children": [
       "flex-layout.col#title"
     ]
@@ -38,6 +40,7 @@
     }
   },
   "list-context.wishlist": {
+    "title": "producto de wish list",
     "blocks": [
       "product-summary.shelf#wishlist"
     ],

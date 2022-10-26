@@ -1,0 +1,44 @@
+{
+  "search-result-layout.desktop#category": {
+    "title": "search categoria desktop",
+    "children": [
+      "flex-layout.row#category__breadcrumb",
+      "flex-layout.row#category__results"
+    ],
+    "props": {
+      "blockClass": "department__search"
+    }
+  },
+  "flex-layout.row#category__breadcrumb": {
+    "title": "flex miga de pan categoria",
+    "children": [
+      "flex-layout.col#category__breadcrumb"
+    ]
+  },
+  "flex-layout.col#category__breadcrumb": {
+    "title": "miga de pan categoria",
+    "children": [
+      "breadcrumb.search"
+    ]
+  },
+  "flex-layout.row#category__results": {
+    "title": "flex categorias de resultados",
+    "children": [
+      "flex-layout.col#filter",
+      "flex-layout.col#results__content"
+    ],
+    "props": {
+      "blockClass": "department__btn"
+    }
+  },
+  "flex-layout.col#filter": {
+    "title": "filtro",
+    "children": [
+      "filter-navigator.v3"
+    ],
+    "props": {
+      "width": "20%",
+      "blockClass": "filterCol"
+    }
+  }
+}

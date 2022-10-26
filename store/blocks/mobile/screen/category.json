@@ -1,5 +1,6 @@
 {
   "search-result-layout.mobile#category": {
+    "title": "search categoria mobile",
     "children": [
       "flex-layout.row#category__breadcrumb",
       "flex-layout.row#category__results--mobile"

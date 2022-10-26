@@ -1,5 +1,6 @@
 {
   "header": {
+    "title": "header",
     "blocks": [
       "header-layout.desktop",
       "header-layout.mobile"
@@ -10,15 +11,7 @@
       "header-layout.desktop",
       "header-layout.mobile" 
     ]
-  },
-
-  "header-layout.mobile": {
-    "children": [
-      "responsive-layout.tablet#header",
-      "responsive-layout.phone#header"
-    ]
   }
-
 // codigo de origen
 // "header": {
 //   "blocks": ["header-layout.desktop", "header-layout.mobile"]

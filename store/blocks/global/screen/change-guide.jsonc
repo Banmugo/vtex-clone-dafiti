@@ -1,5 +1,6 @@
 {
   "store.custom#change-guide": {
+    "title": "pagina guia de cambios",
     "blocks": [
       "responsive-layout.desktop#change__guide--main",
       "responsive-layout.tablet#change__guide--main",
@@ -7,6 +8,7 @@
     ]
   },
   "responsive-layout.desktop#change__guide--main": {
+    "title": "flex pagina guia de cambios",
     "children": [
       "flex-layout.row#change__guide--main"
     ],
@@ -15,27 +17,9 @@
     }
   },
   "flex-layout.row#change__guide--main": {
+    "title": "componentes guia de cambios",
     "children": [
       "flex-layout.col#about__menu",
-      "flex-layout.col#change__guide--text"
-    ],
-    "props": {
-      "preserveLayoutOnMobile": true,
-      "blockClass": "about__main"
-    }
-  },
-
-
-  "responsive-layout.tablet#change__guide--main":{
-    "children": [
-      "flex-layout.col#about__menu",
-      "flex-layout.row#change__guide--main"
-    ]
-  },
-
-
-  "flex-layout.row#change__guide--main--phone": {
-    "children": [
       "flex-layout.col#change__guide--text"
     ],
     "props": {
